@@ -1,57 +1,135 @@
-<footer>
-  <div class="footer__copyright">
-    &copy;
-    {{ 'now' | date: '%Y' }}
-    {{ shop.name | link_to: routes.root_url }}, {{ powered_by_link }}
-  </div>
+<!-- Section Subscribe Form -->
+<link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/subscribe-form/subscribe-form.css" />
+<div class="qure__section qure__subcribe-form color-background"
+   style="--section-padding-top: 50px; --section-padding-bottom: 50px; --section-background:#212428;">
+   <div class="container" style="--column-gap:30px; --column-gap-mobile:30px;">
+      <div class="row justify-content-between custom__grid">
+         <!-- Email Signup -->
+         <div class="col-md-5 offset-md-2 custom__block">
+            <div class="qure__section_form-content text-center">
+               <div class="qure__section-header" style="--heading-size:32px; --heading-color:#fff">
+                  <h2 class="qure__section-heading">Get the latest from Qure</h2>
+               </div>
+               <form class="qure__subcribe-submit position-relative d-flex rounded-pill">
+                  <input type="email" class="qure__subcribe-input form-control rounded-pill" placeholder="Your Email">
+                  <button class="btn qure__subcribe-button" type="submit"><i
+                        class="fa-sharp fa-regular fa-arrow-right"></i></button>
+               </form>
+            </div>
+         </div>
+         <!-- Social Icons -->
+         <div class="col-md-5 custom__block">
+            <div class="qure__section-header text-center" style="--heading-size:32px;--heading-color:#fff;">
+               <h2 class="qure__section-heading">Follow Us</h2>
+            </div>
+            <div class="quer__social d-flex justify-content-center gap-5">
+               <a href="#" class="social-link"><i class="icon qure-instagram"></i></a>
+               <a href="#" class="social-link"><i class="icon qure-facebook"></i></a>
+               <a href="#" class="social-link"><i class="icon qure-tik-tok"></i></a>
+               <a href="#" class="social-link"><i class="icon qure-youtube"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Section Subscribe Form End-->
 
-  <div class="footer__links">
-    {% for link in section.settings.menu.links %}
-      {{ link.title | link_to: link.url }}
-    {% endfor %}
-  </div>
-
-  <div class="footer__payment">
-    {% if section.settings.show_payment_icons %}
-      {% for type in shop.enabled_payment_types %}
-        {{ type | payment_type_svg_tag }}
-      {% endfor %}
-    {% endif %}
-  </div>
+<!-- Footer Start -->
+<footer class="footer" style="--column-gap:20px; --column-gap-mobile:20px;">
+   <div class="qure__footer-top">
+      <div class="container">
+         <div class="row custom__grid">
+            <div class="col-md-12 col-lg-2 custom__block">
+               <div class="qure__footer_block qure__footer-logo">
+                  <div class="qure__footer-infor text-center text-md-start">
+                     <a href="#" class="footer-logo"><img src="https://qureskincaredns-main.com/assets/images/footer_logo.svg" alt="footer logo" /></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-12 col-lg-7 custom__block">
+               <div class="row custom__grid">
+                  <div class="col-12 col-md-4 col-lg-4 custom__block">
+                     <div class="qure__footer_block qure__footer_block-nav">
+                        <h3 class="qure__footer-title">Shop <span class="open-children-toggle"></span></h3>
+                        <div class="qure__footer-content qure__footer-nav unactive">
+                           <div class="pb-20 pb-md-0">
+                           <ul>
+                              <li><a href="#" aria-label="Light Therapy Mask">Light Therapy Mask</a></li>
+                              <li><a href="#" aria-label="All-In-One Face Serum">All-In-One Face Serum</a></li>
+                              <li><a href="#" aria-label="Micro-Infusion Facial System">Micro-Infusion Facial System</a></li>
+                              <li><a href="#" aria-label="Micro-Infusion Targeted Patches">Micro-Infusion Targeted Patches</a></li>
+                           </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-4 col-lg-4 custom__block">
+                     <div class="qure__footer_block qure__footer_block-nav">
+                        <h3 class="qure__footer-title">Learn <span class="open-children-toggle"></span></h3>
+                        <div class="qure__footer-content qure__footer-nav unactive">
+                           <div class="pb-20 pb-md-0">
+                              <ul>
+                              <li><a href="https://www.qureskincare.com/pages/skin-consultation" aria-label="Light Therapy 101">Skincare Consultation</a></li>
+                              <li><a href="https://www.qureskincare.com/blogs/light-therapy" aria-label="Light Therapy 101">Light Therapy 101</a></li>
+                              <li><a href="https://qureskincare.com/pages/products-guide-page" aria-label="User Manuals">User Manuals</a></li>
+                              <li><a href="#" aria-label="Local Water Report">Local Water Report</a></li>
+                           </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-4 col-lg-4 custom__block">
+                     <div class="qure__footer_block qure__footer_block-nav">
+                        <h3 class="qure__footer-title">Qure <span class="open-children-toggle"></span></h3>
+                        <div class="qure__footer-content qure__footer-nav unactive">
+                           <div class="pb-20 pb-md-0">
+                           <ul>
+                              <li><a href="https://www.qureskincare.com/pages/our-story" aria-label="Our Story">Our Story</a></li>
+                              <li><a href="https://www.qureskincare.com/pages/contact-us" aria-label="Contact Us">Contact Us</a></li>
+                              <li><a href="https://www.qureskincare.com/pages/faqs" aria-label="FAQs">FAQs</a></li>
+                              <li><a href="https://www.qureskincare.com/pages/affiliate-page" aria-label="Affiliate Program">Affiliate Program</a></li>
+                              <li><a href="https://qureskincare.com/pages/loyalty-program" aria-label="Loyalty Program">Loyalty Program </a></li>
+                              <li><a href="https://www.qureskincare.com/pages/returns-exchanges" aria-label="Returns & Exchanges ">Returns & Exchanges </a></li>
+                              <li><a href="https://www.qureskincare.com/pages/subscriptions" aria-label="Subscriptions">Subscriptions</a></li>
+                              <li><a href="https://www.qureskincare.com/pages/become-stockist" aria-label="Stockist">Become A Stockist</a></li>
+                           </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-12 col-lg-3 custom__block">
+               <div class="qure__footer_block qure__footer-app">
+                  <div class="qure__footer-app-header">
+                     <h3 class="qure__footer-title">Download Our App</h3>
+                     <p>Access additional features and customize your treatments.</p>
+                  </div>
+                  <div class="qure__footer-content">
+                     <div class="quer__app-link">
+                        <a href="#" target="_blank" rel="nofollow"><img src="https://qureskincaredns-main.com/assets/images/app_store_200x.svg" alt="link"></a>
+                        <a href="#" target="_blank" rel="nofollow"><img src="https://qureskincaredns-main.com/assets/images/google_play_200x.svg" alt="link"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="qure__footer-bottom">
+         <div class="copyright">
+            <p>© 2025 Qure™ Skincare. All rights reserved.</p>
+            <div class="copyright-link">
+               <a href="#" aria-label="Terms & Conditions">Terms & Conditions</a>
+               <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+               <a href="#" aria-label="Return policy">Return policy</a>
+            </div>
+         </div>
+         <div class="copyright-disclaimer">Our products are not intended to diagnose, cure, or prevent specific diseases of medical conditions. The Qure website is for education and information purposes only and is not intended as medical advice or a substitute for medical advice.
+         </div>
+      </div>
+   </div>
 </footer>
-
-{% stylesheet %}
-  footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-  footer a {
-    text-decoration: none;
-    color: var(--color-foreground);
-  }
-  footer .footer__links,
-  footer .footer__payment {
-    display: flex;
-    gap: 1rem;
-  }
-{% endstylesheet %}
-
-{% schema %}
-{
-  "name": "t:general.footer",
-  "settings": [
-    {
-      "type": "link_list",
-      "id": "menu",
-      "label": "t:labels.menu"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_payment_icons",
-      "label": "t:labels.show_payment_icons",
-      "default": true
-    }
-  ]
-}
-{% endschema %}
+<!-- Footer End -->
+ 

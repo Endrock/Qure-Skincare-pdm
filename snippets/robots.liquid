@@ -1,0 +1,36 @@
+{% case template %}
+    {% when 'page.skincare-plan-results' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.skincare-plan-dark-spots' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.skincare-plan-acne' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.content-instructions' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.neck-decolletage-led-pro-content-guide' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.mi-offer-lp' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.form-test' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.shower-filter-creative-br' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.faucet-creative-brief' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.faucet-online-guide' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.q-rejuvalight-pro-guide' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.all-in-content-guide' %}
+        <meta name="robots" content="noindex, nofollow">
+    {% when 'page.dermal-mist-creative-brief' %}
+        <meta name="robots" content="noindex, nofollow">
+
+{% endcase %}
+
+
+{% assign noindex_handles = 'faucet-filter-survey,shower-filter-survey,app-privacy-policy,micro-infusion-survey-2024,survey-feedback,q-rejuvalight-pro-post-purchase-survey,micro-infusion-survey' | split: ',' %}
+
+{% if noindex_handles contains page.handle %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
