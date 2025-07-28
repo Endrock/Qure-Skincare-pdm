@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "announcement-bar": {
@@ -35,7 +44,6 @@
               "settings": {
                 "hash": "skin",
                 "text": "Does Drinking Water Help Clear Your Skin?",
-                "image": "shopify://shop_images/block-card-1.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -46,7 +54,6 @@
               "settings": {
                 "hash": "skincare",
                 "text": "Benefits of Peptides for the Skin",
-                "image": "shopify://shop_images/block-card-2.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -57,7 +64,6 @@
               "settings": {
                 "hash": "light-therapy",
                 "text": "How LED Therapy Can Transform Your Skin",
-                "image": "shopify://shop_images/block-card-3.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -74,12 +80,76 @@
         "block_card_CwMxwz"
       ],
       "settings": {}
+    },
+    "faq_jN3f6d": {
+      "type": "faq",
+      "blocks": {
+        "accordion_zYCA3N": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        },
+        "accordion_bMmYdE": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        },
+        "accordion_XUAkGN": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        },
+        "accordion_X7azM9": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        },
+        "accordion_UH3Y9e": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        },
+        "accordion_QReWQn": {
+          "type": "accordion",
+          "settings": {
+            "heading": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_zYCA3N",
+        "accordion_bMmYdE",
+        "accordion_XUAkGN",
+        "accordion_X7azM9",
+        "accordion_UH3Y9e",
+        "accordion_QReWQn"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "heading": "Have questions?",
+        "text": "What makes Dermal Mist different from other facial sprays?",
+        "button": "Ask us",
+        "url": "#qure_faq-main",
+        "arrow": "shopify://shop_images/arrow_right.svg"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "index",
     "index-read-our-story",
-    "blocks"
+    "blocks",
+    "faq_jN3f6d"
   ]
 }
