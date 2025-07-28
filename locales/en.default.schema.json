@@ -6,7 +6,8 @@
         "button-label": "Button label",
         "button-url": "Button url",
         "link-url": "Link url",
-        "hash": "Hash"
+        "hash": "Hash",
+        "accordion": "Accordion"
     },
     "blocks": {
         "block-card": {
