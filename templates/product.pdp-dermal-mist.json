@@ -76,8 +76,8 @@
         "heading": "Have questions?",
         "text": "Don’t see your question?",
         "button": "Ask us",
-        "url": "",
-        "arrow": "shopify://shop_images/arrow_right.svg"
+        "url": "#",
+        "image": "shopify://shop_images/arrow_right.svg"
       }
     }
   },

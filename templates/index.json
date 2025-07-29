@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "announcement-bar": {
@@ -14,7 +23,13 @@
     },
     "index-read-our-story": {
       "type": "index-read-our-story",
-      "settings": {}
+      "settings": {
+        "heading": "Feeling good in your skin is not a privilege – it’s a right",
+        "text": "At Qure, we're redefining beauty boundaries by making professional clinical treatments accessible to everyone from the comfort of peoples home—without the clinical price tag.",
+        "button": "Read Our Story",
+        "url": "#index",
+        "image": "shopify://shop_images/collage.webp"
+      }
     },
     "blocks": {
       "type": "blocks",
