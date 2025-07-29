@@ -21,6 +21,16 @@
       "type": "index",
       "settings": {}
     },
+    "index-read-our-story": {
+      "type": "index-read-our-story",
+      "settings": {
+        "heading": "Feeling good in your skin is not a privilege – it’s a right",
+        "text": "At Qure, we're redefining beauty boundaries by making professional clinical treatments accessible to everyone from the comfort of peoples home—without the clinical price tag.",
+        "button": "Read Our Story",
+        "url": "#index",
+        "image": "shopify://shop_images/collage.webp"
+      }
+    },
     "blocks": {
       "type": "blocks",
       "blocks": {
@@ -40,6 +50,7 @@
               "settings": {
                 "hash": "skin",
                 "text": "Does Drinking Water Help Clear Your Skin?",
+                "image": "shopify://shop_images/block-card-1.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -50,6 +61,7 @@
               "settings": {
                 "hash": "skincare",
                 "text": "Benefits of Peptides for the Skin",
+                "image": "shopify://shop_images/block-card-2.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -60,6 +72,7 @@
               "settings": {
                 "hash": "light-therapy",
                 "text": "How LED Therapy Can Transform Your Skin",
+                "image": "shopify://shop_images/block-card-3.webp",
                 "link-url": "#"
               },
               "blocks": {}
@@ -76,16 +89,6 @@
         "block_card_CwMxwz"
       ],
       "settings": {}
-    },
-    "index-read-our-story": {
-      "type": "index-read-our-story",
-      "settings": {
-        "heading": "Feeling good in your skin is not a privilege – it’s a right",
-        "text": "At Qure, we're redefining beauty boundaries by making professional clinical treatments accessible to everyone from the comfort of peoples home—without the clinical price tag.",
-        "button": "Read Our Story",
-        "url": "#index.html",
-        "collage": "shopify://shop_images/collage.webp"
-      }
     }
   },
   "order": [
@@ -93,6 +96,5 @@
     "index",
     "index-read-our-story",
     "blocks"
-    
   ]
 }
