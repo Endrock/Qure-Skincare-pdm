@@ -19,9 +19,9 @@
                </div> 
                 <div class="col-md-7 custom__block py-0">
                   <div class="banner-text--media banner-text-mob-full mt-10 mt-md-0">
-                     {{% if section.settings.collage !=blank %}
-                        <img src="{{ section.settings.collage | image_url }}" class="img-fluid w-100" alt="">
-                     {% endif %}}
+                     {% if section.settings.image !=blank %}
+                        <img src="{{ section.settings.image | image_url }}" class="img-fluid w-100" alt="">
+                     {% endif %}
                   </div>
                </div>
          </div>
@@ -57,7 +57,7 @@
     },
     {
         "type": "image_picker",
-        "id": "collage",
+        "id": "image",
         "label": "t:common.image"
     }
   ]
