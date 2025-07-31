@@ -93,7 +93,7 @@
       "name": "t:sections.index-page-banner.name",
       "settings": {
         "heading": "Get clinic-level results from home – minus the ‘clinical’ costs.",
-        "text": "Join 30,000+ customers feeling more confident.",
+        "text": "<p>Join <strong>30,000+ customers</strong> feeling more confident.</p>",
         "button": "Shop All Best Sellers",
         "button_url": "#",
         "button_mobile": "Shop Best Sellers",
@@ -468,7 +468,7 @@
         "slider_DJLy8m": {
           "type": "slider",
           "settings": {
-            "heading": "<p>\"I like using this between my in-office treatments and it’s easy to use, even for beginners.\"<br/><br/></p>",
+            "heading": "<p>\"I like using this between my in-office treatments and it’s easy to use, even for beginners.\"</p>",
             "text": "<p>Dr. Alekandra Brown</p>",
             "sub_text": "<p>Board-Certified Dermatologist</p>",
             "url": "rehxqby0fq",

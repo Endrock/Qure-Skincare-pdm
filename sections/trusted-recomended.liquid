@@ -19,8 +19,7 @@
                    {% if section.settings.heading != blank and section.settings.text != blank %}
                       <div class="qure__section-header text-md-start text-center mb-30">                     
                            <h2 class="qure__section-heading text-md-start pb-20 d-none d-md-block">{{ section.settings.heading }}</h2>
-                           {{ section.settings.text 
-                           | replace: '<p>', ''
+                           {{ section.settings.text
                            | replace: '<strong>', '<span style="background:#C7E5DB">' 
                            }}
                       </div>

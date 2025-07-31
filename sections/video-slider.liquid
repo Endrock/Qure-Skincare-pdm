@@ -24,15 +24,19 @@
                         <img src="{{ block.settings.image | image_url}}" alt="{{ block.settings.image.alt | escape }}" class="img-fluid" />
                      {% endif %}
                      </a>
-                     {% if block.settings.heading != blank and block.settings.text != blank and block.settings.sub_text != blank %}
                      <div class="trusted_video_content d-flex flex-column justify-content-between gap-4 p-24">
-                        {{ block.settings.heading | replace: '<p>', ''}}
+                        {% if block.settings.heading != blank %}
+                           {{ block.settings.heading }}
+                        {% endif %}        
                            <div class="drs_rev">
-                              {{ block.settings.text }}
-                              {{ block.settings.sub_text }}
+                              {% if block.settings.text != blank %}
+                                 {{ block.settings.text }}
+                              {% endif %}
+                              {% if block.settings.sub_text != blank %}
+                                 {{ block.settings.sub_text }}
+                              {% endif %}
                            </div>
                      </div>
-                     {% endif %}
                   </div>
                </div>
             {% endif %}
@@ -73,50 +77,50 @@
 {% schema %}
 {
 "name": "t:sections.video-slider.name",
-"settings": [
-{
-"type": "image_picker",
-"id": "image",
-"label": "t:common.image"
-}
+   "settings": [
+   {
+   "type": "image_picker",
+   "id": "image",
+   "label": "t:common.image"
+   }
 ],
 "blocks": [
-{
-"type": "slider",
-"name": "t:common.slider",
-"settings": [
-{
-"type": "richtext",
-"id": "heading",
-"label": "t:common.header"
-},
-{
-"type": "richtext",
-"id": "text",
-"label": "t:common.text"
-},
-{
-"type": "richtext",
-"id": "sub_text",
-"label": "t:common.sub-text"
-},
-{
-"type": "text",
-"id": "url",
-"label": "t:common.link-url"
-},
-{
-"type": "image_picker",
-"id": "image",
-"label": "t:common.image"
-}
+   {
+   "type": "slider",
+   "name": "t:common.slider",
+   "settings": [
+   {
+   "type": "richtext",
+   "id": "heading",
+   "label": "t:common.header"
+   },
+   {
+   "type": "richtext",
+   "id": "text",
+   "label": "t:common.text"
+   },
+   {
+   "type": "richtext",
+   "id": "sub_text",
+   "label": "t:common.sub-text"
+   },
+   {
+   "type": "text",
+   "id": "url",
+   "label": "t:common.link-url"
+   },
+   {
+   "type": "image_picker",
+   "id": "image",
+   "label": "t:common.image"
+   }
 ]
 }
 ],
 "presets": [
-{
-"name": "t:sections.video-slider.name"
-}
+   {
+   "name": "t:sections.video-slider.name"
+   }
 ]
 }
 {% endschema %}

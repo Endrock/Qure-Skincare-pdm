@@ -20,13 +20,16 @@
                         {% for block in section.blocks %}
                             {% if  block.settings.heading != blank and block.settings.text != blank %}
                                 <p class="quiz-stepper__title mb-10 fs-24 fw-600">{{ block.settings.heading }}</p>
-                                {{ block.settings.text | replace: '<p>', '<span class="quiz-stepper__desc">' }}
+                                {{ block.settings.text | replace: '<p>', '<span class="quiz-stepper__desc">'
+                                                       | replace: '</p>', '</span>' }}
                             {% endif %}
                             {% if block.settings.button != blank and block.settings.image_text != blank %}
                                 <div class="ctm-width" style="--ctm-width: 350px;">
                                     <button class="quiz-stepper__button btn btn--primary w-100 mt-20">{{ block.settings.button }}</button>
                                     <div class="align-items-center d-flex fs-16 gap-2 justify-content-center mt-6 quiz-stepper__time">
-                                        <span class="quiz-stepper__clock"><i class="fa-light fa-clock-three"></i></span>{{ block.settings.image_text | replace: '<p>', ''}}
+                                        <span class="quiz-stepper__clock"><i class="fa-light fa-clock-three"></i></span> 
+                                        {{ block.settings.image_text | replace: '<p>', ''
+                                                                     | replace: '</p>' , ''}}
                                     </div>
                                 </div>
                             {% endif %}

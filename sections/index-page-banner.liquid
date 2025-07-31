@@ -29,7 +29,7 @@
                      <a href="{{ section.settings.button_url }}" class="btn btn--primary mt-20 mt-lg-30 mb-5 w-100 text-center">{{ section.settings.button }}</a>
                   {% endif %}
                   {% if section.settings.text != blank %}
-                     <span class="fs-16 d-block text-center">{{ section.settings.text }}</span>
+                     {{ section.settings.text | replace: '<p>', '<span class="fs-16 d-block text-center">'}}
                   {% endif %} 
                </div>
             </div>
@@ -48,10 +48,10 @@
         "default": "Get clinic-level results from home – minus the ‘clinical’ costs."
     },
     {
-        "type": "text",
+        "type": "richtext",
         "id": "text",
         "label": "t:common.text",
-        "default": "Join 30,000+ customers feeling more confident."
+        "default": "<p>Join <strong>30,000+ customers</strong> feeling more confident.</p>"
     },
     {
         "type": "text",
