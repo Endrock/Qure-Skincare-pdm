@@ -1,6 +1,8 @@
 {% doc %}
 Renders a fix pforblem section
 {% enddoc %}
+
+
 <div class="qure__section"
     style="--section-padding-top: 80px; --section-padding-bottom: 80px; --section-padding-top-mob: 50px; --section-padding-bottom-mob: 50px;">
     <div class="container">
@@ -19,11 +21,11 @@ Renders a fix pforblem section
                         <div
                             class="d-flex flex-sm-wrap justify-content-center bg-light py-sm-20 px-sm-20 px-15 py-25 rounded align-items-center"
                             style="--bs-border-radius: 10px;">
-                            <div>
-                                {% if block.settings.image != blank %}
+                            {% if block.settings.image != blank %}
+                                <div>
                                     <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}">
-                                {% endif %}
-                            </div>
+                                </div>
+                            {% endif %}
                             <div class="text-sm-center pt-md-20 ps-md-0 pl-15">
                                 {% if block.settings.heading != blank %}
                                     <div class="fs-20 mb-md-10" style="--font-size:20px;">{{ block.settings.heading }}</div>
