@@ -18,6 +18,10 @@
         "button-url": "#"
       }
     },
+    "main": {
+      "type": "page-qure-filters-offer",
+      "settings": {}
+    },
     "clean_water_KQtjt9": {
       "type": "clean-water",
       "blocks": {
@@ -28,7 +32,7 @@
             "text": "<p>Order today & Receive a FREE Faucet Filter with your Shower Filter (value $129)</p>",
             "first_image_text": "$149",
             "first_image": "shopify://shop_images/qure_water_img1_df67ca70-e575-45ec-956e-940c3d9c6f97.webp",
-            "second_image_text": "<p><em>$129 </em><strong>FREE</strong></p>",
+            "second_image_text": "<p><em>$129</em> <strong>FREE</strong></p>",
             "second_image": "shopify://shop_images/qure_water_img2_242b9f9f-9838-4aaf-8c1b-a3fe740dd659.webp",
             "heading_percent_scale": "Limited Time Offer, While Supplies Last",
             "percent_value": "60%",
@@ -85,7 +89,8 @@
       "settings": {
         "heading": "Clean Water, Clearer Skin, Healthier Hair",
         "text": "<p>Your water is filled with hidden irritants and chemicals that damage your skin and hair daily.</p><p>The Qure Filter Bundle removes these at the source without adding any steps to your routine.</p>",
-        "button": "Buy One + Get One FREE",
+        "button_label": "Buy One + Get One FREE",
+        "button_url": "#",
         "rating_text": "<p><strong>4.8</strong>/5 Rated by Customers</p>",
         "rating_image": "shopify://shop_images/cyan_blue_rating.svg"
       }
@@ -108,9 +113,9 @@
             "heading": "Dry, Tight Skin",
             "text": "<p>That rough, stretched, uncomfortable feeling you cannot moisturize away.</p>",
             "image": "shopify://shop_images/dry_skin_tight.webp",
-            "caused_by_1": "<p>Chlorine</p>",
-            "caused_by_2": "<p>Minerals</p>",
-            "caused_by_3": "<p>Chemical Residues</p>"
+            "tag_1": "<p>Chlorine</p>",
+            "tag_2": "<p>Minerals</p>",
+            "tag_3": "<p>Chemical Residues</p>"
           }
         },
         "carousel_gMY6JG": {
@@ -119,9 +124,9 @@
             "heading": "Itchy, Flaky Scalp",
             "text": "<p>The embarrassing flakes and constant tightness you cannot escape.</p>",
             "image": "shopify://shop_images/hair_scalp.webp",
-            "caused_by_1": "<p>Heavy Metals</p>",
-            "caused_by_2": "<p>Chlorine</p>",
-            "caused_by_3": "<p>Bacteria</p>"
+            "tag_1": "<p>Heavy Metals</p>",
+            "tag_2": "<p>Chlorine</p>",
+            "tag_3": "<p>Bacteria</p>"
           }
         },
         "carousel_PUe6Gj": {
@@ -130,9 +135,9 @@
             "heading": "Stubborn Breakouts",
             "text": "<p>The angry, red, under-the-surface spots that never seem to fully heal.</p>",
             "image": "shopify://shop_images/stubborn_breakouts.webp",
-            "caused_by_1": "<p>Bacteria</p>",
-            "caused_by_2": "<p>Chlorine</p>",
-            "caused_by_3": "<p>Rust</p>"
+            "tag_1": "<p>Bacteria</p>",
+            "tag_2": "<p>Chlorine</p>",
+            "tag_3": "<p>Rust</p>"
           }
         }
       },
@@ -147,40 +152,40 @@
         "text": "<p>And no amount of expensive products can change that. In fact, they could just make it worse.</p>"
       }
     },
-    "marquee_logos_e4YFxA": {
-      "type": "marquee-logos",
+    "logos_r79NY3": {
+      "type": "logos",
       "blocks": {
-        "carousel_kj4fcE": {
+        "carousel_dAcfWA": {
           "type": "carousel",
           "settings": {
             "image": "shopify://shop_images/vogue_eb718eda-dbd4-4d98-a2a2-09009690ed42.svg"
           }
         },
-        "carousel_zUhCDX": {
+        "carousel_WMPWLV": {
           "type": "carousel",
           "settings": {
             "image": "shopify://shop_images/womens_health.svg"
           }
         },
-        "carousel_gj7giJ": {
+        "carousel_LJPMam": {
           "type": "carousel",
           "settings": {
             "image": "shopify://shop_images/cosmopolitan_6c3eb42e-7049-4231-b8f0-68d3daf9a957.svg"
           }
         },
-        "carousel_HCezEf": {
+        "carousel_DNnAqN": {
           "type": "carousel",
           "settings": {
-            "image": "shopify://shop_images/elle_867a1d9c-29e5-412e-851d-515d427d8988.svg"
+            "image": "shopify://shop_images/elle_edaef4a6-052e-4c7f-a181-8b48a56a1fbe.svg"
           }
         },
-        "carousel_tN7aTR": {
+        "carousel_gz9r8D": {
           "type": "carousel",
           "settings": {
             "image": "shopify://shop_images/marie-claire.svg"
           }
         },
-        "carousel_bqk8EF": {
+        "carousel_3JNkHM": {
           "type": "carousel",
           "settings": {
             "image": "shopify://shop_images/grazia_07517d3e-f549-4632-b264-eaa8d443ad6a.svg"
@@ -188,14 +193,14 @@
         }
       },
       "block_order": [
-        "carousel_kj4fcE",
-        "carousel_zUhCDX",
-        "carousel_gj7giJ",
-        "carousel_HCezEf",
-        "carousel_tN7aTR",
-        "carousel_bqk8EF"
+        "carousel_dAcfWA",
+        "carousel_WMPWLV",
+        "carousel_LJPMam",
+        "carousel_DNnAqN",
+        "carousel_gz9r8D",
+        "carousel_3JNkHM"
       ],
-      "name": "t:sections.marquee-logos.name",
+      "name": "t:sections.logos.name",
       "settings": {}
     },
     "fix_problem_ccFneR": {
@@ -430,7 +435,7 @@
         "slider_KKJAJe": {
           "type": "slider",
           "settings": {
-            "heading": "Source of my unclear skin",
+            "heading": "Acne and dryness gone",
             "text": "<p>“My skin has cleared up so much thanks to Qure! I use the LED mask and water filter daily and it’s cleared up my acne, and my complexion so much smoother and less red! My skin feels soft and hydrated. I can actually walk out of the house without makeup now. THANK YOU QURE!!!”</p>",
             "compare_image": "shopify://shop_images/transf_awaits3.webp",
             "country_image": "shopify://shop_images/america_f_f699851b-1d61-49ee-b050-b09ddc8f3346.webp",
@@ -630,8 +635,8 @@
       "name": "t:sections.information-about-water.name",
       "settings": {
         "heading": "Do you know what’s in your water?",
-        "text": "<p><strong>Most tap water is filled with invisible contaminants that quietly damage your skin, hair, and health – without you even realizing.</strong></p><p>Take the quiz to find out what’s lurking in your water.</p>",
-        "button": "Get a Free Water Report",
+        "text": "<p><strong>Most tap water is filled with invisible contaminants that quietly damage your skin, hair, and health – without you even realizing.</strong></p><p><em>Take the quiz to find out what’s lurking in your water.</em></p>",
+        "button_label": "Get a Free Water Report",
         "button_url": "#"
       }
     },
@@ -734,10 +739,11 @@
   },
   "order": [
     "announcement_bar_FNAPqF",
+    "main",
     "clean_water_KQtjt9",
     "quote_zqnAHh",
     "qure_filters_offer_slider_with_text_JgnGLR",
-    "marquee_logos_e4YFxA",
+    "logos_r79NY3",
     "fix_problem_ccFneR",
     "qure_filters_offer_qure_filters_MqbAF4",
     "improve_skin_hydration_UDwAJ8",
