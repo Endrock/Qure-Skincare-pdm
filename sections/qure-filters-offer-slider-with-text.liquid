@@ -12,7 +12,7 @@
                     <h2 class="qure__section-heading">{{ section.settings.heading }}</h2>
                 {% endif %}
                 {% if section.settings.text != blank %}
-                    {{ section.settings.text }}
+                    {{ section.settings.text | replace: '<p>', '<p class="mt-20 mt-lg-30 pb-0">'}}
                 {% endif %}
             </div>
         </div>
@@ -83,7 +83,7 @@
         "label": "t:common.header"
     },
     {
-        "type": "text",
+        "type": "richtext",
         "id": "text",
         "label": "t:common.text"
     }

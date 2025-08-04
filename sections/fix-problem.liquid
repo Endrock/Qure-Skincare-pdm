@@ -29,7 +29,7 @@ Renders a fix pforblem section
                                     <div class="fs-20 mb-md-10" style="--font-size:20px;">{{ block.settings.heading }}</div>
                                 {% endif %}
                                 {% if block.settings.text != blank %}
-                                    {{ block.settings.text | raplace: '<p>', '<p class="mb-0">' }}
+                                    {{ block.settings.text | replace: '<p>', '<p class="mb-0">' }}
                                 {% endif %}
                             </div>
                         </div>
