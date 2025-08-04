@@ -79,51 +79,47 @@
 </script>
 {% schema %}
 {
-"name": "t:sections.video-slider.name",
+   "name": "t:sections.video-slider.name",
    "settings": [
-   {
-   "type": "image_picker",
-   "id": "image",
-   "label": "t:common.image"
+
+   ],
+   "blocks": [
+      {
+         "type": "slider",
+         "name": "t:common.slider",
+         "settings": [
+            {
+               "type": "richtext",
+               "id": "heading",
+               "label": "t:common.header"
+            },
+            {
+               "type": "richtext",
+               "id": "text",
+               "label": "t:common.text"
+            },
+            {
+               "type": "richtext",
+               "id": "sub_text",
+               "label": "t:common.sub-text"
+            },
+            {
+               "type": "text",
+               "id": "url",
+               "label": "t:common.link-url"
+            },
+            {
+               "type": "image_picker",
+               "id": "image",
+               "label": "t:common.image"
+            }
+      ]
    }
-],
-"blocks": [
-   {
-   "type": "slider",
-   "name": "t:common.slider",
-   "settings": [
-   {
-   "type": "richtext",
-   "id": "heading",
-   "label": "t:common.header"
-   },
-   {
-   "type": "richtext",
-   "id": "text",
-   "label": "t:common.text"
-   },
-   {
-   "type": "richtext",
-   "id": "sub_text",
-   "label": "t:common.sub-text"
-   },
-   {
-   "type": "text",
-   "id": "url",
-   "label": "t:common.link-url"
-   },
-   {
-   "type": "image_picker",
-   "id": "image",
-   "label": "t:common.image"
-   }
-]
-}
-],
-"presets": [
-   {
-   "name": "t:sections.video-slider.name"
-   }
-]
+   ],
+   "presets": [
+      {
+      "name": "t:sections.video-slider.name"
+      }
+   ]
 }
 {% endschema %}
