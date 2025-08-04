@@ -57,6 +57,26 @@
         "page": "Page {{ page }}",
         "tags": "Tags {{ tags }}"
     },
+    "product": {
+        "settings": {
+            "buy-button-label": "Buy Now",
+            "buy-button-bottom": {
+                "heading": "OR pay 4 monthly payments of {{ product_price_divided }} with",
+                "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='{{ button_link }}' class='text-black text-decoration-underline'>See More</a>.",
+                "guaranteed_text": "30-Day Money-Back Guarantee",
+                "shipping_text": "Free Shipping over 100$"
+            },
+            "saveup": {
+                "heading_html": "<p>Save up to <strong>XX%</strong> with our curated bundles</p>",
+                "button_html": "<a href='{{ button_link }}' class='btn bg-white border-0 text-black mt-15 mt-md-0'>Shop Now <img src='https://qureskincaredns-main.com/assets/images/arrow_right.svg' alt='arrow'></a>"
+            },
+            "benefits-list": {
+                "guaranteed_text": "30-Day Money-Back Guarantee",
+                "shipping_text": "Free World-Wide Shipping over 100$",
+                "science_text": "Backed by Science"
+            }
+        }
+    },
     "404": {
         "settings": {
             "header": "Oops",
@@ -116,3 +136,4 @@
         }
     }
 }
+
