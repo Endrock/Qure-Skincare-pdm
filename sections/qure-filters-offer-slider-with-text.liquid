@@ -1,6 +1,8 @@
 {% doc %}
   Renders a slider with text section for qure-filters-offer page.
 {% enddoc %}
+
+
 <link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/skin-hair-issue/card-slide.css" />
 <div class="qure__section qure__col-with-slider"
     style="--section-padding-top:80px;--section-padding-bottom:80px; --section-padding-top-mob:50px;--section-padding-bottom-mob:50px;">
@@ -38,14 +40,14 @@
                                         <div class="skin-causes mt-15 pt-15 border-top" style="--bs-border-color:#8B8C8E">
                                             <h6 class="sk-title fm-body fw-500 mb-10 fs-18">{{ 'sections.qure-filters-offer-slider-with-text.caused_by_text' | t }}</h6>
                                             <div class="cause__list">
-                                                {% if block.settings.caused_by_1 != blank %}
-                                                    {{ block.settings.caused_by_1 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
+                                                {% if block.settings.tag_1 != blank %}
+                                                    {{ block.settings.tag_1 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
                                                 {% endif %}
-                                                {% if block.settings.caused_by_2 != blank %}
-                                                    {{ block.settings.caused_by_2 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
+                                                {% if block.settings.tag_2 != blank %}
+                                                    {{ block.settings.tag_2 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
                                                 {% endif %}
-                                                {% if block.settings.caused_by_3 != blank %}
-                                                    {{ block.settings.caused_by_3 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
+                                                {% if block.settings.tag_3 != blank %}
+                                                    {{ block.settings.tag_3 | replace: '<p>', '<span>' | replace: '</p>', '</span>' }}
                                                 {% endif %}
                                             </div>
                                         </div>
@@ -110,18 +112,18 @@
             },
             {
                 "type": "richtext",
-                "id": "caused_by_1",
-                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.caused-by-1.name"
+                "id": "tag_1",
+                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.tag-1.name"
             },
             {
                 "type": "richtext",
-                "id": "caused_by_2",
-                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.caused-by-2.name"
+                "id": "tag_2",
+                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.tag-2.name"
             },
             {
                 "type": "richtext",
-                "id": "caused_by_3",
-                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.caused-by-3.name"
+                "id": "tag_3",
+                "label": "t:sections.qure-filters-offer-slider-with-text.blocks.carousel.settings.tag-3.name"
             }
 
         ]

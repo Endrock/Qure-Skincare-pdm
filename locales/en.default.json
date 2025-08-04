@@ -35,7 +35,8 @@
         "trusted-recommended-image":{
             "tick_image": "https://qureskincaredns-main.com/sections/isolated/experts/images/tick_new.svg",
             "tick_image_mobile": "https://qureskincaredns-main.com/assets/images/tick_new.svg",
-            "text": "Dermatologist Approved"
+            "text": "Dermatologist Approved",
+            "trusted-recommended-header": "Trusted and Recommended by Experts"
     },
         "trusted-reviews-image":{
             "review_check": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg",
