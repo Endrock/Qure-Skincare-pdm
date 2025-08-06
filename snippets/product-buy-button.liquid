@@ -9,5 +9,9 @@
 {% enddoc %}
 
 <div class="qure__product-action-inner mt-30 mt-md-30 mb-10 max-w-ctm" style="--max-w-ctm:500px">
+  <form method="post" action="/cart/add" enctype="multipart/form-data">
     <button type="submit" class="add-cart-button product-form__submit btn btn--primary w-100">{{ 'product.settings.buy-button-label' | t }} – {{ product_price }}</button>
+    <input type="hidden" name="quantity" id="quantity" value="1">
+    <input type="hidden" name="id" value="{{ product_variant_id }}">
+  </form>
 </div>

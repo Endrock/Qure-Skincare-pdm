@@ -32,7 +32,7 @@
 
                     {% render 'product-rating' %}
 
-                    <h2 class="qure__product-title mb-10">{{ product_title }}</h2>
+                    <h1 class="qure__product-title mb-10">{{ product_title }}</h1>
                     <div class="patch__single-shortdes mt-25 mb-25">
                         <p>{{ product_description }}</p>
                     </div>
@@ -95,4 +95,50 @@
     document.addEventListener("DOMContentLoaded", function () {
         loadScriptOnce('slider-with-thumb', 'https://qureskincaredns-main.com/assets/js/slider-with-thumb.js');
     });
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "{{ product.title | escape }}",
+        "url": "{{ shop.url }}{{ product.url }}",
+        {% if product.featured_image %}
+            {% assign image_size = product.featured_image.width | append: 'x' %}
+            "image": [
+            "https:{{ product.featured_image.src | img_url: image_size }}"
+            ],
+        {% endif %}
+        "description": "{{ product.description | strip_html | escape }}",
+        {% if current_variant.sku != blank %}
+            "sku": "{{ current_variant.sku }}",
+        {% endif %}
+        "brand": {
+            "@type": "Thing",
+            "name": "{{ product.vendor | escape }}"
+        },
+        "offers": [
+            {%- for variant in product.variants -%}
+            {
+                "@type" : "Offer",
+                {%- if variant.sku != blank -%}
+                "sku": {{ variant.sku | json }},
+                {%- endif -%}
+                {%- if variant.barcode.size == 12 -%}
+                "gtin12": {{ variant.barcode }},
+                {%- endif -%}
+                {%- if variant.barcode.size == 13 -%}
+                "gtin13": {{ variant.barcode }},
+                {%- endif -%}
+                {%- if variant.barcode.size == 14 -%}
+                "gtin14": {{ variant.barcode }},
+                {%- endif -%}
+                "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+                "price" : {{ variant.price | divided_by: 100.00 | json }},
+                "priceCurrency" : {{ cart.currency.iso_code | json }},
+                "url" : {{ request.origin | append: variant.url | json }}
+            }{% unless forloop.last %},{% endunless %}
+            {%- endfor -%}
+        ]
+    }
 </script>

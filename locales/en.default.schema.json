@@ -81,6 +81,9 @@
         "how-to-use": {
             "name": "How to use"
         },
+        "footer-drawer": {
+            "name": "Cart drawer"
+        },
         "quote": {
             "name": "Quote"
         },
