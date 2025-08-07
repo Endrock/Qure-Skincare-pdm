@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
             addToCart(formData);
         });
     });
+
+    document.querySelectorAll('form[action$="/cart/change"]').forEach((form) => {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            changeCart(formData);
+        });
+    });
 });
 
 
@@ -18,6 +26,10 @@ document.addEventListener('cart.requestComplete', (e) => {
         reloadCart();
         showCart();
     }
+
+    if (source === 'changeCart') {
+        reloadCart();
+    } 
 });
 
 const reloadCart = () => {
@@ -25,7 +37,7 @@ const reloadCart = () => {
     const currentDrawer = document.getElementById(targetElement);
     if (!currentDrawer) return;
 
-    fetch('/?section_id=footer-drawer')
+    fetch('/?section_id=footer-cart-drawer')
         .then(res => res.text())
         .then(html => {
             const temp = document.createElement('div');
@@ -65,17 +77,22 @@ const addToCart = (input) => {
         });
 };
 
+const changeCart = (input) => {
+    fetch((window.Shopify?.routes?.root || '/') + 'cart/change.js', {
+        method: 'POST',
+        body: input
+    })
+    .then(response => response.json())
+    .then(updatedCart => {
+        const event = new CustomEvent('cart.requestComplete', { detail: { cart: updatedCart, source: 'changeCart' } });
+        document.dispatchEvent(event);
+        console.log('The cart was changed:', updatedCart);
+    })
+    .catch((error) => {
+        console.error('Error cart updating:', error);
+    });
+};
 
-const getCartState = () => {
-    fetch((window.Shopify?.routes?.root || '/') + 'cart.js')
-        .then(response => response.json())
-        .then(cart => {
-            console.log('Cart state:', cart);
-        })
-        .catch(error => {
-            console.error('Error fetching cart:', error);
-        });
-}
 
 const clearCart = () => {
     fetch((window.Shopify?.routes?.root || '/') + 'cart/clear.js', {
@@ -93,5 +110,17 @@ const clearCart = () => {
         })
         .catch(error => {
             console.error('Error clearing cart:', error);
+        });
+}
+
+
+const getCartState = () => {
+    fetch((window.Shopify?.routes?.root || '/') + 'cart.js')
+        .then(response => response.json())
+        .then(cart => {
+            console.log('Cart state:', cart);
+        })
+        .catch(error => {
+            console.error('Error fetching cart:', error);
         });
 }

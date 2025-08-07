@@ -20,8 +20,8 @@
       "settings": {}
     },
     "footer-drawer": {
-      "type": "footer-drawer",
-      "name": "t:sections.footer-drawer.name",
+      "type": "footer-cart-drawer",
+      "name": "t:sections.footer-cart-drawer.name",
       "settings": {
         "heading": "Your cart is empty..",
         "text": "Fill it with amazing skincare."
