@@ -5,7 +5,9 @@
 <div class="trusted_recom qure__section"
    style="--section-padding-top: 40px; --section-padding-bottom: 40px; --section-padding-top-mob: 30px; --section-padding-bottom-mob: 30px;">
    <div class="container" style="--column-gap:35px; --column-gap-mobile:18px;">
-      <h2 class="qure__section-heading d-md-none mb-3 text-center">{{ section.settings.heading }}</h2>
+      {% if section.settings.heading != blank %}
+         <h2 class="qure__section-heading d-md-none mb-3 text-center">{{ section.settings.heading }}</h2>
+      {% endif %}
       <div class="row align-items-center custom__grid">
          <div class="col-lg-8 custom__block order-1 order-md-0">
             <div class="trusted_left mw-680">
