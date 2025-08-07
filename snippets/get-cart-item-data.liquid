@@ -67,4 +67,41 @@
       {% assign summary_saving_price = total_saving_price | money_without_trailing_zeros %}
     {% endif %}
 
+    {% comment %} insurance item {% endcomment %}
+
+    {% assign totalPrice = cart.total_price | divided_by: 100 %}
+
+    {% if totalPrice > 0 and totalPrice <= 75 %}
+      {% assign insurancePrice = 150 %}
+      {% assign insuranceId = 43291834220783 %}
+    {% elsif totalPrice >= 76 and totalPrice <= 100 %}
+      {% assign insurancePrice = 150 %}
+      {% assign insuranceId = 43326164566255 %}
+    {% elsif totalPrice >= 101 and totalPrice <= 200 %}
+      {% assign insurancePrice = 280 %}
+      {% assign insuranceId = 43326164599023 %}
+    {% elsif totalPrice >= 201 and totalPrice <= 250 %}
+      {% assign insurancePrice = 325 %}
+      {% assign insuranceId = 43326164631791 %}
+    {% elsif totalPrice >= 251 and totalPrice <= 300 %}
+      {% assign insurancePrice = 390 %}
+      {% assign insuranceId = 43326164664559 %}
+    {% elsif totalPrice >= 301 and totalPrice <= 400 %}
+      {% assign insurancePrice = 420 %}
+      {% assign insuranceId = 43326164697327 %}
+    {% elsif totalPrice >= 401 and totalPrice <= 1000 %}
+      {% assign insurancePrice = 420 %}
+      {% assign insuranceId = 43326164697327 %}
+    {% elsif totalPrice >= 1001 %}
+      {% assign insurancePrice = 1800 %}
+      {% assign insuranceId = 43326855282927 %}
+    {% endif %}
+
+    {% assign insurance_price = insurancePrice | money_without_trailing_zeros %}
+    {% assign insurance_variant_id = insuranceId %}
+
+    {% if cart_item_title contains 'Shipping Insurance' %}
+      {% assign insurance_exists = true %}
+    {% endif %}
+
 {% endif %}

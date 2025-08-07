@@ -1,10 +1,49 @@
 document.addEventListener('DOMContentLoaded', () => {
+    bindForms();
+});
+
+document.addEventListener('cart.requestComplete', (e) => {
+    const cart = e.detail.cart;
+    const source = e.detail.source;
+    const insurance = e.detail.insurance;
+    document.querySelector('.cart-count').textContent = cart.item_count;
+
+    if (source === 'addToCart') {
+        if(insurance === undefined) {
+            unsetInsurance();
+        }
+        reloadCart();
+        showCart();
+    }
+
+    if (source === 'changeCart') {
+        if(insurance === undefined) {
+            unsetInsurance();
+        }
+        reloadCart();
+    }
+});
+
+const bindForms = () => {
+
+    //clear all binds before if they are exist
+    document.querySelectorAll('form[action$="/cart/add"]').forEach((form) => {
+        form.replaceWith(form.cloneNode(true));
+    });
+
     document.querySelectorAll('form[action$="/cart/add"]').forEach((form) => {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const formData = new FormData(form);
             addToCart(formData);
         });
+
+        toogleInsurance(form);
+    });
+
+    //clear all binds before if they are exist
+    document.querySelectorAll('form[action$="/cart/change"]').forEach((form) => {
+        form.replaceWith(form.cloneNode(true));
     });
 
     document.querySelectorAll('form[action$="/cart/change"]').forEach((form) => {
@@ -14,23 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             changeCart(formData);
         });
     });
-});
-
-
-document.addEventListener('cart.requestComplete', (e) => {
-    const cart = e.detail.cart;
-    const source = e.detail.source;
-    document.querySelector('.cart-count').textContent = cart.item_count;
-
-    if (source === 'addToCart') {
-        reloadCart();
-        showCart();
-    }
-
-    if (source === 'changeCart') {
-        reloadCart();
-    } 
-});
+}
 
 const reloadCart = () => {
     const targetElement = 'cart-dynamic-content';
@@ -47,6 +70,7 @@ const reloadCart = () => {
             if (!newDrawer) return;
 
             morphdom(currentDrawer, newDrawer);
+            bindForms();
         });
 };
 
@@ -57,7 +81,37 @@ const showCart = () => {
     }
 };
 
-const addToCart = (input) => {
+const toogleInsurance = (form) => {
+    const checkbox = form.querySelector('input[type="checkbox"]#insurance');
+
+    if (!checkbox) return;
+
+    checkbox.addEventListener('change', () => {
+        const formData = new FormData(form);
+        if (checkbox.checked) {
+            addToCart(formData, true);
+        } else {
+            changeCart(formData, true);
+        }
+    });
+};
+
+const unsetInsurance = () => {
+  return getCartState().then(cart => {
+    const insuranceItem = cart.items.find(item => item.title.includes('Shipping Insurance'));
+
+    if (insuranceItem) {
+      const formData = new FormData();
+      formData.append('id', insuranceItem.id);
+      formData.append('quantity', 0);
+      return changeCart(formData);
+    }
+  }).catch(error => {
+    console.error('Error unsetInsurance:', error);
+  });
+};
+
+const addToCart = (input, insurance = undefined) => {
     fetch((window.Shopify?.routes?.root || '/') + 'cart/add.js', {
         method: 'POST',
         body: input
@@ -67,7 +121,17 @@ const addToCart = (input) => {
             return fetch((window.Shopify?.routes?.root || '/') + 'cart.js')
                 .then(res => res.json())
                 .then(cart => {
-                    const event = new CustomEvent('cart.requestComplete', { detail: { cart: cart, source: 'addToCart' } });
+
+                    const eventDetail = {
+                        cart: cart,
+                        source: 'addToCart'
+                    };
+
+                    if (typeof insurance !== 'undefined') {
+                        eventDetail.insurance = insurance;
+                    }
+
+                    const event = new CustomEvent('cart.requestComplete', { detail: eventDetail });
                     document.dispatchEvent(event);
                     console.log('The product was added to the cart:', addedItem);
                 });
@@ -77,22 +141,31 @@ const addToCart = (input) => {
         });
 };
 
-const changeCart = (input) => {
+const changeCart = (input, insurance = undefined) => {
     fetch((window.Shopify?.routes?.root || '/') + 'cart/change.js', {
         method: 'POST',
         body: input
     })
     .then(response => response.json())
-    .then(updatedCart => {
-        const event = new CustomEvent('cart.requestComplete', { detail: { cart: updatedCart, source: 'changeCart' } });
+    .then(cart => {
+
+        const eventDetail = {
+            cart: cart,
+            source: 'changeCart'
+        };
+
+        if (typeof insurance !== 'undefined') {
+            eventDetail.insurance = insurance;
+        }
+
+        const event = new CustomEvent('cart.requestComplete', { detail: eventDetail });
         document.dispatchEvent(event);
-        console.log('The cart was changed:', updatedCart);
+        console.log('The cart was changed:', cart);
     })
     .catch((error) => {
         console.error('Error cart updating:', error);
     });
 };
-
 
 const clearCart = () => {
     fetch((window.Shopify?.routes?.root || '/') + 'cart/clear.js', {
@@ -113,14 +186,15 @@ const clearCart = () => {
         });
 }
 
-
 const getCartState = () => {
-    fetch((window.Shopify?.routes?.root || '/') + 'cart.js')
-        .then(response => response.json())
-        .then(cart => {
-            console.log('Cart state:', cart);
-        })
-        .catch(error => {
-            console.error('Error fetching cart:', error);
-        });
+    return fetch((window.Shopify?.routes?.root || '/') + 'cart.js')
+            .then(response => response.json())
+            .then(cart => {
+                console.log('Cart state:', cart);
+                return cart; 
+            })
+            .catch(error => {
+                console.error('Error fetching cart:', error);
+                return null;
+            });
 }
