@@ -13,7 +13,7 @@
                         </svg>
                     </span>
                 </div>
-                <div class="insurance__text"> Protect your order from lost, damage and theft <span class="insurance__cost">+ {{ insurance_price }}</span></div>
+                <div class="insurance__text">{{ 'cart.drawer.settings.insurance-text' | t }} <span class="insurance__cost">+ {{ insurance_price }}</span></div>
             </div>
 
             <div class="insurance__switch-wrapper">
@@ -31,17 +31,17 @@
 
             {% if summary_saving_price != blank %}
             <div class="qure__cart-box qure__cart-savings">
-                <div class="qure__cart-title">Savings</div>
+                <div class="qure__cart-title">{{ 'cart.drawer.settings.savings' | t }}</div>
                 <div class="qure__cart-price">{{ summary_saving_price }}</div>
             </div>
             {% endif %}
 
             <div class="qure__cart-box">
-                <div class="qure__cart-title">Shipping</div>
-                <div class="qure__cart-price"><span>Free</span></div>
+                <div class="qure__cart-title">{{ 'cart.drawer.settings.shipping' | t }}</div>
+                <div class="qure__cart-price"><span>{{ 'cart.drawer.settings.free' | t }}</span></div>
             </div>
             <div class="qure__cart-box ">
-                <div class="qure__cart-title">Subtotal</div>
+                <div class="qure__cart-title">{{ 'cart.drawer.settings.subtotal' | t }}</div>
                 <div class="qure__cart-price">
                     {% if summary_before_price != blank %}
                     <span class="price old">{{ summary_before_price }}</span>
@@ -54,9 +54,8 @@
     </div>
     <div class="drawer__cart-checkout-btn" style="--btn-font-size: 18px;">
         <form method="post" action="/checkout" enctype="multipart/form-data">
-            <button class="btn btn--primary w-100 d-flex align-items-center justify-content-center gap-3 fw-600"
-                type="submit" name="checkout">
-                <span class="lock-checkout">CHECKOUT</span>
+            <button class="btn btn--primary w-100 d-flex align-items-center justify-content-center gap-3 fw-600" type="submit" name="checkout">
+                <span class="lock-checkout">{{ 'cart.drawer.settings.checkout' | t }}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                     <path
                         d="M12.6667 7.89453H3.33333C2.59695 7.89453 2 8.49148 2 9.22786V13.8945C2 14.6309 2.59695 15.2279 3.33333 15.2279H12.6667C13.403 15.2279 14 14.6309 14 13.8945V9.22786C14 8.49148 13.403 7.89453 12.6667 7.89453Z"
@@ -71,7 +70,7 @@
     </div>
     <div class="drawer__footer">
         <div class="drawer__cart__grid">
-            <img src="https://qureskincaredns-main.com/assets/images/sheild.svg" class="img-fluid" /> Backed by our 30-Day Money-Back Guarantee
+            <img src="https://qureskincaredns-main.com/assets/images/sheild.svg" class="img-fluid" />{{ 'cart.drawer.settings.guarantee-text' | t }}
         </div>
     </div>
 </div>

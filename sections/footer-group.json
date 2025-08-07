@@ -22,10 +22,7 @@
     "footer-drawer": {
       "type": "footer-cart-drawer",
       "name": "t:sections.footer-cart-drawer.name",
-      "settings": {
-        "heading": "Your cart is empty..",
-        "text": "Fill it with amazing skincare."
-      }
+      "settings": {}
     },
     "footer-gdpr": {
       "type": "footer-gdpr",

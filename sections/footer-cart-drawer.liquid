@@ -3,7 +3,7 @@
 <div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas" aria-labelledby="cartCanvasLabel">
    <cart-notification>
       <div class="cart-countdown-time" data-countdown-time="15" data-timeout-message="Time is up!">
-         <span class=""><strong>IN HIGH DEMAND</strong> | Items reserved for:</span>
+         <span class="">{{ 'cart.drawer.settings.notification_html' | t }}</span>
          <span class="cart-counter d-flex">
             <span class="cart-counter-block countdown-timer-minute">00</span>
             <span class="cart-counter-block countdown-timer-sec">00</span>
@@ -13,7 +13,7 @@
    </cart-notification>
    <div id="cart-dynamic-content" class="offcanvas-dynamic-content">
       <div class="offcanvas-header border-btm-black">
-         <h5 class="cart-drawer-heading fs-18 fm-body fw-600 m-0">Your Cart ({{ cart.item_count }})</h5>
+         <h5 class="cart-drawer-heading fs-18 fm-body fw-600 m-0">{{ 'cart.drawer.settings.header' | t }} ({{ cart.item_count }})</h5>
          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-regular fa-xmark"></i></button>
       </div>
       <div class="offcanvas-body p-0">
@@ -43,8 +43,8 @@
                   <!-- Empty cart -->
                   <div class="drawer__cart-is-empty">
                      <div class="drawer__cart-empty-text">
-                        <h4>Your cart is empty..</h4>
-                        <p>Fill it with amazing skincare.</p>
+                        <h4>{{ 'cart.drawer.settings.empty-text' | t }}</h4>
+                        <p>{{ 'cart.drawer.settings.empty-subtext' | t }}</p>
                      </div>
                      <div class="empty-product">
                         <div class="empty-title dekstop-empty">
@@ -151,18 +151,7 @@
 {
   "name": "t:sections.footer-cart-drawer.name",
   "settings": [
-    {
-        "type": "text",
-        "id": "heading",
-        "label": "t:common.header",
-        "default": "Your cart is empty.."
-    },
-    {
-        "type": "text",
-        "id": "text",
-        "label": "t:common.text",
-        "default": "Fill it with amazing skincare."
-    }
+
   ],
   "blocks": [
 
