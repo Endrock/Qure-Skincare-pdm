@@ -87,7 +87,7 @@
         "how-to-use": {
             "name": "How to use"
         },
-        "footer-drawer": {
+        "footer-cart-drawer": {
             "name": "Cart drawer"
         },
         "quote": {
@@ -395,6 +395,9 @@
         }
     },
     "sections-group": {
+        "header": {
+            "name": "Header"
+        },
         "footer": {
             "name": "Footer"
         }

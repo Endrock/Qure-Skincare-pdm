@@ -1,0 +1,87 @@
+<!-- Cart section start -->
+<link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/cart/cart.css" />
+<div class="qure__section cart-section" style="--section-padding-top:80px; --section-padding-bottom:80px;--section-padding-bottom-mob:50px; --section-padding-top-mob:50px;">
+    <div class="container" style="--column-gap:0px; --column-gap-mobile:12px;">
+        <div class="qure__section-header mb-30 mb-md-60">
+            <h2 class="qure__section-heading">{{ 'cart.static.settings.header' | t }}</h2>
+        </div>
+
+        {% if cart.item_count == 0 %}
+            <h1>Empty cart</h1>
+        {% else %}
+            <div class="qure__cart--item">
+                <div class="row custom__grid my-0">
+                    <div class="col col-md-6  custom__block py-0">
+                        <div class="cart--caption cart-prd-title fs-14 fs-md-16">{{ 'cart.static.settings.product' | t }}</div>
+                    </div>
+                    <div class="col col-md-3 custom__block py-0">
+                        <div class="cart--caption cart--quantity text-center fs-14 fs-md-16">{{ 'cart.static.settings.quantity' | t }}</div>
+                    </div>
+                    <div class="col col-md-3 custom__block py-0  cart-item-price">
+                        <div class="cart--caption cart--price text-center fs-14 fs-md-16">{{ 'cart.static.settings.price' | t }}</div>
+                    </div>
+                </div>
+            </div>
+
+            {% for item in cart.items %}
+                {% include 'get-cart-item-data', item: item %}
+                <div class="qure__cart--item">
+                    <div class="row custom__grid">
+                        <div class="col col-md-6 custom__block">
+                            <div class="cart--item cart--product">
+                                <div class="">
+                                    <img src="{{ cart_item_image | img_url: 'master' }}" alt="{{ cart_item_title | escape }}" class="img-fluid rounded-10" />
+                                </div>
+                                <div class="cart-prd-title fs-16 fs-md-18">{{ cart_item_title }}</div>
+                            </div>
+                        </div>
+                        <div class="col col-md-3 custom__block">
+                            <div class="cart--item text-center">
+                                <div class="cart--quantity">
+                                    <div class="cart__qty">
+                                        <form id="static_{{ cart_item_id }}_minus" method="post" action="/cart/change" enctype="multipart/form-data">
+                                            <button class="qty-btn"><i class="fa-regular fa-minus"></i></button>
+                                            <input type="hidden" name="quantity" value="{{ cart_item_quantity_minus }}">
+                                            <input type="hidden" name="id" value="{{ cart_item_key }}">
+                                        </form>
+                                        <input class="qty-input p-0" type="number" name="qty" value="{{ cart_item_quantity }}" min="0">
+                                        <form id="static_{{ cart_item_id }}_plus" method="post" action="/cart/change" enctype="multipart/form-data">
+                                            <button class="qty-btn"><i class="fa-regular fa-plus"></i></button>
+                                            <input type="hidden" name="quantity" value="{{ cart_item_quantity_plus }}">
+                                            <input type="hidden" name="id" value="{{ cart_item_key }}">
+                                        </form>
+                                    </div>
+                                    <form id="static_{{ cart_item_id }}_remove" method="post" action="/cart/change" enctype="multipart/form-data">
+                                        <button class="d-block color-charcoal fs-14 mt-6 text-decoration-underline">{{ 'cart.static.settings.remove' | t }}</button>
+                                        <input type="hidden" name="quantity" value="0">
+                                        <input type="hidden" name="id" value="{{ cart_item_key }}">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-3 custom__block cart-item-price">
+                            <div class="cart--item cart--price text-center fs-16 fs-md-20">{{ cart_item_sale_price }}</div>
+                        </div>
+                    </div>
+                </div>                
+            {% endfor %}
+
+            <div class="qure__cart-total">
+                <div class="cart-estimated-content">
+                    <div class="cart--item cart--price">
+                        <div class="fs-16 fs-md-20">{{ 'cart.static.settings.total' | t }}</div>
+                        <div class="fs-14 fs-md-18 color-grey mt-5">{{ 'cart.static.settings.text' | t }}</div>
+                    </div>
+                </div>
+                <div class="cart-estimated-total">
+                    <div class="cart--item cart--price text-md-center fs-16 fs-md-20 text-end">{{ summary_sale_price }}</div>
+                </div>
+            </div>
+            <div class="qure__cart-atc ctm-width ms-auto text-center mt-30" style="--ctm-width: 760px;">
+                <form method="post" action="/checkout" enctype="multipart/form-data">
+                    <button type="submit" class="btn btn--primary">{{ 'cart.static.settings.checkout' | t }}</button>
+                </form>
+            </div>
+        {% endif %}
+    </div>
+</div>

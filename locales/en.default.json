@@ -11,7 +11,7 @@
     "sections":{
         "slider-featured-in": {
             "featured_text": "FEATURED IN"
-    },
+        },
         "how-it-works": {
             "aging_mode_button": "Pro-Aging Mode",
             "breakout_mode_button": "Anti-Breakout Mode",
@@ -27,7 +27,7 @@
             "breakout_scale_value_red": "(630 nm)",
             "breakout_scale_text_blue": "Blue Light",
             "breakout_scale_value_blue": "(415 nm)"
-    },
+        },
         "proven-results": {
             "info_image": "https://qureskincaredns-main.com/assets/images/i.svg",
             "study_text": "Study"
@@ -35,7 +35,7 @@
         "trusted-reviews": {
             "badge_text": "Verified customer",
             "badge_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
-    },
+        },
         "trusted-recommended": {
             "header": "Trusted and Recommended by Experts",
             "badge_image": "https://qureskincaredns-main.com/sections/isolated/experts/images/tick_new.svg",
@@ -43,14 +43,14 @@
             "badge_text": "Dermatologist Approved",
     },
         "video-slider":{
-             "text": "Watch: How To Install"
-    },
+                "text": "Watch: How To Install"
+        },
         "qure-filters-offer-slider-with-text":{
             "caused_by_text": "Caused by:"
-    },
+        },
         "faq":{
             "arrow_image": "https://qureskincaredns-main.com/assets/images/arrow_right.svg"
-    },
+        },
         "comparison-real-fake":{
             "tick_image": "https://qureskincaredns-main.com/assets/images/tick.svg",
             "cross_image": "https://qureskincaredns-main.com/assets/images/cross.svg"
@@ -58,17 +58,17 @@
         "improve-skin-hydration":{
             "text_button_before": "Before",
             "text_button_after": "After"
-    },
+        },
         "qure-filters-offer-qure-filters":{
             "text_button_shower": "Shower Filter",
             "text_button_faucet": "Faucet Filter",
             "video_play_button": "https://qureskincaredns-main.com/assets/images/play_button.svg",
             "heading_shower_filter": "The Qure Shower Filter",
             "heading_faucet_filter": "The Qure Faucet Filter"
-    },
+        },
         "compare":{
             "versus_text": "VS"
-    }
+        }
     },
     "general": {
         "page": "Page {{ page }}",
@@ -121,6 +121,36 @@
             "collapse_tab_4": {
                 "header": "Targeting/Advertising Cookies",
                 "text": "These cookies are used to deliver ads more relevant to you and your interests. They may also be used to limit the number of times you see an advertisement and help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator’s permission."
+            }
+        }
+    },
+    "cart": {
+        "static": {
+            "settings": {
+                "header": "Shopping Cart",
+                "product": "Product",
+                "quantity": "Quantity",
+                "price": "Price",
+                "remove": "REMOVE",
+                "total": "Estimated total",
+                "text": "Shipping & taxes calculated at checkout.",
+                "checkout": "Proceed to Checkout"
+            }
+        },
+        "drawer": {
+            "settings": {
+                "notification_html": "<strong>IN HIGH DEMAND</strong> | Items reserved for:",
+                "header": "Your Cart",
+                "empty-text": "Your cart is empty..",
+                "empty-subtext": "Fill it with amazing skincare.",
+                "item-text-2days": "In stock. Shipped within 2 days",
+                "savings": "Savings",
+                "shipping": "Shipping",
+                "free": "Free",
+                "subtotal": "Subtotal",
+                "insurance-text": "Protect your order from lost, damage and theft",
+                "guarantee-text": "Backed by our 30-Day Money-Back Guarantee",
+                "checkout": "CHECKOUT"
             }
         }
     },

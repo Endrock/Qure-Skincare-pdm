@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "page-qure-filters-offer",
+      "settings": {}
+    },
     "announcement_bar_FNAPqF": {
       "type": "announcement-bar",
       "name": "t:sections.announcement-bar.name",
@@ -736,7 +740,6 @@
     }
   },
   "order": [
-    "announcement_bar_FNAPqF",
     "clean_water_KQtjt9",
     "quote_zqnAHh",
     "qure_filters_offer_slider_with_text_JgnGLR",
