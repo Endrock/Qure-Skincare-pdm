@@ -415,7 +415,10 @@
             "text": "<p>“I didn’t realize how big impact water has on our skin... I almost got used to my skin never getting better than mediocre, but this Water Filter is a game changer in my skincare routine.”</p>",
             "compare_image": "shopify://shop_images/transf_awaits1.webp",
             "country_image": "shopify://shop_images/australia_f_f99bf3a2-cb61-46d9-97d3-56c1ef8741c8.webp",
-            "username": "<p>Kim L.</p>"
+            "username": "<p>Kim L.</p>",
+            "product_url": "",
+            "product_heading": "",
+            "product_text": ""
           }
         },
         "slider_7mtD8L": {
@@ -425,7 +428,10 @@
             "text": "<p>“I never had any major issues with skin before I moved. Then I started to get irritation and my makeup would look cakey cause my skin was always so dry no matter what moisturiser I used. I didn’t change anything in my skincare routine except filtered water. I’m never washing my face with anything less than Q-urified water because my skin is so much better.”</p>",
             "compare_image": "shopify://shop_images/transf_awaits2.webp",
             "country_image": "shopify://shop_images/england_f_3a90e77c-3bac-43d1-84e6-3a2e91e0c7e2.webp",
-            "username": "<p>Hanna</p>"
+            "username": "<p>Hanna</p>",
+            "product_url": "",
+            "product_heading": "",
+            "product_text": ""
           }
         },
         "slider_KKJAJe": {
@@ -435,7 +441,10 @@
             "text": "<p>“My skin has cleared up so much thanks to Qure! I use the LED mask and water filter daily and it’s cleared up my acne, and my complexion so much smoother and less red! My skin feels soft and hydrated. I can actually walk out of the house without makeup now. THANK YOU QURE!!!”</p>",
             "compare_image": "shopify://shop_images/transf_awaits3.webp",
             "country_image": "shopify://shop_images/america_f_f699851b-1d61-49ee-b050-b09ddc8f3346.webp",
-            "username": "<p>Josie</p>"
+            "username": "<p>Josie</p>",
+            "product_url": "",
+            "product_heading": "",
+            "product_text": ""
           }
         }
       },
@@ -446,6 +455,7 @@
       ],
       "name": "t:sections.trusted-reviews.name",
       "settings": {
+        "background_color": "",
         "heading": "Your transformation awaits",
         "text_mobile": "<p>See the power of Qure filter technology, now available for your shower and faucet. </p>"
       }
@@ -458,9 +468,12 @@
         "text": "<p>“How do you<strong> reduce the things in your water that are causing issues</strong> with your skin?</p><p>This Qure filter is incredible –<strong> it’s the only filter I personally use</strong> to [reduce] chlorine and anything else that’s going to make your water harsh for your skin.”</p>",
         "image": "shopify://shop_images/doctor_shah_desk.webp",
         "image_mobile": "shopify://shop_images/doctor_shah_mob.webp",
-        "video_cover_image": "",
         "video_url": ""
       }
+    },
+    "main": {
+      "type": "page-qure-filters-offer",
+      "settings": {}
     },
     "video_review_slider_yBjMTk": {
       "type": "video-review-slider",
@@ -746,6 +759,7 @@
     "improve_skin_hydration_UDwAJ8",
     "trusted_reviews_b9NgPL",
     "trusted_recommended_awbjc8",
+    "main",
     "video_review_slider_yBjMTk",
     "qure_filters_offer_comparison_real_fake_FJifqy",
     "information_about_water_BDVnVm",
