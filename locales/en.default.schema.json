@@ -9,10 +9,18 @@
  */
 {
     "common": {
+        "seo_heading": "Seo header",
         "header": "Header",
         "left-header": "Left column header",
         "right-header": "Right column header",
         "text": "Text",
+        "description": "Description",
+        "jumpto": "Jump to",
+        "nextships": "Next Ships",
+        "date": "Date",
+        "percent": "Percent",
+        "soldout": "Soldout",
+        "reserved": "Reserved",
         "sub-text": "Sub text",
         "text-mobile": "Text mobile",
         "rating-text": "Rating text",
@@ -120,8 +128,8 @@
         "sticky-cta": {
             "name": "Sticky Call to Action"
         },
-        "product-gallery-buy": {
-            "name": "Product gallery buy"
+        "product-header": {
+            "name": "Product header"
         },
         "device-comparison": {
             "name": "Compare Q-Rejuvalight with Competitors"
