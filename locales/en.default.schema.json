@@ -72,7 +72,10 @@
         "youtube-url": "YouTube URL",
         "list": "List",
         "numbered-list": "Numbered list",
-        "information-box": "Information box"
+        "information-box": "Information box",
+        "gift": "Gift",
+        "product": "Product",
+        "price_limit": "Price limit"
     },
     "blocks": {
         "block-card": {
