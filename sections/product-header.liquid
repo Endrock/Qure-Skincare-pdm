@@ -30,7 +30,7 @@
                         </div>
                     {% endif %}
 
-                    {% render 'product-buy-button', product_price: product_sale_price, product_variant_id: product_variant_id %}
+                    {% render 'product-buy-button', product_price: product_sale_price, product_variant_id: product_variant_id, section: section %}
                     {% render 'product-buy-button-bottom', product_price_divided: product_price_divided, button_link: 'https://qureskincare.com/pages/derm-reviews' %}
                     {% render 'product-next-ships', section: section %}
 
@@ -73,6 +73,18 @@
             "type": "richtext",
             "id": "description",
             "label": "t:common.description"
+        },
+        {
+            "type": "checkbox",
+            "id": "reserved",
+            "label": "t:common.reserved.label",
+            "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "soldout",
+            "label": "t:common.soldout.label",
+            "default": false
         }
     ],
     "blocks": [

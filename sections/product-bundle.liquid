@@ -35,7 +35,7 @@
                         <div class="discount_percentage">{{ product_discount }}%</div>
                     </div>
 
-                    {% render 'product-buy-button', product_price: product_sale_price, product_variant_id: product_variant_id %}
+                    {% render 'product-buy-button', product_price: product_sale_price, product_variant_id: product_variant_id, section: blank %}
                     {% render 'product-buy-button-bottom', product_price_divided: product_price_divided, button_link: 'https://qureskincare.com/pages/derm-reviews' %}
                     {% render 'product-saveup', button_link: 'https://qureskincare.com/pages/exclusive-holiday-bundle-deal-new' %}
                 </div>
