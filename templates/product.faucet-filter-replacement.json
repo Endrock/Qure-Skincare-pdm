@@ -81,7 +81,8 @@
       "settings": {
         "heading": "Meet the Qure Faucet Filter",
         "text": "<p>Great skin begins with the source – the water you use daily. The Qure Faucet Filter <strong>effectively reduces harmful skin irritants</strong> that can affect your skin's health and appearance.</p>",
-        "text_mobile": "",
+        "quote": "",
+        "quote-mobile": "",
         "image_position": "left",
         "sub_text": "",
         "image": "shopify://shop_images/facewashing_faucet.webp",
@@ -195,6 +196,7 @@
         "text": "<p>“<strong>Harsh water can definitely damage your skin</strong> on daily basis and it impacts everything you are doing with your skincare\"</p>",
         "image_text": "",
         "image": "shopify://shop_images/doctor-maxfield.webp",
+        "image_mobile": "shopify://shop_images/doctor-maxfield.webp",
         "video_url": "",
         "wistia_url": ""
       }
@@ -628,7 +630,7 @@
       "name": "t:sections.faq.name",
       "settings": {
         "heading": "Have questions?",
-        "text": "",
+        "text": "Don't see your question?",
         "button_label": "Ask us",
         "button_url": "https://qureskincare.com/pages/contact-us"
       }
