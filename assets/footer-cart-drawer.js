@@ -18,6 +18,7 @@ document.addEventListener('cart.requestComplete', (event) => {
 const reloadDrawer = (array) => {
     const cart = array.detail.cart;
     const source = array.detail.source;
+    const input = array.detail.input;
     const insurance = array.detail.insurance;
     const gift = array.detail.gift;
 
@@ -27,6 +28,13 @@ const reloadDrawer = (array) => {
     .then(() => {
         if (source === 'addToCart') {
             showCart();
+        }
+
+        if(source == 'changeCart')
+        {
+            if (typeof syncCart === 'function') {
+                syncCart(input);
+            }
         }
 
         bindForms();
@@ -120,26 +128,33 @@ const showCart = () => {
     }
 };
 
-const toogleGift = (cart) => {
-    document.querySelectorAll('form.footer-cart-drawer-gift[action$="/cart/add"]').forEach((form) => {
+const toogleGift = async (cart) => {
+    const forms = document.querySelectorAll('form.footer-cart-drawer-gift[action$="/cart/add"]');
+
+    for (const form of forms) {
         const formData = new FormData(form);
         const price_limit = formData.get('properties[_price_limit]');
 
-        const giftItem = cart.items.find(item => item.id === +(formData.get('id')) && item.properties && item.properties['_required_validation']);
+        const giftItem = cart.items.find(item => 
+            item.id === +(formData.get('id')) && 
+            item.properties && 
+            item.properties['_required_validation']
+        );
 
-        if(!giftItem) {
-            if(cart.total_price >= price_limit) {
-                addToCart(formData, undefined, true);
+        if (!giftItem) {
+            if (cart.total_price >= price_limit) {
+                await addToCart(formData, undefined, true);
             }
-        }
-        else {
-            if(cart.total_price < price_limit) {
+        } else {
+            if (cart.total_price < price_limit) {
                 formData.set('quantity', 0);
-                changeCart(formData, undefined, true)
+                await changeCart(formData, undefined, true);
             }
         }
-    });
-}
+
+        await new Promise(resolve => setTimeout(resolve, 100));;
+    }
+};
 
 const toogleInsurance = () => {
     document.querySelectorAll('form[action$="/cart/add"]:has(input[type="checkbox"]#insurance)').forEach((form) => {
@@ -206,6 +221,39 @@ const __reloadInsurance = (cart) => {
     }
 };
 
+const addToCartJson = (input, insurance = undefined, gift = undefined) => {
+    return fetch((window.Shopify?.routes?.root || '/') + 'cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: input })
+    })
+    .then(response => response.json())
+    .then((addedItem) => {
+        return getCartState().then(cart => {
+            const eventDetail = {
+                cart: cart,
+                source: 'addToCart'
+            };
+
+            if (typeof insurance !== 'undefined') {
+                eventDetail.insurance = insurance;
+            }
+
+            if (typeof gift !== 'undefined') {
+                eventDetail.gift = gift;
+            }
+
+            const event = new CustomEvent('cart.requestComplete', { detail: eventDetail });
+            document.dispatchEvent(event);
+            //console.log('The product was added to the cart:', addedItem);
+            return cart;
+        });
+    })
+    .catch((error) => {
+        console.error('Error cart adding:', error);
+    });
+};
+
 const addToCart = (input, insurance = undefined, gift = undefined) => {
     return fetch((window.Shopify?.routes?.root || '/') + 'cart/add.js', {
         method: 'POST',
@@ -245,6 +293,16 @@ const updateCart = (input) => {
     })
     .then(response => response.json())
     .then(cart => {
+
+        const eventDetail = {
+            cart: cart,
+            source: 'updateCart',
+            input: input
+        };
+
+        const event = new CustomEvent('cart.requestComplete', { detail: eventDetail });
+        document.dispatchEvent(event);
+
         return cart;
     })
     .catch((error) => {
@@ -263,7 +321,8 @@ const changeCart = (input, insurance = undefined, gift = undefined) => {
 
         const eventDetail = {
             cart: cart,
-            source: 'changeCart'
+            source: 'changeCart',
+            input: input
         };
 
         if (typeof insurance !== 'undefined') {
