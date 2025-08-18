@@ -89,7 +89,6 @@
       "settings": {
         "heading": "Qure’s Micro-Infusion goes where your skin cream can’t…",
         "text": "<p>Its tiny, almost painless, microneedles penetrate beyond the skin’s surface increasing serum absorption and delivering powerful active ingredients exactly where they’re needed!</p>",
-        "text_mobile": "",
         "image_position": "left",
         "sub_text": "",
         "button_label": "",
@@ -185,7 +184,6 @@
       "settings": {
         "heading": "Introducing the Qure Micro-Infusion System",
         "text": "<ul><li>Helps reduce appearance of fine lines</li><li>Wake up with dewy looking, glowing skin</li><li>Reveal brighter looking, firmer feeling skin</li><li>Help fade appearance of dark spots and acne marks</li></ul>",
-        "text_mobile": "",
         "image_position": "right",
         "sub_text": "",
         "image": "shopify://shop_images/qure-micro-infusion_men.webp",
@@ -335,7 +333,6 @@
       "settings": {
         "heading": "Dual action for twice the results",
         "text": "<p>Qure’s Micro-Infusion System has a one-two punch, making it uniquely effective.<br/><br/></p>",
-        "text_mobile": "",
         "image_position": "left",
         "sub_text": "Perfect for anyone wanting to add a fresh, dewy glowing look to their skin, especially before an event or occasion.",
         "image": "shopify://shop_images/dual-action_men.webp",

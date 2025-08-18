@@ -87,9 +87,9 @@
         "heading": "Get clinic-level results from home – minus the ‘clinical’ costs.",
         "text": "<p>Join <strong>30,000+ customers</strong> feeling more confident.</p>",
         "button": "Shop All Best Sellers",
-        "button_url": "#",
+        "button_url": "https://qureskincare.com/collections/best-sellers",
         "button_mobile": "Shop Best Sellers",
-        "button_url_mobile": "#",
+        "button_url_mobile": "https://qureskincare.com/collections/best-sellers",
         "image": "shopify://shop_images/hero.webp",
         "image_mobile": "shopify://shop_images/hero-mob.webp"
       }
@@ -301,7 +301,9 @@
       "settings": {
         "background_color": "#ffffff",
         "heading": "Results you’ll see with your own eyes",
-        "text_mobile": ""
+        "text_mobile": "",
+        "button_label": "",
+        "button_url": ""
       }
     },
     "index-qure-products": {
@@ -432,8 +434,10 @@
       "settings": {
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“This treatment is an at-home option for those who want to <strong>avoid the hassle or cost of going to the office”.</strong></p>",
+        "image_text": "",
         "video_cover_image": "shopify://shop_images/shah-maxfield.webp",
-        "video_url": "https://www.youtube.com/watch?v=mVdncsTAXiA"
+        "video_url": "https://www.youtube.com/watch?v=mVdncsTAXiA",
+        "wistia_url": ""
       }
     },
     "video_slider_MWbVWw": {
