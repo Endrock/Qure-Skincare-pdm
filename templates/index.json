@@ -384,7 +384,7 @@
           "settings": {
             "text": "<p>Signs of aging, fine lines and wrinkles</p>",
             "button": "Shop Now",
-            "button_url": "https://qureskincare.com/collections/fine-line-wrinkles",
+            "button_url": "#",
             "image": "shopify://shop_images/gq-1.webp",
             "image_mobile": "shopify://shop_images/gq-mob-1.webp"
           }
