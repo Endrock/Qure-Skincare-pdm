@@ -9,6 +9,8 @@
  */
 {
     "common": {
+        "section": "Section",
+        "section_id": "Section id",
         "seo_heading": "Seo header",
         "header": "Header",
         "header-mobile": "Header mobile",
@@ -38,6 +40,7 @@
         "reserved": "Reserved",
         "sub-text": "Sub text",
         "text-mobile": "Text mobile",
+        "rating": "Rating",
         "rating-text": "Rating text",
         "link-text": "Link text",
         "image-text": "Image text",
@@ -208,6 +211,9 @@
         },
         "page-header": {
             "name": "Page header"
+        },
+        "page-header-purchase-form": {
+            "name": "Page header purchase form"
         },
         "device-comparison": {
             "name": "Compare products with Competitors"
