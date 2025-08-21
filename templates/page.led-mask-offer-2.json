@@ -9,11 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "page-led-mask-offer-2",
-      "disabled": true,
-      "settings": {}
-    },
     "product_header_6BFNQx": {
       "type": "product-header",
       "name": "t:sections.product-header.name",
@@ -841,7 +836,6 @@
     }
   },
   "order": [
-    "main",
     "product_header_6BFNQx",
     "logos_GdDRJU",
     "card_slider_9hzbK3",
