@@ -33,7 +33,12 @@
                             <h2 class="banner-text--heading">{{ section.settings.heading }}</h2>
                         {% endif %}
                         {% if section.settings.text != blank %}
-                            <div class="banner-text--des" style="--text-mt: 32px; --text-mb: 32px;">{{ section.settings.text | replace: '<em>', '<span>' | replace: '</em>', '</span>' }}</div>
+                            <div class="banner-text--des" style="--text-mt: 32px; --text-mb: 32px;">{{ section.settings.text
+                                | replace: '<em>', '<span>' 
+                                | replace: '</em>', '</span>' 
+                                | replace: '<p>[strong]', '<div class="fs-20 fw-600 mb-10">'
+                                | replace: '[/strong]</p>', '</div>' }}
+                            </div>
                         {% endif %}
                         {% if section.settings.button_label != blank and section.settings.button_url != blank %}
                             <a href="{{ section.settings.button_url }}" class="banner-text--button btn btn--primary w-mob-100">{{ section.settings.button_label }}</a>
@@ -109,7 +114,12 @@
                             <div class="banner-text-quotes d-none" style="--text-quote-mt:24px;--text-quote-mb: 0px;">“{{ section.settings.quote-mobile | replace: '<p>', '' | replace: '</p>', '' }}</div>
                         {% endif %}
                         {% if section.settings.text != blank %}
-                            <div class="banner-text--des" style="--text-mt: 24px; --text-mb: 24px;">{{ section.settings.text | replace: '<p>', '' | replace: '</p>', '' }}</div>
+                            <div class="banner-text--des" style="--text-mt: 24px; --text-mb: 24px;">{{ section.settings.text 
+                                | replace: '<em>', '<span>' 
+                                | replace: '</em>', '</span>' 
+                                | replace: '<p>[strong]', '<div class="fs-20 fw-600 mb-10">'
+                                | replace: '[/strong]</p>', '</div>' }}
+                            </div>
                         {% endif %}
                         {% if section.settings.button_label != blank and section.settings.button_url != blank %}
                             <a href="{{ section.settings.button_url }}" class="banner-text--button btn btn--primary w-100 text-uppercase">{{ section.settings.button_label }}</a>
@@ -149,8 +159,8 @@
                                             {% if block.settings.image != blank and block.settings.text != blank %}
                                                 <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}" class="mr-0 mr-md-10 mb-10 mb-md-0">
                                                 {{ block.settings.text 
-                                                | replace: '<p>', '<span>' 
-                                                | replace: '</p>', '</span>'
+                                                | replace: '<p>', '' 
+                                                | replace: '</p>', ''
                                                 | replace: '<strong>', '<span class="d-md-none">'
                                                 | replace: '</strong>', '</span>' }}
                                             {% endif %}

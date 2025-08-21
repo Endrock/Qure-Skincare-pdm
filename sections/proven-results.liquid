@@ -71,8 +71,8 @@
                                         class="fa-solid fa-xmark fs-30"></i></button>
                             </div>
                             <div class="modal-body pb-40 px-20 px-md-40">
-                                {% assign slider_count = 0 %}
                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    {% assign slider_count = 0 %}
                                     {% for block in section.blocks %}
                                         {% if block.type == 'slider' %}
                                             {% assign slider_count = slider_count | plus: 1 %}

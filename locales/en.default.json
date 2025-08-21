@@ -32,6 +32,12 @@
             "info_image": "https://qureskincaredns-main.com/assets/images/i.svg",
             "study_text": "Study"
         },
+        "exclusive-offer": {
+            "include_text": "Included free"
+        },
+        "proof-in-numbers": {
+            "study_text": "Study"
+        },
         "trusted-reviews": {
             "badge_text": "Verified customer",
             "badge_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
@@ -39,7 +45,7 @@
         "trusted-recommended": {
             "badge_image": "https://qureskincaredns-main.com/sections/isolated/experts/images/tick_new.svg",
             "badge_image_mobile": "https://qureskincaredns-main.com/assets/images/tick_new.svg",
-            "badge_text": "Dermatologist Approved",
+            "badge_text": "Dermatologist Approved"
         },
         "video-slider":{
                 "text": "Watch: How To Install",

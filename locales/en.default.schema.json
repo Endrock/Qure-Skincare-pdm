@@ -19,6 +19,7 @@
         "tip": "Tip",
         "left-tip": "Left tip",
         "text": "Text",
+        "badge-text": "Badge text",
         "text-with-progress": "Text with progress",
         "popup": "Popup",
         "popup-header": "Popup header",
@@ -64,6 +65,8 @@
         "hash": "Hash",
         "left": "Left",
         "right": "Right",
+        "left-block": "Left block",
+        "right-block": "Right block",
         "lane": "Lane",
         "accordion": "Accordion",
         "slider": "Slider",
@@ -81,6 +84,9 @@
         "information-box": "Information box",
         "gift": "Gift",
         "product": "Product",
+        "price": "Price",
+        "price-before": "Price before",
+        "price-after": "Price after",
         "price_limit": "Price limit",
         "layout": "Layout",
         "mode": "Mode",
@@ -104,8 +110,23 @@
         "announcement-bar": {
             "name": "Announcement bar"
         },
+        "banner-with-content": {
+            "name": "Banner with content"
+        },
+        "card-slider": {
+            "name": "Card slider"
+        },
+        "exclusive-offer": {
+            "name": "Eclusive offer"
+        },
         "get-smoother-skin": {
             "name": "Get smoother skin"
+        },
+        "proof-in-numbers": {
+            "name": "Proof in numbers"
+        },
+        "led-mask-offer": {
+            "name": "LED mask offer"
         },
         "beauty-benefits": {
             "name": "Beauty benefits"
