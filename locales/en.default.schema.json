@@ -9,10 +9,15 @@
  */
 {
     "common": {
+        "preorder": "Preorder",
+        "preselect": "Preselect",
+        "type": "Type",
+        "product-type": "Product type",
         "section": "Section",
         "section_id": "Section id",
         "seo_heading": "Seo header",
         "header": "Header",
+        "subheader": "Subheader",
         "header-mobile": "Header mobile",
         "left-header": "Left column header",
         "right-header": "Right column header",
@@ -244,9 +249,6 @@
         },
         "page-header": {
             "name": "Page header"
-        },
-        "page-header-purchase-form": {
-            "name": "Page header purchase form"
         },
         "device-comparison": {
             "name": "Compare products with Competitors"
@@ -561,6 +563,21 @@
                     "settings":{
                         "real-text": "Text for real thing",
                         "fake-text": "Text for fake thing"
+                    }
+                }
+            }
+        },
+        "purchase-form-landing": {
+            "name": "Purchase form landing",
+            "settings": {
+                "form_name": "Form name"
+            },
+            "blocks": {
+                "product": {
+                    "settings": {
+                        "preorder_text": "Preorder text",
+                        "preorder_date_soldout": "Soldout date",
+                        "preorder_date_reserved": "Reserved date"
                     }
                 }
             }

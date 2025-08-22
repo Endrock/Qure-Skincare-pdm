@@ -65,23 +65,42 @@ function __landing__initProduct() {
 }
 
 function __landing__initScripts() {
-    $('.' + __section_landing + ' .step_conten_blocks .planBlock').click(__landing__handlerPlanBlock);
+    document.querySelectorAll('.' + __section_landing + ' .step_conten_blocks .planBlock').forEach(el => {
+        el.addEventListener('click', __landing__handlerPlanBlock);
+    });
 }
 
-function __landing__handlerPlanBlock () {
-    var product_variant_id = $(this).attr("data-product_variant_id");
-    var soldout = $(this).attr("data-soldout");
-    var preorder = $(this).attr("data-preorder");
+function __landing__handlerPlanBlock() {
+    const product_variant_id = this.getAttribute("data-product_variant_id");
+    const soldout = this.getAttribute("data-soldout");
+    const preorder = this.getAttribute("data-preorder");
 
     __landing__updateProductCheckbox(this);
     __landing__updateProductFormButton(product_variant_id, soldout);
     __landing__clearPreorderBoxes();
     __landing__tooglePreorderBox(preorder, product_variant_id);
 
-    $('.' + __section_landing + " .total_price").find(".regular_price").text($(this).find(".regular_price").text());
-    $('.' + __section_landing + " .total_price").find(".sale_price").text($(this).find(".sale_price:visible").text().trim());
-    $('.' + __section_landing + " .btn_value").text($(this).attr("data-per"));
-    $('.' + __section_landing + " .pay_today").text($(this).attr("data-pay"));
+    const regularPriceContainer = document.querySelector("." + __section_landing + " .total_price .regular_price");
+    const regularPriceSource = this.querySelector(".regular_price");
+    if (regularPriceContainer && regularPriceSource) {
+        regularPriceContainer.textContent = regularPriceSource.textContent;
+    }
+
+    const salePriceContainer = document.querySelector("." + __section_landing + " .total_price .sale_price");
+    const salePriceSource = this.querySelector(".sale_price:not([style*='display: none'])");
+    if (salePriceContainer && salePriceSource) {
+        salePriceContainer.textContent = salePriceSource.textContent.trim();
+    }
+
+    const btnValueContainer = document.querySelector("." + __section_landing + " .btn_value");
+    if (btnValueContainer) {
+        btnValueContainer.textContent = this.getAttribute("data-per") || "";
+    }
+
+    const payTodayContainer = document.querySelector("." + __section_landing + " .pay_today");
+    if (payTodayContainer) {
+        payTodayContainer.textContent = this.getAttribute("data-pay") || "";
+    }
 }
 
 function __landing__updateProductCheckbox(element)
@@ -184,10 +203,10 @@ function __landing__updatePreorderBox(targetBox, product_variant_id)
     if (preorder_percent && preorder_percent.innerHTML !== '') {
         targetBox.querySelector('.preorder_percent').innerHTML = preorder_percent.innerHTML;
 
-        const match = preorder_percent.innerHTML.match(/\d+%/);
+        const match = preorder_percent.innerHTML.match(/\d+/);
         if (match) {
             const percentText = match[0];
-            targetBox.querySelector('.preorder_percent').style.setProperty('--bgPercent', percentText);
+            targetBox.querySelector('.preorder_percent_style').style.setProperty('--progress-width', percentText + '%');
         }                
     }            
 }
