@@ -1,0 +1,169 @@
+{% capture preorder_box %}
+    {% render 'product-page-next-ships', section: section, class: 'hide preorder_box' %}
+{% endcapture %}
+
+{% if section.settings.hide_product_types == true and section.settings.hide_payment_types == true %}
+    {% comment %} here need to hide step {% endcomment %}
+{% endif %}
+
+
+<div class="qure__bundle-steps">
+    <div class="qure-bundle-stps-title mb-16">{{ 'purchase-form.settings.select-product' | t }}</div>
+        {% render 'purchase-form-product' array: __idsArray1, preorder_box: preorder_box %}
+        {% render 'purchase-form-product' array: __idsArray2, preorder_box: preorder_box %}
+        {% render 'purchase-form-product' array: __idsArray3, preorder_box: preorder_box %}
+     <div id="{{ section.settings.form_name }}-body-{{ section.id }}"></div>
+</div> 
+
+
+
+{% comment %} 
+<div class="qure-bundle-container" style="--col-gap: 10px;--col-gap-mb:10px">
+    <div class="bundle-supply d-flex col-gap align-items-end" id="myTab" role="tablist">
+        <div class="qure-supply-item col" role="presentation">
+            <input type="radio" name="supply" id="three-months" checked="">
+            <label for="three-months" class="supply-link active pt-0" id="m-3-tab"
+                data-bs-toggle="tab" data-bs-target="#m-3-tab-pane" type="button" role="tab"
+                aria-controls="m-3-tab-pane" aria-selected="true">
+                <div class="qure-best-value">Best Value <i
+                        class="fa-sharp fa-solid fa-star-sharp"></i></div>
+                <div class="qure__supply-img"><img
+                        src="https://qureskincaredns-main.com/sections/isolated/micro-infusion-pdp/images/3_month_mixed.webp"
+                        class="img-fluid"></div>
+                <div class="qure__supply-content">
+                    <p class="mb-0">3 Months</p>
+                    <p class="fs-14 mb-15">(6 treatments)</p>
+                    <div class="qure__supply-price">
+                        <span class="qure__supply-price-sale">$XXX</span>
+                        <span class="qure__supply-price-reg-sale">$XXX</span>
+                    </div>
+                    <span class="qure__supply-badge">38% OFF</span>
+                </div>
+            </label>
+        </div>
+        <div class="qure-supply-item col" role="presentation">
+            <input type="radio" name="supply" id="two-months">
+            <label for="two-months" class="supply-link" id="m-2-tab" data-bs-toggle="tab"
+                data-bs-target="#m-2-tab-pane" type="button" role="tab"
+                aria-controls="m-2-tab-pane" aria-selected="false" tabindex="-1">
+                <div class="qure__supply-img"><img
+                        src="https://qureskincaredns-main.com/sections/isolated/micro-infusion-pdp/images/2_month_mixed.webp"
+                        class="img-fluid"></div>
+                <div class="qure__supply-content">
+                    <p class="mb-0">2 Months</p>
+                    <p class="fs-14 mb-15">(4 treatments)</p>
+                    <div class="qure__supply-price">
+                        <span class="qure__supply-price-sale">$XXX</span>
+                        <span class="qure__supply-price-reg-sale">$XXX</span>
+                    </div>
+                    <span class="qure__supply-badge">19% OFF</span>
+                </div>
+            </label>
+        </div>
+        <div class="qure-supply-item col" role="presentation">
+            <input type="radio" name="supply" id="one-months">
+            <label for="one-months" class="supply-link" id="m-1-tab" data-bs-toggle="tab"
+                data-bs-target="#m-1-tab-pane" type="button" role="tab"
+                aria-controls="m-1-tab-pane" aria-selected="false" tabindex="-1">
+                <div class="qure__supply-img"><img
+                        src="https://qureskincaredns-main.com/sections/isolated/micro-infusion-pdp/images/1_month_mixed.webp"
+                        class="img-fluid"></div>
+                <div class="qure__supply-content">
+                    <p class="mb-0">1 Months</p>
+                    <p class="fs-14 mb-15">(2 treatments)</p>
+                    <div class="qure__supply-price">
+                        <span class="qure__supply-price-reg">$XXX</span>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div class="tab-content mt-25" id="myTabContent">
+        <div class="tab-pane fade show active" id="m-3-tab-pane" role="tabpanel"
+            aria-labelledby="m-3-tab" tabindex="0">
+            <div class="qure_bundle-accorion">
+                <button class="qure_bundle-btn collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#3monthCollapse"
+                    aria-expanded="false" aria-controls="3monthCollapse">
+                    What is in the 3 Month Supply bundle?
+                </button>
+                <div id="3monthCollapse" class="qure_bundle-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body mt-12">
+                        <ul class="qure__list-check">
+                            <li>1 Micro-Infusion devices (valued at $80)</li>
+                            <li>5 clinical-grade micro-needling heads (valued at $50)</li>
+                            <li>6 clinically formulated 4ml serums to treat your specific
+                                skin
+                                concerns (valued at $120)</li>
+                            <li>Worldwide shipping (valued at $25)</li>
+                            <li>Risk-free 90 day money-back guarantee to trial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="m-2-tab-pane" role="tabpanel"
+            aria-labelledby="m-2-tab" tabindex="0">
+            <div class="qure_bundle-accorion">
+                <button class="qure_bundle-btn collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#2monthCollapse"
+                    aria-expanded="false" aria-controls="2monthCollapse">
+                    What is in the 2 Month Supply bundle?
+                </button>
+                <div id="2monthCollapse" class="qure_bundle-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body mt-12">
+                        <ul class="qure__list-check">
+                            <li>1 Micro-Infusion device (valued at $80)</li>
+                            <li>4 clinical-grade micro-needling heads (valued at $40)</li>
+                            <li>4 clinically formulated 4ml serums to treat your specific
+                                skin
+                                concerns (valued at $80)</li>
+                            <li>Worldwide shipping (valued at $25)</li>
+                            <li>Risk-free 90 day money-back guarantee to trial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="m-1-tab-pane" role="tabpanel"
+            aria-labelledby="m-1-tab" tabindex="0">
+            <div class="qure_bundle-accorion">
+                <button class="qure_bundle-btn collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#1monthCollapse"
+                    aria-expanded="false" aria-controls="1monthCollapse">
+                    What is in the 1 Month Supply bundle?
+                </button>
+                <div id="1monthCollapse" class="qure_bundle-collapse collapse"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body mt-12">
+                        <ul class="qure__list-check">
+                            <li>1 Micro-Infusion device (valued at $80)</li>
+                            <li>2 clinical-grade micro-needling heads (valued at $20)</li>
+                            <li>2 clinically formulated 4ml serums to treat your specific
+                                skin
+                                concerns (valued at $40)</li>
+                            <li>Worldwide shipping (valued at $25)</li>
+                            <li>Worldwide shipping (valued at $25)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+{% endcomment %}
+
+
+{% comment %} 
+<div class="supply_steps">
+    <div class="step_counter"><span class="">{% if section.settings.hide_product_types == true %}1{% else %}2{% endif %}</span></div>
+    <div class="step_block">
+        {% render 'purchase-form-product' array: __idsArray1, preorder_box: preorder_box %}
+        {% render 'purchase-form-product' array: __idsArray2, preorder_box: preorder_box %}
+        {% render 'purchase-form-product' array: __idsArray3, preorder_box: preorder_box %}
+        <div id="{{ section.settings.form_name }}-body-{{ section.id }}"></div>
+    </div>
+</div> 
+{% endcomment %}
