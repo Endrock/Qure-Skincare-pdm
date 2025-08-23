@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "page",
+      "type": "page-affiliate-page",
       "settings": {}
     }
   },

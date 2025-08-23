@@ -9,6 +9,7 @@
  */
 {
     "common": {
+        "payment": "Payment",
         "preorder": "Preorder",
         "preselect": "Preselect",
         "type": "Type",
@@ -583,6 +584,22 @@
                         "preorder_text": "Preorder text",
                         "preorder_date_soldout": "Soldout date",
                         "preorder_date_reserved": "Reserved date"
+                    }
+                }
+            }
+        },
+        "purchase-form": {
+            "name": "Purchase form",
+            "settings": {
+                "form_name": "Form name"
+            },
+            "blocks": {
+                "product": {
+                    "settings": {
+                        "preorder_text": "Preorder text",
+                        "preorder_date_soldout": "Soldout date",
+                        "preorder_date_reserved": "Reserved date",
+                        "included_text": "Included text"
                     }
                 }
             }

@@ -275,7 +275,12 @@
             "select-product": "Select Your supply:",
             "save": "& Save",
             "off": "OFF",
-            "best": "Best Value"
+            "best": "Best Value",
+            "payment-option": "Select A Payment Option",
+            "pay-full": "Pay in full",
+            "onetime-payment": "One-time payment with:",
+            "pay-today": "Pay today only",
+            "monthly-payment": "Monthly interest-free payments with:"
 
         }
     },
