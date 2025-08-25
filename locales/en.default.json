@@ -103,7 +103,7 @@
         "subheader": "+ FREE Faucet Filter",
         "warranty": "Lifetime Warranty",
         "compatibility": "99% Fit Compatibility",
-        "text": "Repair skin and hair with dual filters that remove up to 99% of chlorine, heavy metals and contaminants.",
+        "text": "Repair ski111n and hair with dual filters that remove up to 99% of chlorine, heavy metals and contaminants.",
         "select_color": "Select Your Color:",
         "free": "FREE",
         "white": "White",
@@ -141,7 +141,7 @@
     "settings": {
       "buy-button-label": "Buy Now",
       "reserved-button-label": "Reserve Now",
-      "soldout-button-label": "Soldout",
+      "soldout-button-label": "Sold Out",
       "buy-button-bottom": {
         "heading": "OR pay 4 monthly payments of {{ product_price_divided }} with",
         "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='{{ button_link }}' class='text-black text-decoration-underline'>See More</a>.",
@@ -270,7 +270,7 @@
     "settings": {
       "buy-button-label": "Buy Now",
       "reserve-button-label": "Reserve Now",
-      "soldout-button-label": "Soldout",
+      "soldout-button-label": "Sold Out",
       "select-type": "Select Your Serum:",
       "select-product": "Select Your supply:",
       "save": "& Save",
