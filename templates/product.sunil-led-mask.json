@@ -56,7 +56,7 @@
         },
         "nextships_A7": {
           "type": "nextships",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "date": "25 September",
             "percent": 55,
@@ -66,22 +66,36 @@
         },
         "limited_offer_A8": {
           "type": "limited-offer",
-          "disabled": false,
           "settings": {
             "sum": "$100",
             "code": "QURE100"
           }
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "description_A10": {
+          "type": "description",
+          "settings": {}
+        },
+        "price_A11": {
+          "type": "price",
+          "settings": {}
         }
       },
       "block_order": [
+        "description_A10",
+        "price_A11",
+        "button_A9",
+        "limited_offer_A8",
+        "nextships_A7",
         "jumpto_A1",
         "jumpto_A2",
         "jumpto_A3",
         "jumpto_A4",
         "jumpto_A5",
-        "jumpto_A6",
-        "nextships_A7",
-        "limited_offer_A8"
+        "jumpto_A6"
       ],
       "name": "t:sections.product-header.name",
       "settings": {

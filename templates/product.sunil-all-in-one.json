@@ -48,9 +48,33 @@
             "button-label": "FAQs",
             "button-url": "#faq"
           }
+        },
+        "limited_offer_A8": {
+          "type": "limited-offer",
+          "disabled": true,
+          "settings": {
+            "sum": "$100",
+            "code": "QURE100"
+          }
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "description_iPBNaS": {
+          "type": "description",
+          "settings": {}
+        },
+        "price_A11": {
+          "type": "price",
+          "settings": {}
         }
       },
       "block_order": [
+        "price_A11",
+        "description_iPBNaS",
+        "button_A9",
+        "limited_offer_A8",
         "nextships_KzHDC3",
         "jumpto_J8aUQH",
         "jumpto_UrBwXR",

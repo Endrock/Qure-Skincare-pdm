@@ -12,6 +12,36 @@
     "product_header_YnMCRD": {
       "type": "product-header",
       "blocks": {
+        "nextships_iPBNaP": {
+          "type": "nextships",
+          "disabled": true,
+          "settings": {
+            "date": "{date}:",
+            "percent": 48,
+            "date_soldout": "{Previous date}",
+            "date_reserved": "{date}"
+          }
+        },
+        "limited_offer_A8": {
+          "type": "limited-offer",
+          "disabled": true,
+          "settings": {
+            "sum": "$100",
+            "code": "QURE100"
+          }
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "description_iPBNaS": {
+          "type": "description",
+          "settings": {}
+        },
+        "price_A11": {
+          "type": "price",
+          "settings": {}
+        },
         "jumpto_bdVMhB": {
           "type": "jumpto",
           "settings": {
@@ -49,6 +79,11 @@
         }
       },
       "block_order": [
+        "price_A11",
+        "description_iPBNaS",
+        "button_A9",
+        "limited_offer_A8",
+        "nextships_iPBNaP",
         "jumpto_bdVMhB",
         "jumpto_WXKCiE",
         "jumpto_n3zFHT",

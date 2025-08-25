@@ -9,6 +9,7 @@
  */
 {
     "common": {
+        "button": "Button",
         "days": "Days",
         "limited-offer": "Limited offer",
         "code": "Code",

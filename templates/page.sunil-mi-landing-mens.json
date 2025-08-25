@@ -12,6 +12,14 @@
     "page_header_jUJyDD": {
       "type": "page-header",
       "blocks": {
+        "link_iPBNaS": {
+          "type": "link",
+          "settings": {}
+        },
+        "description_iSDNaK": {
+          "type": "description",
+          "settings": {}
+        },
         "video_jEEVjS": {
           "type": "video",
           "settings": {
@@ -57,6 +65,8 @@
         }
       },
       "block_order": [
+        "link_iPBNaS",
+        "description_iSDNaK",
         "video_jEEVjS",
         "jumpto_jEyVj6",
         "jumpto_P7zN3P",

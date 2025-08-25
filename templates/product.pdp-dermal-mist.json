@@ -41,13 +41,37 @@
             "date_soldout": "28 July",
             "date_reserved": "3 August"
           }
+        },
+        "limited_offer_A8": {
+          "type": "limited-offer",
+          "disabled": true,
+          "settings": {
+            "sum": "$100",
+            "code": "QURE100"
+          }
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "description_iPBNaS": {
+          "type": "description",
+          "settings": {}
+        },
+        "price_A11": {
+          "type": "price",
+          "settings": {}
         }
       },
       "block_order": [
+        "price_A11",
+        "description_iPBNaS",
+        "button_A9",
+        "limited_offer_A8",
+        "nextships_VCb3mM",
         "jumpto_gVULpr",
         "jumpto_wCrT8L",
-        "jumpto_UfjfzQ",
-        "nextships_VCb3mM"
+        "jumpto_UfjfzQ"
       ],
       "name": "t:sections.product-header.name",
       "settings": {
