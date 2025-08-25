@@ -1091,6 +1091,15 @@
     "purchase_form_Lj9cVS": {
       "type": "purchase-form",
       "blocks": {
+        "nextships_5rd2bS": {
+          "type": "nextships",
+          "settings": {
+            "date": "25 September",
+            "percent": 55,
+            "date_soldout": "28 July",
+            "date_reserved": "3 August"
+          }
+        },
         "payment_type_3zQTmH": {
           "type": "payment_type",
           "settings": {
@@ -1285,6 +1294,7 @@
         }
       },
       "block_order": [
+        "nextships_5rd2bS",
         "payment_type_3zQTmH",
         "payment_type_B6Pzbh",
         "type_hHPdgJ",
@@ -1306,16 +1316,7 @@
       "settings": {
         "heading": "Choose your treatment",
         "text": "All orders are one-time purchases. No extra charges, and no hidden fees.",
-        "hide_product_types": false,
-        "hide_payment_types": false,
         "image": "shopify://shop_images/tami-cropped.webp",
-        "icon_image1": "shopify://shop_images/money-back.svg",
-        "icon_text1": "90 Day Money Back Guarantee",
-        "icon_image2": "shopify://shop_images/shipping-form.svg",
-        "icon_text2": "Free World-Wide Shipping over $100",
-        "icon_image3": "shopify://shop_images/derma-ftr.svg",
-        "icon_text3": "Dermatologist Approved",
-        "bottom_text": "<p><strong>Have questions about MicroInfusion? </strong><a href=\"https://qureskincare.com/pages/test-landing-page#\">Chat with us!</a></p>",
         "form_name": "purchase-form-second"
       }
     },

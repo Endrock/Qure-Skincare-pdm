@@ -23,7 +23,6 @@
 
                     {% assign array_count = array.size %}
 
-                    {% assign num = 0 %}
                     {%- for __id in array -%}
                         {% assign block = section.blocks | where: "id", __id | first %}
                         {% if block.type == 'product' %}
@@ -139,7 +138,6 @@
                                 {% endif %}
 
                             {% endif %}
-                            {%- assign num = num | plus: 1 -%}
                         {% endif %}
                     {%- endfor -%}
                 

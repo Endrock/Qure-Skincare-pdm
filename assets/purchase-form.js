@@ -7,31 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelectorAll('.' + __section + ' .serumBlock').forEach(function(element) {
         element.addEventListener('click', function(e) {
-            //if (e.target.tagName === 'INPUT') return; //to skip second click
+            if (e.target.tagName === 'INPUT') return; //to skip second click
             const id = this.id;
             initTemplate(id);
         });
     });
-
-
-    // document.querySelectorAll('.' + __section + ' .productButtonObject').forEach(function(element) {
-    //     element.addEventListener('click', function(e) {
-
-    //         const url = new URL(this.href, window.location.origin);
-    //         const product_variant_id = url.searchParams.get("id");
-
-    //         //send event with details
-    //         const event = new CustomEvent('__app-datalayer.purchaseForm', { detail: 
-    //             {
-    //                 event: 'purchase-form-buy',
-    //                 url: window.location.pathname,
-    //                 product_variant_id: product_variant_id,
-    //             }
-    //         });
-    //         document.dispatchEvent(event);
-    //     });
-    // });
-
 
     function initTemplate(source) {
         if(!source) return;
@@ -87,52 +67,72 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function initScripts() {
-        $('.' + __section + ' .step_conten_blocks .planBlock').click(__handlerPlanBlock);
-        $('.' + __section + ' .cs_item__accordion').click(__handlerItemAccordion);
+        document.querySelectorAll('.' + __section + ' .step_conten_blocks .planBlock').forEach(el => el.addEventListener('click', __handlerPlanBlock));
+
+        document.querySelectorAll('.' + __section + ' .cs_item__accordion').forEach(el => el.addEventListener('click', __handlerItemAccordion));
     }
 
-    function __handlerItemAccordion() {
-        $(this).toggleClass('active');
-        $(this).next().slideToggle();
+    function __handlerItemAccordion(e) {
+        this.classList.toggle('active');
+
+        const nextEl = this.nextElementSibling;
+
+        if (nextEl) {
+            if (nextEl.style.display === '' || nextEl.style.display === 'none') {
+                nextEl.style.display = 'block';
+                nextEl.style.maxHeight = nextEl.scrollHeight + 'px';
+            } else {
+                nextEl.style.display = 'none';
+                nextEl.style.maxHeight = null;
+            }
+        }
     }
 
-    function __handlerPlanBlock (e) {
-        //if (e.target.tagName === 'INPUT') return;  //to skip second click
 
-        var product_variant_id = $(this).attr("data-product_variant_id");
-        var soldout = $(this).attr("data-soldout");
-        var preorder = $(this).attr("data-preorder");
-        var block_id = $(this).attr("data-block-id");
+    function __handlerPlanBlock(e) {
+        if (e.target.tagName === 'INPUT') return;  //to skip second click
+
+        const product_variant_id = this.getAttribute("data-product_variant_id");
+        const soldout = this.getAttribute("data-soldout");
+        const preorder = this.getAttribute("data-preorder");
+        const block_id = this.getAttribute("data-block-id");
 
         updateProductFormButton(product_variant_id, soldout);
         clearPreorderBoxes();
         tooglePreorderBox(preorder, product_variant_id);
 
-        //send event with details
-        const event = new CustomEvent('__app-datalayer.purchaseForm', { detail: 
-            {
-                event: 'purchase-form',
-                url: window.location.pathname,
-                product_variant_id: product_variant_id,
-                product_category: document.querySelector('.serum_img.active')?.dataset.name,
-                product_name: $(this).attr("data-product-name"),
-                product_type: $(this).attr("data-product-type"),
-                product_price: $(this).attr("data-product-price"),
-                unix_time: Math.floor(Date.now() / 1000)
-            } 
-        });
-        document.dispatchEvent(event);
+        const totalPrice = document.querySelector('.' + __section + " .total_price");
+        if (totalPrice) {
+            const regularPrice = totalPrice.querySelector(".regular_price");
+            const salePrice = totalPrice.querySelector(".sale_price");
 
+            if (regularPrice) {
+                const regEl = this.querySelector(".regular_price");
+                if (regEl) regularPrice.textContent = regEl.textContent;
+            }
 
-        $('.' + __section + " .total_price").find(".regular_price").text($(this).find(".regular_price").text());
-        $('.' + __section + " .total_price").find(".sale_price").text($(this).find(".sale_price:visible").text().trim());
-        $('.' + __section + " .btn_value").text($(this).attr("data-per"));
-        $('.' + __section + " .pay_today").text($(this).attr("data-pay"));
-        $('.' + __section + " #choosen_image").attr("src", $(this).attr("data-image"));
+            if (salePrice) {
+                const saleEl = this.querySelector(".sale_price");
+                if (saleEl) salePrice.textContent = saleEl.textContent.trim();
+            }
+        }
 
+        const btnValue = document.querySelector('.' + __section + " .btn_value");
+        if (btnValue) btnValue.textContent = this.getAttribute("data-per");
+
+        const payToday = document.querySelector('.' + __section + " .pay_today");
+        if (payToday) payToday.textContent = this.getAttribute("data-pay");
+
+        const chosenImg = document.querySelector('.' + __section + " #choosen_image");
+        if (chosenImg) chosenImg.setAttribute("src", this.getAttribute("data-image"));
 
         toogleTab(block_id);
+
+        setTimeout(() => {
+            purchase_form_event(__section, this, product_variant_id);
+        }, 500)
     }
+
 
     function toogleTab(block_id) {
 

@@ -2,16 +2,9 @@
 
 <template id="async">
     <div class="{{ section.id }}">
-        {% render 'purchase-form-landing-types-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-        {% render 'purchase-form-landing-products-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-
-        <div class="qure__product-action-inner mt-30 mt-md-40 mb-10 max-w-ctm" style="--max-w-ctm:500px">
-            <form method="post" action="/cart/add" enctype="multipart/form-data">
-                <button type="submit" class="add-cart-button product-form__submit btn btn--primary w-100 productButtonObject"><span class="btn_value">{{ 'purchase-form.settings.buy-button-label' | t }}</span></button>
-                <input type="hidden" name="quantity" id="quantity" value="1">
-                <input type="hidden" name="id" value="">
-            </form>
-        </div>
+        {% render 'purchase-form-landing-types' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
+        {% render 'purchase-form-landing-products' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
+        {% render 'product-page-buy-button' %}
     </div>
     <script src="{{ 'purchase-form-landing.js' | asset_url }}" data-form="{{ section.settings.form_name }}" data-section="{{ section.id }}" defer></script>
 </template>
