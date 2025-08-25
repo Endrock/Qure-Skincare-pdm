@@ -9,11 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "product-sunil-all-in-one",
-      "disabled": true,
-      "settings": {}
-    },
     "product_header_kHW3Cn": {
       "type": "product-header",
       "blocks": {
@@ -622,7 +617,6 @@
     }
   },
   "order": [
-    "main",
     "product_header_kHW3Cn",
     "logos_89qVYW",
     "banner_with_text_YH3YjY",
