@@ -128,7 +128,7 @@
             "heading": "6 Months",
             "subheading": "(3 bottles)",
             "image": "shopify://shop_images/3-bottles.webp",
-            "soldout": true,
+            "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
