@@ -12,6 +12,27 @@
     "product_header_AR9QDc": {
       "type": "product-header",
       "blocks": {
+        "price_A11": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_iPBNaS": {
+          "type": "description",
+          "settings": {}
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "limited_offer_A8": {
+          "type": "limited-offer",
+          "disabled": true,
+          "settings": {
+            "sum": "$100",
+            "code": "QURE100",
+            "days": 5
+          }
+        },
         "nextships_iPBNaP": {
           "type": "nextships",
           "disabled": true,
@@ -21,26 +42,6 @@
             "date_soldout": "{Previous date}",
             "date_reserved": "{date}"
           }
-        },
-        "limited_offer_A8": {
-          "type": "limited-offer",
-          "disabled": true,
-          "settings": {
-            "sum": "$100",
-            "code": "QURE100"
-          }
-        },
-        "button_A9": {
-          "type": "button",
-          "settings": {}
-        },
-        "description_iPBNaS": {
-          "type": "description",
-          "settings": {}
-        },
-        "price_A11": {
-          "type": "price",
-          "settings": {}
         }
       },
       "block_order": [
@@ -56,7 +57,7 @@
         "heading": "Minimize the formation of wrinkles while you sleep",
         "description": "<ul><li>Causes less friction against the skin, helping minimize the formation of sleep lines and wrinkles.</li><li>Reduces the accumulation of oils and bacteria that can clog pores and cause acne.</li><li>Helps to retain moisture: Absorbs less face cream, helping you maintain hydration for a more healthy-looking complexion.</li></ul>",
         "reserved": false,
-        "soldout": false
+        "soldout": true
       }
     },
     "logos_69iJ8B": {
