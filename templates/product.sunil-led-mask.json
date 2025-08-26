@@ -56,7 +56,7 @@
         },
         "nextships_A7": {
           "type": "nextships",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "date": "25 September",
             "percent": 55,
