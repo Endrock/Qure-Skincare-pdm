@@ -150,7 +150,7 @@
         "heading_html": "OR pay 4 monthly payments of <span class='pay_today'>{{ product_price_divided }}</span> with",
         "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='{{ button_link }}' class='text-black text-decoration-underline'>See More</a>.",
         "guaranteed_text": "30-Day Money-Back Guarantee",
-        "shipping_text": "Free Shipping over 100$"
+        "shipping_text": "Free Shipping over $100"
       },
       "saveup": {
         "heading_html": "<p>Save up to <strong>XX%</strong> with our curated bundles</p>",
@@ -158,7 +158,7 @@
       },
       "benefits-list": {
         "guaranteed_text": "30-Day Money-Back Guarantee",
-        "shipping_text": "Free World-Wide Shipping over 100$",
+        "shipping_text": "Free World-Wide Shipping over $100",
         "science_text": "Backed by Science"
       },
       "cross-sell": {

@@ -14,11 +14,12 @@
       "blocks": {
         "nextships_BtDkBp": {
           "type": "nextships",
+          "disabled": true,
           "settings": {
-            "date": "{date}:",
-            "percent": 48,
-            "date_soldout": "{Previous date}",
-            "date_reserved": "{date}"
+            "date": "25 September",
+            "percent": 55,
+            "date_soldout": "28 July",
+            "date_reserved": "3 August"
           }
         },
         "limited_offer_A8": {
@@ -52,7 +53,7 @@
           "type": "jumpto",
           "settings": {
             "button-label": "Reviews",
-            "button-url": "#reviews"
+            "button-url": "#trusted-reviews"
           }
         },
         "jumpto_nNgEr7": {
@@ -375,7 +376,7 @@
         "items_4xewxx": {
           "type": "items",
           "settings": {
-            "heading": "Free Shipping On Orders Over {$dyn}",
+            "heading": "Free Shipping On Orders Over $100",
             "image": "shopify://shop_images/guarantee.svg"
           }
         },
@@ -585,7 +586,7 @@
         "heading": "Neck & Décolletage LED Device",
         "text": "203 purchased in last 48 hours",
         "button-label": "",
-        "button-url": "#buy_box"
+        "button-url": ""
       }
     }
   },
