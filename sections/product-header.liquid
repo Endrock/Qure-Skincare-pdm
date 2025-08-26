@@ -12,6 +12,7 @@
             <div class="col-lg-6 custom__block">
                 <div class="qure-product-details">
 
+
                     {% render 'product-page-slider', product: product, page: blank, class: 'tp-product-gallery d-block d-lg-none mb-30' %}
                     {% render 'product-rating', product: product %}
 
@@ -22,24 +23,13 @@
                         <h1 class="qure__product-title mb-10">{{ section.settings.heading }}</h1>
                     {% endif %}
 
-                    <h4 class="fw-500 fm-body" style="--font-h4: 22px; --font-h4-mob: 20px;">{{ product_sale_price }}</h4>
-
-                    {% if section.settings.description != blank %}
-                        <div class="patch__single-shortdes mt-20">
-                            {{ section.settings.description }}
-                        </div>
-                    {% endif %}
-
-                    {% render 'product-buy-button', product_price: product_sale_price, product_variant_id: product_variant_id, section: section %}
-                    {% render 'product-buy-button-bottom', product_price_divided: product_price_divided %}
-                    {% render 'product-page-next-ships', section: section %}
-
+                    {% include 'product-page-blocks-render', allowed_types: 'limited-offer,nextships,button,description,price,section' %}
                 </div>
             </div>
             <div class="col-lg-6 custom__block">
                 {% render 'product-page-slider', product: product, page: blank, class: 'tp-product-gallery d-none d-lg-block' %}
                 {% render 'product-page-cross-sell', product: product %}
-                {% render 'product-page-benefits-list' %}
+                {% render 'product-page-benefits-list', target: 'mobile' %}
                 {% render 'product-page-collapsed', product: product, page: blank, class: 'mt-15 tp-product-accordion' %}
                 {% render 'product-page-jumpto', section: section %}
             </div>
@@ -104,6 +94,63 @@
                     "type": "url",
                     "id": "button-url",
                     "label": "t:common.button-url"
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "name": "t:common.section",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "section_id",
+                    "label": "t:common.section_id"
+                }
+            ]
+        },
+        {
+            "type": "price",
+            "name": "t:common.price",
+            "limit": 1,
+            "settings": []
+        },
+        {
+            "type": "description",
+            "name": "t:common.description",
+            "limit": 1,
+            "settings": []
+        },
+        {
+            "type": "button",
+            "name": "t:common.button",
+            "limit": 1,
+            "settings": []
+        },
+        {
+            "type": "limited-offer",
+            "name": "t:common.limited-offer",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "sum",
+                    "label": "t:common.sum"
+                },
+                {
+                    "type": "text",
+                    "id": "code",
+                    "label": "t:common.code"
+                },
+                {
+                    "type": "range",
+                    "id": "days",
+                    "min": 1,
+                    "max": 30,
+                    "step": 1,
+                    "unit": "day",
+                    "label": "t:common.days",
+                    "default": 5
                 }
             ]
         },

@@ -1,19 +1,13 @@
 {% doc %}
-  Renders a product buy button snippet for the the product-header section.
+  Renders a product buy button bottom snippet .
 
   @param {string} product_price_divided - A string value.
   @param {string} button_link - A string value.
 
   @example
-  {% render 'product-buy-button-bottom', product_price_divided: '' %}
+  {% render 'product-page-buy-button-payments', product_price_divided: '' %}
 {% enddoc %}
 
-<div class="product_klarna-dtls d-flex flex-wrap gap-2 align-items-center fs-14 justify-content-center max-w-ctm" style="--max-w-ctm:500px">
-    {{ 'product.settings.buy-button-bottom.heading' | t: product_price_divided: product_price_divided }}
-    <img src="https://qureskincaredns-main.com/sections/isolated/targeted-patches/images/klarna.svg" />
-    <img src="https://qureskincaredns-main.com/sections/isolated/targeted-patches/images/sezzle.svg" />
-    <img src="https://qureskincaredns-main.com/sections/isolated/targeted-patches/images/afterpay.svg" />
-</div>
 <div class=" max-w-ctm" style="--max-w-ctm:500px">
     <div class="patch__product-certified my-15">
         <ul class="patch-dr-list">

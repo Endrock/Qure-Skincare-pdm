@@ -88,7 +88,7 @@
     "beauty-benefits": {
       "verified_text": "Verified",
       "review_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
-       },
+    },
     "sticky-cta": {
       "select_color_text": "Select Color",
       "white_swatch_image": "https://qureskincaredns-main.com/sections/isolated/sticky-cta/images/white_swatch.webp",
@@ -124,10 +124,10 @@
         "discount_text": "% OFF",
         "more_details_html": "<strong class='fw-600'>Skip pause/modify or cancel anytime.</strong> <br> <a href='' class='text-black text-decoration-underline'> See more details</a>."
       }
-        },
-        "before-after-accordion": {
-                "verified_text": "Verified",
-                "review_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
+    },
+    "before-after-accordion": {
+      "verified_text": "Verified",
+      "review_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
     }
   },
   "general": {
@@ -147,10 +147,10 @@
       "reserved-button-label": "Reserve Now",
       "soldout-button-label": "Sold Out",
       "buy-button-bottom": {
-        "heading": "OR pay 4 monthly payments of {{ product_price_divided }} with",
+        "heading_html": "OR pay 4 monthly payments of <span class='pay_today'>{{ product_price_divided }}</span> with",
         "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='{{ button_link }}' class='text-black text-decoration-underline'>See More</a>.",
         "guaranteed_text": "30-Day Money-Back Guarantee",
-        "shipping_text": "Free Shipping over 100$"
+        "shipping_text": "Free Shipping over $100"
       },
       "saveup": {
         "heading_html": "<p>Save up to <strong>XX%</strong> with our curated bundles</p>",
@@ -158,7 +158,7 @@
       },
       "benefits-list": {
         "guaranteed_text": "30-Day Money-Back Guarantee",
-        "shipping_text": "Free World-Wide Shipping over 100$",
+        "shipping_text": "Free World-Wide Shipping over $100",
         "science_text": "Backed by Science"
       },
       "cross-sell": {
@@ -183,6 +183,14 @@
       },
       "jumpto": {
         "header": "Jump To"
+      },
+      "limited-offer": {
+        "header": "Summer Sale Offer",
+        "text_html": "<p class='qs-offer'>Get <span class='qs-badge'>{{ sum }} OFF</span> with code {{ code }}</p>",
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES",
+        "seconds": "SECONDS"
       }
     }
   },
@@ -277,14 +285,18 @@
       "soldout-button-label": "Sold Out",
       "select-type": "Select Your Serum:",
       "select-product": "Select Your supply:",
-      "save": "& Save",
+      "and": "&",
+      "save": "Save",
       "off": "OFF",
       "best": "Best Value",
       "payment-option": "Select A Payment Option",
       "pay-full": "Pay in full",
       "onetime-payment": "One-time payment with:",
       "pay-today": "Pay today only",
-      "monthly-payment": "Monthly interest-free payments with:"
+      "per-treatment": "Only {{ price }} per treatment",
+      "kit-left": "{{ count }} kits left",
+      "monthly-payment": "Monthly interest-free payments with:",
+      "questions_html": "<h6 class='fm-body fw-600 mb-0 fs-18'>Have questions about Micro-Infusion?</h6><a href='' class='btn btn-sm btn--secondary' style='--btn-secondary-bg: #fff;'>Chat with us!</a>"
     }
   },
   "header": {

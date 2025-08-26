@@ -5,7 +5,8 @@ const __form_landing = document.currentScript.getAttribute('data-form');
 __landing__initTemplate(__landing__getProductType());
 
 document.querySelectorAll('.' + __section_landing + ' .serumBlock').forEach(function(element) {
-    element.addEventListener('click', function() {
+    element.addEventListener('click', function(e) {
+        if (e.target.tagName === 'INPUT') return; //to skip second click
         const id = this.id;
         __landing__initTemplate(id);
     });
@@ -101,6 +102,11 @@ function __landing__handlerPlanBlock() {
     if (payTodayContainer) {
         payTodayContainer.textContent = this.getAttribute("data-pay") || "";
     }
+
+    setTimeout(() => {
+        purchase_form_landing_event(__section_landing, this, product_variant_id);
+    }, 500)
+
 }
 
 function __landing__updateProductCheckbox(element)
@@ -122,7 +128,7 @@ function __landing__updateProductFormButton(product_variant_id, soldout) {
 
     if (form) {
         const idInput = form.querySelector('input[name="id"]');
-        const button = form.querySelector('.productButtonObject');
+        const button = form.querySelector('.add-cart-button');
 
         if (idInput) {
             if (soldout === 'true') {

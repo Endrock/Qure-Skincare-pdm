@@ -37,279 +37,57 @@
                         <div class="qure__section-desc mt-20">{{ section.settings.text }}</div>
                     {% endif %}
                 </div>
-                <div class="d-none d-md-flex flex-nowrap align-items-center justify-content-center col-gap px-30 px-lg-50 mt-30"
-                    style="--col-gap-mb: 20px;--col-gap: 42px;">
-                    <div
-                        class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-16 fw-400 text-center">
-                        <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/dermatologist.svg" alt="dermatologist">
-                        <span>30-Day Money-Back Guarantee </span>
-                    </div>
-                    <div
-                        class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-16 fw-400 text-center">
-                        <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/shipping.svg" alt="shipping">
-                        <span>Free Shipping over {$dyn}</span>
-                    </div>
-                    <div
-                        class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-16 fw-400 text-center">
-                        <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/backed_science.svg" alt="dermatologist">
-                        <span>Backed by Science </span>
-                    </div>
-                </div>
+
+                {% render 'product-page-benefits-list', target: 'desktop' %}
 
                 <div class="pt-md-50 pt-40 d-none d-md-flex align-items-center justify-content-center gap-3">
-                    <h6 class="fm-body fw-600 mb-0 fs-18">Have questions about Micro-Infusion?</h6>
-                    <a href="" class="btn btn-sm btn--secondary" style="--btn-secondary-bg: #fff;">Chat with us!</a>
+                    {{ 'purchase-form.settings.questions_html' | t }}
                 </div>
             </div>
             <div class="col-md-6 custom__block">
 
                 <div class="qure__bundle-container">
                     <div class="qure__bundle-form">
-                        {% render 'purchase-form-types-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-                        {% render 'purchase-form-products-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-                        {% render 'purchase-form-payments-section' section: section %}
+                        {% render 'purchase-form-types' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
+                        {% render 'purchase-form-products' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
+                        {% render 'purchase-form-payments' section: section %}
                     </div>
 
                     <div class="qure__bundle-atc mt-40">
-                        {% comment %} <a href="javascript:void(0)" class="btn btn-atc submit_btn productButtonObject" data-ajax-cart-request-button>
-                            <span class="btn_value">Buy Now</span>
-                        </a> {% endcomment %}
-
-                        <form method="post" action="/cart/add" enctype="multipart/form-data">
-                            <button type="submit" class="add-cart-button product-form__submit btn btn--primary w-100 productButtonObject"><span class="btn_value">{{ 'purchase-form.settings.buy-button-label' | t }}</span></button>
-                            <input type="hidden" name="quantity" id="quantity" value="1">
-                            <input type="hidden" name="id" value="">
-                        </form>
-
-                        <!-- <a href="#" class="btn btn--primary d-block">Buy Now & Save {dyn}% </a> -->
-                        <div class="align-items-center d-flex flex-wrap fs-13 gap-2 justify-content-center mt-6">OR pay 4 monthly payments of {$dyn} with 
-                            <img src="https://qureskincaredns-main.com/sections/isolated/treatment/images/klarna.png" alt=""> 
-                            <img src="https://qureskincaredns-main.com/sections/isolated/treatment/images/sezzle.png" alt="">
-                            <img src="https://qureskincaredns-main.com/sections/isolated/treatment/images/after-pay.png" alt="">
-                        </div>
+                        {% render 'product-page-buy-button' %}
+                        {% render 'product-page-buy-button-payments', product_price_divided: product_price_divided %}
                     </div>
 
-                    <!--
-                    <div class="patch__product-batch mt-30 max-w-ctm" style="--max-w-ctm:500px">
-                        <div class="patch-d-header">
-                            <h4 class="fm-body fs-16 fw-600 mb-0">Next batch ships {date}:</h4>
-                            <p class="fs-14">Due to high demand, our {product name} is sold out. Order now and secure
-                                yours from the next shipment.</p>
-                        </div>
-                        <div class="progress__bar-container w-100">
-                            <div class="patch-bar mb-10" role="progressbar">
-                                <span class="patch__date">{Previous date}</span><span class="patch__status">SOLD
-                                    OUT</span>
-                            </div>
-                            <div class="patch-bar" role="progressbar"
-                                style="--progress-bg:#91BAEC;--text-color:#212428;--progress-width:48%">
-                                <span class="patch__date fs-14">{date}</span><span class="patch__status">48%
-                                    Reserved</span>
-                            </div>
-                        </div>
-                    </div>
-                    -->
-
-                    <div class="d-flex d-md-none flex-nowrap align-items-center justify-content-center col-gap px-30 px-lg-50 mt-30"
-                        style="--col-gap-mb: 20px;--col-gap: 42px;">
-                        <div class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-14 text-center">
-                            <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/dermatologist.svg" alt="dermatologist">
-                            <span>30-Day Money-Back Guarantee </span>
-                        </div>
-                        <div class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-14 text-center">
-                            <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/shipping.svg" alt="shipping">
-                            <span>Free Shipping over {$dyn}</span>
-                        </div>
-                        <div class="icon-with-text d-flex flex-wrap  flex-column align-items-center fs-14 text-center">
-                            <img src="https://qureskincaredns-main.com/sections/isolated/protect-your-skin/images/backed_science.svg"
-                                alt="dermatologist">
-                            <span>Backed by Science </span>
-                        </div>
-                    </div>
+                    {% render 'product-page-benefits-list', target: 'mobile' %}
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-{% comment %} 
-    <div class="section productSubscription choose_serum new_updated_treatment_outer {{ section.id }}" id="productSubscription">
-        <div class="container">
-            <div class="row {% if block_timeline_ba != blank %} pdm-ba-timeline {% endif %}">
-                <div class="col-md-6">
-                    <div class="qure__treatments">
-                        <!--
-                        <div class="text-start order-2 order-md-1">
-                            <div class="section__header d-none d-md-block">
-                                {% if section.settings.heading != blank %}
-                                    <h2 class="title-lg">{{ section.settings.heading }}</h2>
-                                {% endif %}
-                                <div class="des">
-                                    {% if section.settings.text != blank %}
-                                        {{ section.settings.text }}
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </div>
-                        -->
-                        <div class="tmtFtrs_image order-1 order-md-2">
-                            <!--
-                            <div class="section__header d-block d-md-none">
-                                {% if section.settings.heading != blank %}
-                                    <h2 class="title-lg">{{ section.settings.heading }}</h2>
-                                {% endif %}
-                                <div class="des">
-                                    {% if section.settings.text != blank %}
-                                        {{ section.settings.text }}
-                                    {% endif %}
-                                </div>
-                            </div>
-                            -->
-                            {% if block_timeline_ba != blank %}
-                            {% if section.settings.image != blank %}
-                                <div class="d-block d-md-none">
-                                <img src="{{ section.settings.image | img_url: 'master' }}" class="img-fluid" alt="choosen_image" id="choosen_image" />
-                                </div>
-                            {% endif %}
-                            {% elsif section.settings.image != blank %}
-                                <img src="{{ section.settings.image | img_url: 'master' }}" class="img-fluid" alt="choosen_image" id="choosen_image" />
-                            {% endif %}
+<script src="{{ 'purchase-form.js' | asset_url }}" data-form="{{ section.settings.form_name }}" data-section="{{ section.id }}" defer></script>
 
-                        </div>
-                        <!--
-                        <div class="tmtFtrs d-none d-md-flex justify-content-between mb-4 mt-5 mw-455 value-props-desktop">
-                            {% if section.settings.icon_image1 != blank %}
-                                <div class="tmtFtrs_block text-center">
-                                    <div class="tmtFtr_icon">
-                                        <img src="{{ section.settings.icon_image1 | img_url: 'master' }}" alt="">
-                                    </div>
-                                    {% if section.settings.icon_text1 != blank %}
-                                        <div class="tmtFtr_des">
-                                            {{ section.settings.icon_text1 }}
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-
-                            {% if block_timeline_ba != blank and section.settings.image != blank %}
-                            <img src="{{ section.settings.image | img_url: 'master' }}" class="img-fluid pdm-ba-timeline__product-choosen-desktop" alt="choosen_image" id="choosen_image" />
-                            {% else %}
-                            {% if section.settings.icon_image2 != blank %}
-                                <div class="tmtFtrs_block text-center">
-                                <div class="tmtFtr_icon">
-                                    <img src="{{ section.settings.icon_image2 | img_url: 'master' }}" alt="">
-                                </div>
-                                {% if section.settings.icon_text2 != blank %}
-                                <div class="tmtFtr_des">
-                                    {{ section.settings.icon_text2 }}
-                                </div>
-                                {% endif %}
-                                </div>
-                            {% endif %}
-                            {% endif %}
-
-                            {% if section.settings.icon_image3 != blank %}
-                                <div class="tmtFtrs_block text-center">
-                                    <div class="tmtFtr_icon">
-                                        <img src="{{ section.settings.icon_image3 | img_url: 'master' }}" alt="">
-                                    </div>
-                                    {% if section.settings.icon_text3 != blank %}
-                                        <div class="tmtFtr_des">
-                                            {{ section.settings.icon_text3 }}
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-                        </div>
-                        -->
-                        {% if section.settings.bottom_text != blank %}
-                            <div class="qst_box text-center d-none d-md-block">
-                                <img src="https://qureskincaredns.com/new/assets/question_mark.svg" alt="question_mark" class="me-2">{{ section.settings.bottom_text | replace: '<p>', '' | replace: '</p>', '' }}
-                            </div>
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="col-md-6 p-0 {% unless block_timeline_ba != blank %} pt-md-5 {% endunless %}">
-                    <div class="supply-detail offer_active">
-                        {% render 'purchase-form-types-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-                        {% render 'purchase-form-products-section' section: section, __idsArray1: __idsArray1, __idsArray2: __idsArray2, __idsArray3: __idsArray3 %}
-                        {% render 'purchase-form-payments-section' section: section %}
-                        <div class="supply_steps">
-                            <div class="step_counter" style="visibility: collapse;"><span class="">&nbsp;</span></div>
-                            <div class="step_block">
-                                <div class="step_content mb-0 pt-0 pb-1 step_btn">
-                                    <a href="javascript:void(0)" class="btn btn-atc submit_btn productButtonObject" data-ajax-cart-request-button>
-                                        <span class="btn_value">Buy Now</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--
-                        <div class="c_s_shipping d-block d-md-none mt-3">
-                            <div class="c_s_wrapper">
-                                {% if section.settings.icon_image1 != blank %}
-                                    <div class="c_s_bx">
-                                        <img src="{{ section.settings.icon_image1 | img_url: 'master' }}" alt="">
-                                        {% if section.settings.icon_text1 != blank %}
-                                            <p>{{ section.settings.icon_text1 }}</p>
-                                        {% endif %}
-                                    </div>
-                                {% endif %}
-
-                                {% if section.settings.icon_image2 != blank %}
-                                    <div class="c_s_bx">
-                                        <img src="{{ section.settings.icon_image2 | img_url: 'master' }}" alt="">
-                                        {% if section.settings.icon_text2 != blank %}
-                                            <p>{{ section.settings.icon_text2 }}</p>
-                                        {% endif %}
-                                    </div>
-                                {% endif %}
-
-                                {% if section.settings.icon_image3 != blank %}
-                                    <div class="c_s_bx">
-                                        <img src="{{ section.settings.icon_image3 | img_url: 'master' }}" alt="">
-                                        {% if section.settings.icon_text3 != blank %}
-                                            <p>{{ section.settings.icon_text3 }}</p>
-                                        {% endif %}
-                                    </div>
-                                {% endif %}
-                            </div>
-                            {% if section.settings.bottom_text != blank %}
-                                <div class="c_s_ques text-center">
-                                    <p class="ask-ques">
-                                        <img src="https://qureskincaredns.com/new/assets/question_mark.svg" alt="">{{ section.settings.bottom_text | replace: '<p>', '' | replace: '</p>', '' }}
-                                    </p>
-                                </div>
-                            {% endif %}
-                        </div>
-
-                        {% if block_timeline_ba != blank and section.settings.icon_image2 != blank %}
-                        <div class="d-none d-md-flex mt-2 text-center pdm-ba-timeline__bottom-value-prop">
-                            <div class="tmtFtr_icon">
-                            <img src="{{ section.settings.icon_image2 | img_url: 'master' }}" alt="">
-                            </div>
-                            {% if section.settings.icon_text2 != blank %}
-                            <div class="tmtFtr_des">
-                            {{ section.settings.icon_text2 }}
-                            </div>
-                            {% endif %}
-                        </div>
-                        {% endif %}
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-{% endcomment %}
-
-<script src="{{ 'jquery.min.js' | asset_url }}"></script>
-<script src="{{ '__app-purchase-form.js' | asset_url }}" data-form="{{ section.settings.form_name }}" data-section="{{ section.id }}" defer></script>
 {%- schema -%}
 {
     "name":"t:sections.purchase-form.name",
     "class":"purchase-form",
     "settings":[
+        {
+            "type": "select",
+            "id": "style",
+            "label": "t:common.style",
+            "options": [
+                {
+                    "value": "box",
+                    "label": "t:common.box"
+                },
+                {
+                    "value": "list",
+                    "label": "t:common.list"
+                }
+            ],
+            "default": "box"
+        },
         {
             "type": "text",
             "id": "heading",
@@ -321,56 +99,9 @@
             "label": "t:common.text"
         },
         {
-            "type": "checkbox",
-            "id": "hide_product_types",
-            "label": "t:sections.purchase-form.settings.hide_product_types",
-            "default": false
-        },
-        {
-            "type": "checkbox",
-            "id": "hide_payment_types",
-            "label": "t:sections.purchase-form.settings.hide_payment_types",
-            "default": false
-        },
-        {
             "type": "image_picker",
             "id": "image",
-            "label": "t:common.image.label"
-        },
-        {
-            "type": "image_picker",
-            "id": "icon_image1",
-            "label": "t:common.image.label"
-        },
-        {
-            "type": "text",
-            "id": "icon_text1",
-            "label": "t:common.text.label"
-        },
-        {
-            "type": "image_picker",
-            "id": "icon_image2",
-            "label": "t:common.image.label"
-        },
-        {
-            "type": "text",
-            "id": "icon_text2",
-            "label": "t:common.text.label"
-        },
-        {
-            "type": "image_picker",
-            "id": "icon_image3",
-            "label": "t:common.image.label"
-        },
-        {
-            "type": "text",
-            "id": "icon_text3",
-            "label": "t:common.text.label"
-        },
-        {
-            "type": "richtext",
-            "id": "bottom_text",
-            "label": "t:common.text.label"
+            "label": "t:common.image"
         },
         {
             "type": "text",
@@ -493,7 +224,21 @@
                     "default": false
                 },
                 {
-                    "type": "richtext",
+                    "type": "number",
+                    "id": "total_treatments",
+                    "label": "t:sections.purchase-form.blocks.product.settings.total_treatments",
+                    "info": "t:sections.purchase-form.blocks.product.settings.total_treatments_info",
+                    "default": 0
+                },
+                {
+                    "type": "number",
+                    "id": "left_items",
+                    "label": "t:sections.purchase-form.blocks.product.settings.left_items",
+                    "info": "t:sections.purchase-form.blocks.product.settings.left_items_info",
+                    "default": 0,
+                },
+                {
+                    "type": "text",
                     "id": "preorder_text",
                     "label": "t:sections.purchase-form.blocks.product.settings.preorder_text"
                 },

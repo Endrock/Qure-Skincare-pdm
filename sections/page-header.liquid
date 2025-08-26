@@ -15,26 +15,13 @@
                     <h1 class="qure__product-title mb-10">{{ section.settings.heading }}</h1>
                {% endif %}
 
-               {% if section.settings.button-label != blank %}
-                    <div class="qure__product-action-inner my-30 max-w-ctm" style="--max-w-ctm:500px">
-                        <a href="{{ section.settings.button-url }}" class="add-cart-button product-form__submit btn btn--primary w-100 text-uppercase fs-md-20 fs-18" aria-label="{{ section.settings.button-label | escape }}">{{ section.settings.button-label }}</a>
-                    </div>
-               {% endif %}
-
-                {% if section.settings.description != blank %}
-                    <div class="patch__single-shortdes mt-20">
-                        {{ section.settings.description }}
-                    </div>
-                {% endif %}
-
-                {% render 'product-page-async-section', section: section %}
-                {% render 'page-video', section: section %}
+               {% include 'product-page-blocks-render', allowed_types: 'link,description,section,video' %}
             </div>
          </div>
          <div class="col-lg-6 custom__block">
             {% render 'product-page-slider', product: blank, page: page, class: 'tp-product-gallery d-none d-lg-block' %}
             {% render 'product-page-cross-sell', product: blank, page: page %}
-            {% render 'product-page-benefits-list' %}
+            {% render 'product-page-benefits-list', target: 'mobile' %}
             {% render 'product-page-collapsed', product: blank, page: page, class: 'mt-15 tp-product-accordion' %}
             {% render 'product-page-jumpto', section: section %}
             </div>
@@ -91,6 +78,18 @@
         }
     ],
     "blocks": [
+        {
+            "type": "link",
+            "name": "t:common.link",
+            "limit": 1,
+            "settings": []
+        },
+        {
+            "type": "description",
+            "name": "t:common.description",
+            "limit": 1,
+            "settings": []
+        },
         {
             "type": "section",
             "name": "t:common.section",
