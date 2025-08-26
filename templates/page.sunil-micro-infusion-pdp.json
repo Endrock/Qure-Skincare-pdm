@@ -77,11 +77,11 @@
       ],
       "name": "t:sections.page-header.name",
       "settings": {
-        "seo_heading": "MICRO INFUSION FACIAL SYSTEM - AN ALTERNATIVE TO DERMA ROLLERS",
+        "rating": "<p><strong>4.8</strong>/5 Rated by Customers</p>",
         "heading": "Transform dull looking skin with Micro-Infusion Facial System",
         "description": "<ul><li>Helps reduce appearance of fine lines, smooth texture while helping to infuse active ingredients into your skin.</li><li>Virtually painless and performed in the comfort and convenience of your home.</li><li>Minimal to no downtime with visible results.</li></ul>",
-        "reserved": false,
-        "soldout": false
+        "button-label": "",
+        "button-url": ""
       }
     },
     "purchase-form-landing": {
@@ -112,45 +112,48 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-6-month-bundle-for-dark-spots",
-            "image": "shopify://shop_images/3_month_mixed.webp",
             "preselected": false,
             "heading": "6 Month",
             "subheading": "(12 Treatments)",
-            "soldout": false,
+            "image": "shopify://shop_images/3_month_mixed.webp",
+            "soldout": true,
             "preorder": false,
             "preorder_text": "",
-            "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_soldout": "27 July",
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_NEgEkN": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle",
-            "image": "shopify://shop_images/2_month_mixed.webp",
             "preselected": false,
             "heading": "3 Month",
             "subheading": "(6 Treatments)",
+            "image": "shopify://shop_images/2_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_RBCPe8": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-2x-e-g-f-serum",
-            "image": "shopify://shop_images/1_month_mixed.webp",
             "preselected": false,
             "heading": "1 Month",
             "subheading": "(2 Treatments)",
+            "image": "shopify://shop_images/1_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "type_aJwQ9q": {
@@ -169,45 +172,48 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-6-month-bundle-for-wrinkles",
-            "image": "shopify://shop_images/3_month_mixed.webp",
             "preselected": true,
             "heading": "6 Month",
             "subheading": "(12 Treatments)",
+            "image": "shopify://shop_images/3_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_EKAAzA": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle-6x-beta-glucan-serum",
-            "image": "shopify://shop_images/2_month_mixed.webp",
             "preselected": false,
             "heading": "3 Month",
             "subheading": "(6 Treatments)",
+            "image": "shopify://shop_images/2_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_eiY89h": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-2x-beta-glucan-serum",
-            "image": "shopify://shop_images/1_month_mixed.webp",
             "preselected": false,
             "heading": "1 Month",
             "subheading": "(2 Treatments)",
+            "image": "shopify://shop_images/1_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "type_yDwWmt": {
@@ -226,45 +232,48 @@
           "type": "product",
           "settings": {
             "product": "microinfusion-offer-6-month-supply",
-            "image": "shopify://shop_images/3_month_mixed.webp",
             "preselected": false,
             "heading": "6 Month",
             "subheading": "(12 Treatments)",
+            "image": "shopify://shop_images/3_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_DBd4ef": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle-3x-b-g-serum-3x-e-g-f-serum",
-            "image": "shopify://shop_images/2_month_mixed.webp",
             "preselected": false,
             "heading": "3 Month",
             "subheading": "(6 Treatments)",
+            "image": "shopify://shop_images/2_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         },
         "product_Xf8A6C": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-1x-b-g-serum-1x-e-g-f-serum",
-            "image": "shopify://shop_images/1_month_mixed.webp",
             "preselected": false,
             "heading": "1 Month",
             "subheading": "(2 Treatments)",
+            "image": "shopify://shop_images/1_month_mixed.webp",
             "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
-            "preorder_date_reserved": ""
+            "preorder_date_reserved": "",
+            "preorder_percent": 55
           }
         }
       },
@@ -383,6 +392,8 @@
       "settings": {
         "heading": "Qure’s Micro-Infusion goes where your skin cream can’t…",
         "text": "<p>Its tiny, almost painless, 24K gold plated 0.5mm microneedles penetrate beyond the skin’s surface to gently create controlled trauma in your skin which help <strong>boost the feel of firmness, smooth texture and reduce the look of fine lines and wrinkles.</strong></p><p>The invisible micro-channels then infuse science-backed serums into your skin that are tailored to <strong>treat your specific skin concerns,</strong> increasing absorption and delivering powerful active ingredients exactly where they’re needed.</p>",
+        "quote": "",
+        "quote-mobile": "",
         "image_position": "left",
         "sub_text": "",
         "button_label": "Shop Now",
@@ -773,7 +784,9 @@
         "items_CVMfzL"
       ],
       "name": "t:common.carousel",
-      "settings": {}
+      "settings": {
+        "display_mode": "both"
+      }
     },
     "serum_selection_6FhGih": {
       "type": "serum-selection",
@@ -1087,8 +1100,8 @@
     },
     "choose_treatment_Nw8gQW": {
       "type": "choose-treatment",
-      "name": "t:sections.choose-treatment.name",
       "disabled": true,
+      "name": "t:sections.choose-treatment.name",
       "settings": {
         "heading": ""
       }
@@ -1142,6 +1155,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>2 Micro-Infusion devices (valued at $160)</li><li>10 Clinical-grade micro-needling heads (valued at $100)</li><li>12 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $240)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li><li>24/7 customer support access</li></ul>"
           }
         },
@@ -1158,6 +1172,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>Micro-Infusion device (valued at $80)</li><li>5 Clinical-grade micro-needling heads (valued at $50)</li><li>6 clinically-formulated 4ml serum to treat your specific skin concerns (valued at $120)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li></ul>"
           }
         },
@@ -1174,6 +1189,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>Micro-Infusion device (valued at $80)</li><li>1 Clinical-grade micro-needling heads (valued at $10)</li><li>2 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $40)</li><li>Worldwide shipping (valued at $25)</li></ul>"
           }
         },
@@ -1202,6 +1218,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>2 Micro-Infusion devices (valued at $160)</li><li>10 Clinical-grade micro-needling heads (valued at $100)</li><li>12 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $240)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li></ul>"
           }
         },
@@ -1218,6 +1235,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>1 Micro-Infusion devices (valued at $80)</li><li>5 Clinical-grade micro-needling heads (valued at $50)</li><li>6 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $120)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li><li>24/7 customer support access</li></ul>"
           }
         },
@@ -1234,6 +1252,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>Micro-Infusion device (valued at $80)</li><li>1 Clinical-grade micro-needling heads (valued at $10)</li><li>2 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $40)</li><li>Worldwide shipping (valued at $25)</li></ul>"
           }
         },
@@ -1262,6 +1281,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>2 Micro-Infusion devices (valued at $160)</li><li>10 Clinical-grade micro-needling heads (valued at $100)</li><li>12 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $240)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li><li>24/7 customer support access</li></ul>"
           }
         },
@@ -1278,6 +1298,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>Micro-Infusion device (valued at $80)</li><li>5 Clinical-grade micro-needling heads (valued at $50)</li><li>6 clinically-formulated 4ml serum to treat your specific skin concerns (valued at $120)</li><li>Worldwide shipping (valued at $25)</li><li>Risk-free 90 days money-back guarantee to trial</li></ul>"
           }
         },
@@ -1294,6 +1315,7 @@
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
+            "preorder_percent": 55,
             "included_text": "<ul><li>Micro-Infusion device (valued at $80)</li><li>1 Clinical-grade micro-needling heads (valued at $10)</li><li>2 clinically-formulated 4ml serums to treat your specific skin concerns (valued at $40)</li><li>Worldwide shipping (valued at $25)</li></ul>"
           }
         }
@@ -1433,6 +1455,7 @@
       "type": "sticky-cta",
       "name": "t:sections.sticky-cta.name",
       "settings": {
+        "cta-mode": "default",
         "heading": "Micro-Infusion Facial System",
         "text": "1,893 purchased in last 48 hours",
         "button-label": "CHOOSE YOUR SUPPLY",
