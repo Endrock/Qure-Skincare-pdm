@@ -1098,14 +1098,6 @@
         "style_color": "green"
       }
     },
-    "choose_treatment_Nw8gQW": {
-      "type": "choose-treatment",
-      "disabled": true,
-      "name": "t:sections.choose-treatment.name",
-      "settings": {
-        "heading": ""
-      }
-    },
     "purchase_form_Lj9cVS": {
       "type": "purchase-form",
       "blocks": {
@@ -1481,7 +1473,6 @@
     "device_comparison_1_HLNK7P",
     "compare_yQAfAr",
     "stock_alert_9g7rUD",
-    "choose_treatment_Nw8gQW",
     "purchase_form_Lj9cVS",
     "faq_HwTfqQ",
     "sticky_cta_KCAhq3"
