@@ -52,7 +52,7 @@
                                 </h3>
                             {% endif %}
                             {% if block.settings.product != blank %}
-                                {% include 'get-product-data', product_handle: block.settings.product %}
+                                {% include 'get-product-data', product_handle: block.settings.product, product_prefix: 'index-qure-products-' %}
                                 <div class="qure__product-price mt-10">{{ block.settings.label_price }} {{ product_sale_price }}</div>
                             {% endif %}
                         </div>

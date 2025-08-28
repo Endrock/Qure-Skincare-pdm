@@ -50,7 +50,7 @@
                                 <div class="col col-md-3 custom__block">
                                     <div class="cart--item text-center">
                                         <div class="cart--quantity">
-                                            {% unless gift_exists or insurance_exists %}
+                                            {% unless gift_exists or insurance_exists or selling_plan_exists %}
                                                 <div class="cart__qty">
                                                     <form id="static_{{ cart_item_id }}_minus" method="post" action="/cart/change" enctype="multipart/form-data">
                                                         <button class="qty-btn"><i class="fa-regular fa-minus"></i></button>
