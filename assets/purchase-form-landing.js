@@ -25,6 +25,10 @@ function __landing__initTemplate(source) {
         __landing__initScripts();
         __landing__initProduct();
         __landing__bindForm();
+
+        if (typeof __gpd_update === "function") {
+            __gpd_update();
+        }
     }               
 }
 
@@ -76,12 +80,14 @@ function __landing__handlerPlanBlock() {
     const soldout = this.getAttribute("data-soldout");
     const preorder = this.getAttribute("data-preorder");
     const product_selling_plan = this.getAttribute("data-product-selling-plan");
+    const variant_title = this.getAttribute("data-variant-title");
 
     __landing__updateProductCheckbox(this);
     __landing__updateProductFormButton(product_variant_id, soldout);
     __landing__clearPreorderBoxes();
     __landing__tooglePreorderBox(preorder, product_variant_id);
-    __landing_updateSellingPlan(this, product_selling_plan, soldout);
+    __landing__updateSellingPlan(this, product_selling_plan, soldout);
+    __landing__updateStickyButton(variant_title);
 
     const regularPriceContainer = document.querySelector("." + __section_landing + " .total_price .regular_price");
     const regularPriceSource = this.querySelector(".regular_price");
@@ -96,15 +102,15 @@ function __landing__handlerPlanBlock() {
     }
 
     if(!product_selling_plan) {
-        __updateButtonLabel(this);
+        __landing_updateButtonLabel(this);
     }
     else {
         if(soldout == 'true') {
-            __updateButtonLabel(this);
+            __landing_updateButtonLabel(this);
         }
         else {
             if(__landing_isSellingPlanDisabled()) {
-                __updateButtonLabel(this);
+                __landing_updateButtonLabel(this);
             }
         }
     }
@@ -120,23 +126,41 @@ function __landing__handlerPlanBlock() {
 
 }
 
-function __updateButtonLabel(element) {
+function __landing__updateStickyButton(variant_title) {
+    if(!variant_title)  return;
+
+    const input = document.querySelector('.sticky__input[type="radio"][data-id="' + variant_title + '"]');
+    if (input) {
+        input.checked = true;
+    }
+
+    if (typeof selectOption === "function") {
+        selectOption(variant_title);
+    }
+}
+
+function __landing_updateButtonLabel(element) {
     const btnValueContainer = document.querySelector("." + __section_landing + " .add-cart-button");
     if (btnValueContainer) {
         btnValueContainer.textContent = element.getAttribute("data-per") || "";
     }
+
+    const btnStickyValueContainer = document.querySelector(".add-cart-sticky-button");
+    if (btnStickyValueContainer) {
+        btnStickyValueContainer.textContent = element.getAttribute("data-per") || "";
+    }
 }
 
-function __landing_updateSellingPlan(element, product_selling_plan, soldout) {
+function __landing__updateSellingPlan(element, product_selling_plan, soldout) {
     if (!product_selling_plan) return;
 
-    const deliveryBox = document.getElementById('purchase-form-landing-delivery');
-    if (!deliveryBox) return;
+    const subscriptionBox = document.getElementById('purchase-form-landing-subscription');
+    if (!subscriptionBox) return;
 
     if (soldout == 'true') {
-        deliveryBox.style.display = 'none';
+        subscriptionBox.style.display = 'none';
     } else {
-        deliveryBox.style.display = '';
+        subscriptionBox.style.display = '';
     }
 
     const form = document.querySelector('.' + __section_landing + ' .qure__product-action-inner form[action="/cart/add"]');
@@ -153,7 +177,7 @@ function __landing_updateSellingPlan(element, product_selling_plan, soldout) {
         el.addEventListener('click', () => {
             if (el.classList.contains('subscription-active') && el.classList.contains('one_time_purchase')) {
                 sellingPlanInput.setAttribute('disabled', 'disabled');
-                __updateButtonLabel(element);
+                __landing_updateButtonLabel(element);
             } else {
                 sellingPlanInput.removeAttribute('disabled');
                 __updateSellingPlanButtonLabel();
@@ -170,6 +194,11 @@ function __updateSellingPlanButtonLabel() {
         const btnValueContainer = document.querySelector("." + __section_landing + " .add-cart-button");
         if (btnValueContainer) {
             btnValueContainer.textContent = value || "";
+        }
+
+        const btnStickyValueContainer = document.querySelector(".add-cart-sticky-button");
+        if (btnStickyValueContainer) {
+            btnStickyValueContainer.textContent = value || "";
         }
     }
 }

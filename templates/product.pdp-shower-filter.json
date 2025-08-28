@@ -22,10 +22,6 @@
           "type": "description",
           "settings": {}
         },
-        "button_PkVUx9": {
-          "type": "button",
-          "settings": {}
-        },
         "nextships_nN4CpM": {
           "type": "nextships",
           "disabled": true,
@@ -74,7 +70,6 @@
       },
       "block_order": [
         "description_9VBwaX",
-        "button_PkVUx9",
         "section_A0",
         "nextships_nN4CpM",
         "jumpto_jzQqUH",
@@ -95,6 +90,15 @@
     "purchase-form-landing": {
       "type": "purchase-form-landing",
       "blocks": {
+        "subscription_6xp1uL": {
+          "type": "subscription",
+          "settings": {
+            "subscription_onetime_text": "Showerhead + 1 Filter",
+            "subscription_days_text": "Filter Refill",
+            "subscription_discount_percent": 50,
+            "onetime_text": "Qure Faucet Filter"
+          }
+        },
         "nextships_4xp7uM": {
           "type": "nextships",
           "settings": {
@@ -171,6 +175,7 @@
         }
       },
       "block_order": [
+        "subscription_6xp1uL",
         "nextships_4xp7uM",
         "type_hHPdgJ",
         "product_type_QKQhNr",
@@ -181,7 +186,7 @@
       "settings": {
         "form_name": "purchase-form-landing",
         "hide_types": true,
-        "style": "variant"
+        "type": "variant"
       }
     },
     "information_about_water_yAtd3i": {
@@ -809,14 +814,41 @@
       }
     },
     "sticky_cta_ggPFXx": {
-      "type": "sticky-cta",
-      "name": "t:sections.sticky-cta.name",
+      "type": "sticky-button-variants",
+      "name": "t:sections.sticky-button-variants.name",
+      "blocks": {
+        "variant_43xxGi": {
+          "type": "variant",
+          "settings": {
+            "heading": "White",
+            "image": "shopify://shop_images/white_swatch.webp"
+          }
+        },
+        "variant_45sxGi": {
+          "type": "variant",
+          "settings": {
+            "heading": "Silver",
+            "image": "shopify://shop_images/silver_swatch.webp"
+          }
+        },
+        "variant_45xfGi": {
+          "type": "variant",
+          "settings": {
+            "heading": "Black",
+            "image": "shopify://shop_images/black_swatch.webp"
+          }
+        }
+      },
+      "block_order": [
+        "variant_43xxGi",
+        "variant_45xfGi",
+        "variant_45sxGi"
+      ],
       "settings": {
-        "cta-mode": "shower",
         "heading": "",
         "text": "580 Units Reserved in last 48 hours",
         "button-label": "Subscribe & Save 30%",
-        "button-url": "#buy_box"
+        "button-url": ""
       }
     }
   },

@@ -7,7 +7,7 @@
   {% include 'footer-cart-drawer-upsells-item', product_handle: '' %}
 {% enddoc %}
 
-{% include 'get-product-data', product_handle: product_handle %}
+{% include 'get-product-data', product_handle: product_handle, product_prefix: 'upsells-item-' %}
 
 {% if product != blank %}
     <div class="swiper-slide">

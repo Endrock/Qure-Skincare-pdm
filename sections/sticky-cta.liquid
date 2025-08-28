@@ -2,7 +2,7 @@
   Renders a sticky CTA section.
 {% enddoc %}
 
-{% include 'get-product-data' %}
+{% include 'get-product-data', product_handle: product.handle, product_prefix: 'sticky-cta-' %}
 
 <link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/sticky-cta/sticky-cta.css" />
 {% if section.settings.cta-mode == 'patches' or section.settings.cta-mode == 'shower'%}
