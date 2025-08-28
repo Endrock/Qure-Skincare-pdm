@@ -201,6 +201,11 @@
         "trating_image": "shopify://shop_images/stars_d8d678e4-b245-4e2a-bf95-2e655cd1cd17.svg"
       }
     },
+    "page_exclusive_holiday_bundle_deal_offer_bundle_HUk6nX": {
+      "type": "page-exclusive-holiday-bundle-deal-offer-bundle",
+      "name": "t:common.bundle",
+      "settings": {}
+    },
     "quiz_V6p9AW": {
       "type": "quiz",
       "blocks": {
@@ -263,7 +268,7 @@
             "text": "<p>“I am really stunned by how well this product works. I have had professional micro-needling and I wanted the benefits without the downtime. I did my treatment, went to bed and woke up the next morning and was ready to go. My skin looks better than it has in years.”</p>",
             "compare_image": "shopify://shop_images/jennifer-n.webp",
             "country_image": "shopify://shop_images/england_f.webp",
-            "username": "<p></p>",
+            "username": "<p>Jennifer N.</p>",
             "product_url": "#",
             "product_heading": "Jennifer uses...",
             "product_text": "Micro-Infusion Facial System",
@@ -743,11 +748,6 @@
         "button_label": "Ask us",
         "button_url": ""
       }
-    },
-    "page_exclusive_holiday_bundle_deal_offer_bundle_HUk6nX": {
-      "type": "page-exclusive-holiday-bundle-deal-offer-bundle",
-      "name": "t:common.bundle",
-      "settings": {}
     }
   },
   "order": [
