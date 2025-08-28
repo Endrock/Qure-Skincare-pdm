@@ -484,13 +484,6 @@
             "text": "<p>of participants say their skin looked brighter and more even toned.</p>",
             "percent_value": "70%"
           }
-        },
-        "text_with_progress_krH7Aw": {
-          "type": "text_with_progress",
-          "settings": {
-            "text": "<p><em>Tested by an independent lab, compiled by Regulatory Consultants</em></p>",
-            "percent_value": ""
-          }
         }
       },
       "block_order": [
@@ -500,8 +493,7 @@
         "slider_c3K4mw",
         "text_with_progress_PfmVQm",
         "text_with_progress_MMHcRN",
-        "text_with_progress_UPHt9K",
-        "text_with_progress_krH7Aw"
+        "text_with_progress_UPHt9K"
       ],
       "name": "t:sections.proven-results.name",
       "settings": {
