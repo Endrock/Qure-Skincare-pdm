@@ -2,9 +2,10 @@
   Returns the product properties.
 
   @param {string} product_handle - An string value.
+  @param {string} product_prefix - An string value.
 
   @example
-  {% include 'get-product-data', product_handle: '' %}
+  {% include 'get-product-data', product_handle: '', product_prefix: '' %}
 {% enddoc %}
 
 
@@ -29,10 +30,22 @@
     {% assign product_before_price = product_price_compare %}
     {% assign product_variants = product.variants %}
 
+    {% assign product_subscription_price = null %}
+    {% assign subscription_discount = 0 %}
+
+    {% if subscription_discount_percent != null %}
+
+      {% if subscription_discount_percent > 0 %}
+        {% assign subscription_discount = subscription_discount_percent %}
+        {% assign product_subscription_discount_delta = product.price | times: subscription_discount | divided_by: 100 %}      
+        {% assign product_subscription_price = product.price | minus: product_subscription_discount_delta | money_without_trailing_zeros %}      
+      {% endif %}
+
+    {% endif %}
 
     <script>
       window.get_products_data = window.get_products_data || {};
-      window.get_products_data["{{ product.handle }}"] = {
+      window.get_products_data["{{ product_prefix }}{{ product.handle }}"] = {
         id: {{ product_id | json }},
         title: {{ product_title | json }},
         description: {{ product_description | strip_newlines | json }},
@@ -47,6 +60,8 @@
         compare_at_price: '{{ product_price_compare | replace: ',', '.' }}',
         sale_price: '{{ product_sale_price | replace: ',', '.' }}',
         before_price: '{{ product_before_price | replace: ',', '.' }}',
+        subscription_discount: '{{ subscription_discount }}',
+        subscription_price: '{{ product_subscription_price | replace: ',', '.' }}',
         variants: {
           {% if product.variants.size > 0 %}
             {% for variant in product_variants %}
@@ -56,7 +71,9 @@
         }
       };
     </script>
-
 {% endif %}
 
-<!-- product_url [https://admin.shopify.com/store/qure-skincare/products/{{ product.id }}] -->
+
+{% comment %} 
+<!-- product_url [https://admin.shopify.com/store/qure-skincare/products/{{ product.id }}] --> 
+{% endcomment %}

@@ -26,6 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
             initScripts();
             initProduct();
             bindForm();
+
+            if (typeof __gpd_update === "function") {
+                __gpd_update();
+            }
         }               
     }
 

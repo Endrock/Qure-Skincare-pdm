@@ -112,6 +112,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-6-month-bundle-for-dark-spots",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": true,
             "heading": "6 Month Supply <br> End Of Summer Sale",
             "subheading": "(12 Treatments)",
@@ -128,6 +130,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "3 Month Supply",
             "subheading": "(6 Treatments)",
@@ -144,6 +148,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-2x-e-g-f-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "1 Month Supply",
             "subheading": "(2 Treatments)",
@@ -172,6 +178,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-6-month-bundle-for-wrinkles",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": true,
             "heading": "6 Month Supply <br> End Of Summer Sale",
             "subheading": "(12 Treatments)",
@@ -188,6 +196,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle-6x-beta-glucan-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "3 Month Supply",
             "subheading": "(6 Treatments)",
@@ -204,6 +214,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-2x-beta-glucan-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "1 Month Supply",
             "subheading": "(2 Treatments)",
@@ -232,6 +244,8 @@
           "type": "product",
           "settings": {
             "product": "microinfusion-offer-6-month-supply",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": true,
             "heading": "6 Month Supply <br> End Of Summer Sale",
             "subheading": "(12 Treatments)",
@@ -248,6 +262,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle-3x-b-g-serum-3x-e-g-f-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "3 Month Supply",
             "subheading": "(6 Treatments)",
@@ -264,6 +280,8 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-1-month-bundle-1x-b-g-serum-1x-e-g-f-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "1 Month Supply",
             "subheading": "(2 Treatments)",
@@ -296,7 +314,9 @@
         "product_Xf8A6C"
       ],
       "settings": {
-        "form_name": "purchase-form-landing"
+        "form_name": "purchase-form-landing",
+        "hide_types": false,
+        "style": "box"
       }
     },
     "slider_featured_in_qHHg4W": {
@@ -1144,6 +1164,8 @@
             "image": "shopify://shop_images/MI_6_month_Dark_Spots_3.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1161,6 +1183,8 @@
             "image": "shopify://shop_images/3monthhydra.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1178,6 +1202,8 @@
             "image": "shopify://shop_images/1monthdarkspots.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1207,6 +1233,8 @@
             "image": "shopify://shop_images/micro-infusion_6_month_bundle__for_wrinkles.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1224,6 +1252,8 @@
             "image": "shopify://shop_images/3monthwrinkles_1.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1241,6 +1271,8 @@
             "image": "shopify://shop_images/1monthwrinkles.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1270,6 +1302,8 @@
             "image": "shopify://shop_images/Micro-Infusion_6_Month_Bundle_For_Wrinkles_Dark_Spots.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1287,6 +1321,8 @@
             "image": "shopify://shop_images/3monthmix_3.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1304,6 +1340,8 @@
             "image": "shopify://shop_images/1monthMIX.png",
             "soldout": false,
             "preorder": false,
+            "total_treatments": 0,
+            "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -1333,6 +1371,7 @@
         "product_RBCPe8"
       ],
       "settings": {
+        "style": "box",
         "heading": "Choose your treatment",
         "text": "All orders are one-time purchases. No extra charges, and no hidden fees.",
         "image": "shopify://shop_images/tami-cropped.webp",

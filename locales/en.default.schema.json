@@ -9,6 +9,9 @@
  */
 {
     "common": {
+        "delivery": "Delivery",
+        "subscription": "Subscription",
+        "onetime": "Onetime",
         "selling_plan": "Selling plan",
         "variant": "Variant",
         "style": "Style",
@@ -272,6 +275,9 @@
         },
         "sticky-cta": {
             "name": "Sticky Call to Action"
+        },
+        "sticky-button-variants": {
+            "name": "Sticky Button Variants"
         },
         "image-accordion": {
             "name": "Image accordion"
@@ -619,7 +625,10 @@
                     "settings": {
                         "preorder_text": "Preorder text",
                         "preorder_date_soldout": "Soldout date",
-                        "preorder_date_reserved": "Reserved date"
+                        "preorder_date_reserved": "Reserved date",
+                        "subscription_onetime_text": "Onetime text",
+                        "subscription_days_text": "Days text",
+                        "subscription_discount": "Discount"
                     }
                 }
             }
