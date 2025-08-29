@@ -43,7 +43,7 @@
           "type": "jumpto",
           "settings": {
             "button-label": "Reviews",
-            "button-url": "#crystal_clear"
+            "button-url": "#trusted-reviews"
           }
         },
         "jumpto_7JzPHz": {
