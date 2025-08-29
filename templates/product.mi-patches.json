@@ -147,7 +147,7 @@
             "subheading": "(3 boxes, 24 pairs)",
             "image": "shopify://shop_images/24-pairs.webp",
             "soldout": false,
-            "preorder": true,
+            "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
