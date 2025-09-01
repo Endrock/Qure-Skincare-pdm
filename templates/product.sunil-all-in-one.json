@@ -124,6 +124,8 @@
           "type": "product",
           "settings": {
             "product": "all-in-one-face-serum-6-month-bundle",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": true,
             "heading": "6 Months",
             "subheading": "(3 bottles)",
@@ -140,6 +142,8 @@
           "type": "product",
           "settings": {
             "product": "all-in-one-face-serum-3-month-bundle",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "4 Months",
             "subheading": "(2 bottles)",
@@ -156,6 +160,8 @@
           "type": "product",
           "settings": {
             "product": "face-serum",
+            "product_variant_id": 0,
+            "product_selling_plan": 0,
             "preselected": false,
             "heading": "2 Months",
             "subheading": "(1 bottle)",
@@ -179,7 +185,8 @@
       ],
       "settings": {
         "form_name": "purchase-form-landing",
-        "hide_types": true
+        "hide_types": true,
+        "type": "box"
       }
     },
     "logos_89qVYW": {
@@ -482,6 +489,7 @@
       "settings": {
         "background_color": "",
         "heading": "Results you’ll see with your own eyes",
+        "text": "",
         "text_mobile": "",
         "button_label": "",
         "button_url": ""
@@ -539,6 +547,7 @@
       ],
       "name": "t:common.carousel",
       "settings": {
+        "background_color": "#f6f6f7",
         "display_mode": "both"
       }
     },
@@ -734,7 +743,7 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": ""
+        "button_url": "https://qureskincare.com/pages/contact-us"
       }
     },
     "sticky_cta_fbPDSk": {
