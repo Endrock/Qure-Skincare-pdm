@@ -9,6 +9,11 @@
  */
 {
   "sections": {
+    "collection": {
+      "bestseller": "Bestseller",
+      "shopby": "Shop by",
+      "uses": "uses..."
+    },
     "slider-featured-in": {
       "featured_text": "FEATURED IN"
     },
@@ -154,6 +159,9 @@
       "verified_text": "Verified",
       "review_image": "https://qureskincaredns-main.com/assets/images/reviewCheck.svg"
     }
+  },
+  "breadcrumb": {
+    "home": "Home"
   },
   "general": {
     "page": "Page {{ page }}",

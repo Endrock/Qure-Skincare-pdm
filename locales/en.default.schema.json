@@ -141,8 +141,14 @@
         "announcement-bar": {
             "name": "Announcement bar"
         },
-        "collections-offer": {
-            "name": "Collections offer"
+        "collection": {
+            "name": "Collection",
+            "blocks": {
+                "settings": {
+                    "product-item": "Product item",
+                    "brand-item": "Brand item"
+                }
+            }
         },
         "numbered-steps": {
             "name": "Numbered steps"
