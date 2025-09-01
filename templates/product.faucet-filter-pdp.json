@@ -130,9 +130,9 @@
             "subheading": "",
             "image": "shopify://shop_images/faucet_white_3b09bc4c-0464-4c4a-ae2a-bec3cd09cbd5.webp",
             "soldout": false,
-            "preorder": false,
-            "preorder_text": "",
-            "preorder_date_soldout": "",
+            "preorder": true,
+            "preorder_text": "30",
+            "preorder_date_soldout": "30",
             "preorder_date_reserved": "",
             "preorder_percent": 55
           }
@@ -346,6 +346,7 @@
       "settings": {
         "background_color": "",
         "heading": "The results are crystal clear",
+        "text": "",
         "text_mobile": "",
         "button_label": "",
         "button_url": ""
@@ -583,6 +584,7 @@
       ],
       "name": "t:common.carousel",
       "settings": {
+        "background_color": "#f6f6f7",
         "display_mode": "both"
       }
     },
