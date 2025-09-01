@@ -12,12 +12,12 @@
     "page_header_6BFNQx": {
       "type": "page-header",
       "blocks": {
-        "link_iPBNaS": {
-          "type": "link",
-          "settings": {}
-        },
         "description_iSDNaK": {
           "type": "description",
+          "settings": {}
+        },
+        "link_iPBNaS": {
+          "type": "link",
           "settings": {}
         },
         "exclusive-offer_iaSzaK": {
@@ -25,7 +25,7 @@
           "settings": {
             "image_product1": "shopify://shop_images/ledBox.webp",
             "image_product2": "shopify://shop_images/ndBox.webp",
-            "text": "<p>Buy the Q-Rejuvalight Pro and get the Neck & Décolletage LED Device for FREE (value <span>$299</span>)</p>"
+            "text": "<p>Buy the Q-Rejuvalight Pro and get the Neck & Décolletage LED Device for FREE (value $299)</p>"
           }
         }
       },
@@ -39,7 +39,7 @@
         "rating": "<p><strong>4.8</strong>/5 Rated by Customers</p>",
         "heading": "Feel Confident Makeup-Free with Q-Rejuvalight Pro",
         "description": "<ul><li>FDA-cleared at-home LED mask</li><li>Treat acne, fine lines, wrinkles & more</li><li>Customize, track & schedule treatments with app</li><li>Quick & convenient 3-minute wireless treatments</li></ul>",
-        "button-label": "Shop Now &amp; Save $299",
+        "button-label": "Shop Now & Save $299",
         "button-url": "#buy-form"
       }
     },
@@ -471,6 +471,7 @@
       "settings": {
         "background_color": "#ffffff",
         "heading": "Thousands are out-glowing their insecurities",
+        "text": "",
         "text_mobile": "",
         "button_label": "",
         "button_url": ""
@@ -506,7 +507,7 @@
       "name": "t:sections.exclusive-offer.name",
       "settings": {
         "heading": "Experience face and neck rejuvenation in one bundle",
-        "text": "<p>Exclusive</p><p>Offer</p>",
+        "text": "<p>END OF SUMMER</p><p>Offer</p>",
         "text_mobile": "<p>Includes 2 LED Devices:</p>"
       }
     },
@@ -554,7 +555,10 @@
         "items_TVMfzL"
       ],
       "name": "t:common.carousel",
-      "settings": {}
+      "settings": {
+        "background_color": "#f6f6f7",
+        "display_mode": "both"
+      }
     },
     "how_to_use_FWp4Aw": {
       "type": "how-to-use",
