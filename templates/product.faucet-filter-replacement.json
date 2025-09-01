@@ -130,7 +130,7 @@
             "subheading": "",
             "image": "shopify://shop_images/faucet_refill-w.webp",
             "soldout": false,
-            "preorder": true,
+            "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "25 july",
             "preorder_date_reserved": "50 may",
