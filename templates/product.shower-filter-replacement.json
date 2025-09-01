@@ -129,7 +129,7 @@
             "heading": "White",
             "subheading": "",
             "image": "shopify://shop_images/cartiage-1.webp",
-            "soldout": false,
+            "soldout": true,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
