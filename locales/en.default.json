@@ -343,5 +343,15 @@
         "text": "Our products are not intended to diagnose, cure, or prevent specific diseases of medical conditions. The Qure website is for education and information purposes only and is not intended as medical advice or a substitute for medical advice."
       }
     }
+  },
+  "blog": {
+    "choose": {
+      "header": "Choose your topic",
+      "read_time": "6 min read",
+      "read_more": "Read More"
+    },
+    "popular": {
+      "header": "Most Popular Posts"
+    }
   }
 }
