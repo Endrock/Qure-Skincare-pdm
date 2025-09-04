@@ -30,7 +30,7 @@ Renders a blog posts
                     <div class="col-md-6 col-lg-4">
                         <div class="article">
                             {% if article.image != blank %}
-                                <div class="article_img position-relative"> <img src="{{ article.image | image_url }}" alt="{{ article.image.alt | escape }}" class="img-fluid w-100">
+                                <div class="article_img position-relative"> <img src="{{ article.image | image_url: width: 400, height: 300, crop: 'center' }}" alt="{{ article.image.alt | escape }}" class="img-fluid w-100">
                                     <p class="tag_name">#{{ blogs[blog_handle].title }}</p>
                                 </div>
                             {% endif %}
