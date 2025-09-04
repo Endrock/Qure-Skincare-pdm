@@ -426,7 +426,7 @@
   },
   "bundle-header": {
     "settings": {
-      "exclusive": "Exclusive",
+      "exclusive": "End Of Summer ",
       "bundles": "Bundles",
       "dermatologist": "Dermatologist Reviewed",
       "shipping-text": "Free Shipping over $100",
@@ -470,7 +470,7 @@
     "popular": {
       "header": "Most Popular Posts"
     },
-    "blog-post":{
+    "blog-post": {
       "settings": {
         "image_1": "https://qureskincaredns-main.com/sections/isolated/blogs/images/choose_blog_1.webp",
         "image_mobile_1": "https://qureskincaredns-main.com/sections/isolated/blogs/images/choose_blog_1_mob.webp",
