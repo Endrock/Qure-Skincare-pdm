@@ -35,7 +35,10 @@
                                 | replace: '<em>', '<span>' 
                                 | replace: '</em>', '</span>' 
                                 | replace: '<p>[strong]', '<div class="fs-20 fw-600 mb-10">'
-                                | replace: '[/strong]</p>', '</div>' }}
+                                | replace: '[/strong]</p>', '</div>' 
+                                | replace: '<strong>', '<span class="fw-600 bg-transparent">'
+                                | replace: '</strong>', '</span>'
+                                }}
                             </div>
                         {% endif %}
                         {% comment %} {% if section.settings.button_label != blank and section.settings.button_url != blank %}
@@ -119,7 +122,10 @@
                                 | replace: '<em>', '<span>' 
                                 | replace: '</em>', '</span>' 
                                 | replace: '<p>[strong]', '<div class="fs-20 fw-600 mb-10">'
-                                | replace: '[/strong]</p>', '</div>' }}
+                                | replace: '[/strong]</p>', '</div>' 
+                                | replace: '<strong>', '<span class="fw-600 bg-transparent">'
+                                | replace: '</strong>', '</span>' 
+                                }}
                             </div>
                         {% endif %}
                         {% if section.settings.button_label != blank and section.settings.button_url != blank %}
