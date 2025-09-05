@@ -40,24 +40,26 @@
             {% endif %}
         </div>
     </div>
-    <!-- Galler End-->
-    <div class="swiper-thumbnail-with-arrow mt-3">
-        <!-- Thumbnails start-->
-        <div class="qure-swiper-arrow swiper-prev"><i class="fa-regular fa-angle-left"></i></div>
-        <div class="swiper qure__product-gallery  tp-thumbnails-desktop qure__swiper-gallery-thumbnails" data-section-id="tp-thumbnails-desktop" data-mobile="3" data-tablet="{{ total }}" data-desktop="{{ total }}" data-autoplay="false" data-loop="false" data-spacing="10">
-            <div class="swiper-wrapper">
-                {% if product.metafields.custom.carousel_media.value != blank %}
-                    {% render 'product-page-media-carousel', input_media_carousel: product.metafields.custom.carousel_media.value, classname: 'slide-thumbnail', size: '240x' %}
-                {% elsif page.metafields.custom.carousel_media.value != blank %}
-                    {% render 'product-page-media-carousel', input_media_carousel: page.metafields.custom.carousel_media.value, classname: 'slide-thumbnail', size: '240x' %}
-                {% else %}
-                    {% render 'product-media', product_media: product.media, classname: 'slide-thumbnail', size: '240x' %}
-                {% endif %}
+    {% if total > 1 %}
+        <!-- Galler End-->
+        <div class="swiper-thumbnail-with-arrow mt-3">
+            <!-- Thumbnails start-->
+            <div class="qure-swiper-arrow swiper-prev"><i class="fa-regular fa-angle-left"></i></div>
+            <div class="swiper qure__product-gallery  tp-thumbnails-desktop qure__swiper-gallery-thumbnails" data-section-id="tp-thumbnails-desktop" data-mobile="3" data-tablet="{{ total }}" data-desktop="{{ total }}" data-autoplay="false" data-loop="false" data-spacing="10">
+                <div class="swiper-wrapper">
+                    {% if product.metafields.custom.carousel_media.value != blank %}
+                        {% render 'product-page-media-carousel', input_media_carousel: product.metafields.custom.carousel_media.value, classname: 'slide-thumbnail', size: '240x' %}
+                    {% elsif page.metafields.custom.carousel_media.value != blank %}
+                        {% render 'product-page-media-carousel', input_media_carousel: page.metafields.custom.carousel_media.value, classname: 'slide-thumbnail', size: '240x' %}
+                    {% else %}
+                        {% render 'product-media', product_media: product.media, classname: 'slide-thumbnail', size: '240x' %}
+                    {% endif %}
+                </div>
             </div>
+            <div class="qure-swiper-arrow swiper-next"><i class="fa-regular fa-angle-right"></i></div>
         </div>
-        <div class="qure-swiper-arrow swiper-next"><i class="fa-regular fa-angle-right"></i></div>
-    </div>
-    <!-- Thumbnails End-->
+        <!-- Thumbnails End-->
+    {% endif %}
 </slide-with-thumbs>
 
 <script>
