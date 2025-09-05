@@ -406,7 +406,7 @@
           "settings": {
             "text": "<p>Large pores and textured skin</p>",
             "button": "Shop Now",
-            "button_url": "#",
+            "button_url": "https://qureskincare.com/collections/dark-spots",
             "image": "shopify://shop_images/gq-3.webp",
             "image_mobile": "shopify://shop_images/gq-mob-3.webp"
           }
