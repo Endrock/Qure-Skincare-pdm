@@ -238,8 +238,8 @@
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "heading": "Introducing the Qure Micro-Infusion System",
-        "text": "<ul><li>Works beneath the surface where topicals can't reach to target <strong>stubborn dark spots</strong> and uneven tone</li><li>Wake up with <strong>radiant, more even-toned</strong> skin</li><li>Minimal to no downtime, and <strong>virtually painless</strong></li><li>Easy to use <strong>5-minute</strong> treatment</li></ul>",
-        "quote": "<p>“<strong>Even my esthetician is hooked!</strong>And I can now visit beauty clinics less often.”</p>",
+        "text": "<ul><li>Visibly improves the appearance of <strong>acne scars</strong> and smooths texture</li><li>Wake up with <strong>radiant, more even-toned</strong> skin</li><li>Minimal to no downtime, and <strong>virtually painless</strong></li><li>Easy to use <strong>5-minute</strong> treatment</li></ul>",
+        "quote": "<p>“<strong>Even my esthetician is hooked! </strong>And I can now visit beauty clinics less often.”</p>",
         "quote-mobile": "",
         "image_position": "right",
         "sub_text": "",
@@ -868,7 +868,7 @@
       "settings": {
         "heading": "",
         "text": "",
-        "heading_mobile": "Science-Backed Micro-Infusion Serums ",
+        "heading_mobile": "Science-Backed Micro-Infusion Serums",
         "text_mobile": "Choose the exact serum to use in your Micro-Infusion treatment, or get both and mix them together to experience a complete set of benefits that addresses your specific skin concerns.",
         "image": "shopify://shop_images/serums-lady.webp",
         "image_header": "Rejuvenating Serum",
