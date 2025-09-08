@@ -524,9 +524,8 @@
         "button_label": "Shop Now"
       },
       "subscription": {
-        "header": "",
-        "text": "",
-        "button_image": ""
+        "header": "Get the latest from Qure",
+        "button_image": "https://qureskincaredns-main.com/assets/images/arrow_right.svg"
       },
       "community": {
         "header_html": "<strong>Learn more and share <br> your skincare journey</strong>",
