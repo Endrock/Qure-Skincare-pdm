@@ -1,157 +1,90 @@
+const CONSENT_KEY = 'qure_cookie_consent';
+const SETTINGS_KEY = 'qure_cookie_settings';
 
-const COOKIE_CONSENT_KEY = 'qure_cookie_consent';
-const COOKIE_SETTINGS_KEY = 'qure_cookie_settings';
+const el = id => document.getElementById(id);
 
-let cookieBanner;
-let dismissButton;
-let acceptButton;
-let strictlyNecessaryCheckbox;
-let performanceCheckbox;
-let functionalCheckbox;
-let advertisingCheckbox;
+const checkboxes = [
+  'strictly-necessary-cookies',
+  'performance-cookies',
+  'functional-cookies',
+  'advertising-cookies'
+].map(el);
 
-initCookieBanner();
+const [strictly, performance, functional, advertising] = checkboxes;
 
-function initDOMElements() {
-  cookieBanner = document.getElementById('qure_cookie_container');
-  dismissButton = document.getElementById('ba-cookie-dismiss');
-  acceptButton = cookieBanner ? cookieBanner.querySelector('a.btn--primary') : null;
-  
-  strictlyNecessaryCheckbox = document.getElementById('strictly-necessary-cookies');
-  performanceCheckbox = document.getElementById('performance-cookies');
-  functionalCheckbox = document.getElementById('functional-cookies');
-  advertisingCheckbox = document.getElementById('advertising-cookies');
+const cookieBanner = el('qure_cookie_main');
+const cookiePrefs = el('qure_cookie_preferences');
+const btnDismiss = el('ba-cookie-dismiss');
+const btnAccept = el('gdpr-accept-button');
+const btnDecline = el('gdpr-decline-button');
+const btnSave = el('gdpr-save-preferences-button');
+const btnManage = document.querySelector('.manage_pref');
+
+function show(el) { if (el) el.classList.remove('d-none'); }
+function hide(el) { if (el) el.classList.add('d-none'); }
+
+function showBanner() {
+  show(cookieBanner);
+  hide(cookiePrefs);
+}
+function showPrefs() {
+  hide(cookieBanner);
+  show(cookiePrefs);
+}
+function hideAll() {
+  hide(cookieBanner);
+  hide(cookiePrefs);
 }
 
-function initCookieBanner() {
-  initDOMElements();
-  
-  const hasConsent = sessionStorage.getItem(COOKIE_CONSENT_KEY);
-
-  if (hasConsent === 'true') {
-      hideCookieBanner();
-  } else {
-      showCookieBanner();
-  }
-
-  loadCheckboxStates();
-  addEventListeners();
-}
-
-function showCookieBanner() {
-if (cookieBanner) {
-    cookieBanner.classList.remove('d-none');
-}
-}
-
-function hideCookieBanner() {
-if (cookieBanner) {
-    cookieBanner.classList.add('d-none');
-}
-}
-
-function loadCheckboxStates() {
-const savedSettings = sessionStorage.getItem(COOKIE_SETTINGS_KEY);
-
-if (savedSettings) {
+function loadStates() {
+  const saved = sessionStorage.getItem(SETTINGS_KEY);
+  if (saved) {
     try {
-    const settings = JSON.parse(savedSettings);
-    
-        if (strictlyNecessaryCheckbox) {
-        strictlyNecessaryCheckbox.checked = settings.strictlyNecessary || false;
-    }
-    if (performanceCheckbox) {
-        performanceCheckbox.checked = settings.performance || false;
-    }
-    if (functionalCheckbox) {
-        functionalCheckbox.checked = settings.functional || false;
-    }
-    if (advertisingCheckbox) {
-        advertisingCheckbox.checked = settings.advertising || false;
-    }
-      } catch (error) {
-      }
-} else {
-    if (strictlyNecessaryCheckbox) {
-    strictlyNecessaryCheckbox.checked = true;
-    }
-}
+      const s = JSON.parse(saved);
+      strictly && (strictly.checked = !!s.strictlyNecessary);
+      performance && (performance.checked = !!s.performance);
+      functional && (functional.checked = !!s.functional);
+      advertising && (advertising.checked = !!s.advertising);
+    } catch {}
+  } else {
+    strictly && (strictly.checked = true);
+  }
 }
 
-function saveCheckboxStates() {
-const settings = {
-    strictlyNecessary: strictlyNecessaryCheckbox ? strictlyNecessaryCheckbox.checked : false,
-    performance: performanceCheckbox ? performanceCheckbox.checked : false,
-    functional: functionalCheckbox ? functionalCheckbox.checked : false,
-    advertising: advertisingCheckbox ? advertisingCheckbox.checked : false
-};
-
-sessionStorage.setItem(COOKIE_SETTINGS_KEY, JSON.stringify(settings));
+function saveStates() {
+  const s = {
+    strictlyNecessary: strictly ? strictly.checked : false,
+    performance: performance ? performance.checked : false,
+    functional: functional ? functional.checked : false,
+    advertising: advertising ? advertising.checked : false
+  };
+  sessionStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
 }
 
-function addEventListeners() {
-    if (acceptButton) {
-        acceptButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            handleAcceptCookies();
-        });
-    }
-
-    if (dismissButton) {
-        dismissButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            handleDismissCookies();
-        });
-    }
-
-const checkboxes = [strictlyNecessaryCheckbox, performanceCheckbox, functionalCheckbox, advertisingCheckbox];
-
-checkboxes.forEach(checkbox => {
-    if (checkbox) {
-    checkbox.addEventListener('change', function() {
-        saveCheckboxStates();
-    });
-    }
-});
+function acceptAll() {
+  checkboxes.forEach(cb => cb && (cb.checked = true));
+  saveStates();
+  sessionStorage.setItem(CONSENT_KEY, 'true');
+  hideAll();
 }
 
-function handleAcceptCookies() {
-saveCheckboxStates();
-
-sessionStorage.setItem(COOKIE_CONSENT_KEY, 'true');
-
-hideCookieBanner();
-
-    activateCookies();
+function declineAll() {
+  sessionStorage.setItem(CONSENT_KEY, 'false');
+  hideAll();
 }
 
-function handleDismissCookies() {
-sessionStorage.setItem(COOKIE_CONSENT_KEY, 'true');
-
-hideCookieBanner();
-
-activateEssentialCookies();
+function addListeners() {
+  btnAccept && btnAccept.addEventListener('click', e => { e.preventDefault(); acceptAll(); });
+  btnDecline && btnDecline.addEventListener('click', e => { e.preventDefault(); declineAll(); });
+  btnDismiss && btnDismiss.addEventListener('click', e => { e.preventDefault(); declineAll(); });
+  btnManage && btnManage.addEventListener('click', e => { e.preventDefault(); showPrefs(); });
+  btnSave && btnSave.addEventListener('click', e => { e.preventDefault(); saveStates(); showBanner(); });
+  checkboxes.forEach(cb => cb && cb.addEventListener('change', saveStates));
 }
 
-function activateCookies() {
-const settings = JSON.parse(sessionStorage.getItem(COOKIE_SETTINGS_KEY) || '{}');
-
-    if (settings.performance) {
-    }
-    
-    if (settings.functional) {
-    }
-    
-    if (settings.advertising) {
-    }
-}
-
-function activateEssentialCookies() {
-}
-
-// Function to reset settings (for testing)
-window.resetCookieSettings = function() {
-  sessionStorage.removeItem(COOKIE_CONSENT_KEY);
-  sessionStorage.removeItem(COOKIE_SETTINGS_KEY);
-  location.reload();
-};
+(function init() {
+  const consent = sessionStorage.getItem(CONSENT_KEY);
+  if (!consent || consent === 'false') showBanner();
+  loadStates();
+  addListeners();
+})();
