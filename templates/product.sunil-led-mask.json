@@ -820,17 +820,20 @@
         "button_url": ""
       }
     },
-    "product_info_UhyUij": {
-      "type": "product-info",
-      "name": "t:sections.product-info.name",
+    "banner_with_text_brh8bN": {
+      "type": "banner-with-text",
+      "name": "t:sections.banner-with-text.name",
       "settings": {
         "heading": "Qure mobile app",
         "text": "<p><strong>The only FDA-cleared LED light therapy mask with an app.</strong></p><p>Your skin is unique, so your treatment should be too.</p><p>Choose between <em>three treatment modes</em>, “Anti-Breakout”, “Anti-Aging” or custom treatment zones. Select a treatment mode on five different facial areas to treat and <em>target what your skin needs today</em>. </p><p>Never miss a treatment with Qure mobile app planner and phone reminders.</p>",
+        "quote": "",
+        "quote-mobile": "",
+        "image_position": "right",
+        "sub_text": "",
         "image": "shopify://shop_images/qure_mobile_app.webp",
-        "image_mobile": "shopify://shop_images/qure_mobile_app_mob.webp",
-        "button-label": "",
-        "button-url": "",
-        "image_position": "right"
+        "button_label": "Shop Now",
+        "button_url": "",
+        "wistia_url": ""
       }
     },
     "device_comparison_gqa6Kh": {
@@ -1054,7 +1057,7 @@
     "video_review_slider_Qx3NMq",
     "carousel_mfFFcV",
     "how_to_use_Uz9LpM",
-    "product_info_UhyUij",
+    "banner_with_text_brh8bN",
     "device_comparison_gqa6Kh",
     "compare_FyPtUj",
     "sticky_cta_AFkFxe",
