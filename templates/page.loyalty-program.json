@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "page-loyalty-program",
+      "disabled": true,
       "settings": {}
     },
     "17333325327bc1f4c8": {
@@ -19,13 +20,25 @@
         "stamped_loyalty_referrals_page_summary_AKHFNP": {
           "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-summary/93b8fd18-14d4-464f-a49a-0093afb7e10a",
           "settings": {
-            "label_greeting_anonymous": "Hello there,",
+            "label_greeting_anonymous": "Loyalty Program",
             "label_greeting_customer": "Hello {0},",
-            "label_greeting_description": "Get more from your skincare routine with Qure. Shop your favorite products and earn rewards like exclusive discounts and free products. The more you interact, the more you earn.\n\nIt’s time to drown out all the noise, forget all the hype and start listening to your skin.\n\nWith our Loyalty Qoins, you’ll keep earning rewards every time you shop with Qure.\n\nCreate an account and start collecting Qoins to help you on your way to confident, radiant skin.",
-            "label_signup": "Create your account",
-            "label_signin": "Login here",
+            "label_greeting_description": "Earn points and gain access to exclusive benefits every time you shop.",
+            "label_signup": "Join Now",
+            "label_signin": "Sign In",
             "label_redeem": "Redeem Now",
             "label_history": "Rewards History"
+          }
+        },
+        "stamped_loyalty_referrals_page_how_it_works_6gNM6M": {
+          "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-how-it-works/93b8fd18-14d4-464f-a49a-0093afb7e10a",
+          "settings": {
+            "label_title": "How it Works",
+            "label_step_title_one": "JOIN THE CLUB",
+            "label_step_description_one": "Create an account in a few minutes and earn 50 points right away.",
+            "label_step_title_two": "EARN POINTS",
+            "label_step_description_two": "Earn points for shopping, following us on social media, birthdays, and product reviews.",
+            "label_step_title_three": "REDEEM POINTS",
+            "label_step_description_three": "Use your points to redeem exclusive discounts and free products."
           }
         },
         "stamped_loyalty_referrals_page_spendings_BFy4qR": {
@@ -33,18 +46,6 @@
           "settings": {
             "label_title": "What do I get?",
             "label_description": ""
-          }
-        },
-        "stamped_loyalty_referrals_page_how_it_works_6gNM6M": {
-          "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-how-it-works/93b8fd18-14d4-464f-a49a-0093afb7e10a",
-          "settings": {
-            "label_title": "How it Works",
-            "label_step_title_one": "Create Your Account",
-            "label_step_description_one": "Sign up today in just a few minutes\n\nand join the Skin I-Q Club!",
-            "label_step_title_two": "Earn Qoins ",
-            "label_step_description_two": "Every time you shop with Qure or share our message about skincare that respects and celebrates everyone’s beauty, you’ll earn more Qoins.",
-            "label_step_title_three": "Redeem Your Qoins",
-            "label_step_description_three": "We believe in choice which is why you can choose what to do with your Qoins. Save them up for free products or redeem them for their cash value."
           }
         },
         "stamped_loyalty_referrals_vip_tiers_4FwJ9K": {
@@ -56,7 +57,7 @@
         "stamped_loyalty_referrals_page_earnings_c7HNiL": {
           "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-earnings/93b8fd18-14d4-464f-a49a-0093afb7e10a",
           "settings": {
-            "label_title": "Ways to earn Qure Qoins"
+            "label_title": "Ways To Earn Points"
           }
         },
         "stamped_loyalty_referrals_page_referral_n6N7Ky": {
@@ -83,8 +84,8 @@
       },
       "block_order": [
         "stamped_loyalty_referrals_page_summary_AKHFNP",
-        "stamped_loyalty_referrals_page_spendings_BFy4qR",
         "stamped_loyalty_referrals_page_how_it_works_6gNM6M",
+        "stamped_loyalty_referrals_page_spendings_BFy4qR",
         "stamped_loyalty_referrals_vip_tiers_4FwJ9K",
         "stamped_loyalty_referrals_page_earnings_c7HNiL",
         "stamped_loyalty_referrals_page_referral_n6N7Ky",

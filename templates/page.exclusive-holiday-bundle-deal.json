@@ -727,32 +727,32 @@
         "accordion_6MpWLR": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Shah",
-            "text": "Board Certified Dermatologist",
+            "heading": "LED Therapy",
+            "text": "Targeted red light therapy to firm and smooth skin.",
             "image": "shopify://shop_images/led_mask.webp"
           }
         },
         "accordion_XqVibT": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Maxfield",
-            "text": "Board Certified Dermatologist",
+            "heading": "Micro-Infusion",
+            "text": "Smooth fine lines, hydrate, and firm skin.",
             "image": "shopify://shop_images/micro-infusion.webp"
           }
         },
         "accordion_CMf9Pm": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Tripathi",
-            "text": "Double Board Certified Facial Plastic Surgeon",
+            "heading": "Topical Treatments",
+            "text": "Target acne and dehydration with clinical solutions.",
             "image": "shopify://shop_images/topical.webp"
           }
         },
         "accordion_zwV9FB": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Stephens",
-            "text": "Board Certified Dermatologist",
+            "heading": "Filters",
+            "text": "Remove chlorine, bacteria, and metals at the source.",
             "image": "shopify://shop_images/filters.webp"
           }
         },
@@ -822,9 +822,9 @@
         "text": "No fake promises, no fillers – just formulas that work. Our most-loved bundles are here for a limited time, with up to 55% off and results backed by clinical studies.",
         "sub_text": "",
         "button": "Shop All Best Sellers",
-        "button_url": "#",
-        "button_mobile": "Shop All Best Sellers",
-        "button_url_mobile": "#",
+        "button_url": "https://qureskincare.com/collections/best-sellers",
+        "button_mobile": "Shop Best Sellers",
+        "button_url_mobile": "https://qureskincare.com/collections/best-sellers",
         "image": "shopify://shop_images/hero.webp",
         "image_mobile": "shopify://shop_images/hero-mob-1_2abc0783-5cc1-405d-9ff1-471b566527ad.webp"
       }
@@ -845,7 +845,7 @@
           "type": "accordion",
           "settings": {
             "heading": "How often can I use Qure treatments?",
-            "text": "<p>It depends on the product. </p><p>Most of our products, including our All-In-One Serum and Q-Rejuvalight Pro LED Mask, are gentle and intended for daily use. Our Micro-Infusion treatments are more intensive and should be used less frequently. We recommend using the Micro=Infusion Targeted Eye Patches once per week. and the full Micro-Infusion System once every 2 weeks, for the best results.</p><p>Always follow the usage guidelines for each product and adjust based on how your skin responds.</p>",
+            "text": "<p>It depends on the product. </p><p>Most of our products, including our All-In-One Serum and Q-Rejuvalight Pro LED Mask, are gentle and intended for daily use. Our Micro-Infusion treatments are more intensive and should be used less frequently. We recommend using the Micro Infusion Targeted Eye Patches once per week. and the full Micro-Infusion System once every 2 weeks, for the best results.</p><p>Always follow the usage guidelines for each product and adjust based on how your skin responds.</p>",
             "link_url": "",
             "link_text": ""
           }

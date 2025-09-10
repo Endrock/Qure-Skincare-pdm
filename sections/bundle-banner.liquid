@@ -17,8 +17,7 @@
       </picture>
     {% endif %}
    </div>
-   <div
-      class="bundle__banner-content position-absolute d-flex align-items-center justify-content-end top-0 bottom-0 start-0 end-0">
+   <div class="bundle__banner-content position-absolute d-flex align-items-center justify-content-end top-0 bottom-0 start-0 end-0"{% if section.settings.button_url != blank %} onclick="window.location.href='{{ section.settings.button_url }}'" style="cursor: pointer;"{% endif %}>
       <div class="container bundle__container py-40" style="--column-gap:60px; --column-gap-mobile:30px;">
          <div class="row custom__grid justify-content-end align-items-center">
             <div class="custom__block col-lg-5">
