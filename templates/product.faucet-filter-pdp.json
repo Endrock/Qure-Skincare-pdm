@@ -613,7 +613,7 @@
           "type": "list",
           "settings": {
             "heading": "Secure",
-            "text": "Clip Qure Faucet Filter onto the faucet. Once you hear it click it is installed. Turn the toggle button to “Q” mark on the filter and enjoy healthier, clearer skin!",
+            "text": "Clip Qure Faucet Filter onto the faucet. Once you hear it click it is installed. <br>Turn the toggle button to “Q” mark on the filter and enjoy healthier, clearer skin!",
             "image": "shopify://shop_images/faucet_secure.webp",
             "image_mobile": "shopify://shop_images/faucet_secure-m.webp"
           }
