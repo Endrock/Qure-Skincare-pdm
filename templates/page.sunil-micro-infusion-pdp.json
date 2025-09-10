@@ -358,35 +358,35 @@
         "slider_YTrqVV": {
           "type": "slider",
           "settings": {
-            "text": "<p>Saves time, money and hassle compared to in-clinic treatments</p>",
+            "text": "<p>Saves time, money and<br/> hassle compared to in-clinic treatments</p>",
             "image": "shopify://shop_images/mi_pdp_icon_1.webp"
           }
         },
         "slider_3HLnzt": {
           "type": "slider",
           "settings": {
-            "text": "<p>Quick & easy 5-minute DIY facial from the convenience of home</p>",
+            "text": "<p>Quick & easy 5-minute <br/>DIY facial from the convenience of home</p>",
             "image": "shopify://shop_images/mi_pdp_icon_2.webp"
           }
         },
         "slider_kHUw7M": {
           "type": "slider",
           "settings": {
-            "text": "<p>Virtually painless, little to no downtime</p>",
+            "text": "<p>Virtually painless, little to <br/>no downtime</p>",
             "image": "shopify://shop_images/mi_pdp_icon_3.webp"
           }
         },
         "slider_XHHhXh": {
           "type": "slider",
           "settings": {
-            "text": "<p>2-in-1 system rejuvenates skin & infuses serum deeper for faster results</p>",
+            "text": "<p>2-in-1 system rejuvenates <br/>skin & infuses serum deeper for faster results</p>",
             "image": "shopify://shop_images/mi_pdp_icon_4.webp"
           }
         },
         "slider_mqbMLE": {
           "type": "slider",
           "settings": {
-            "text": "<p>Perfect for transforming dull-looking skin before events</p>",
+            "text": "<p>Perfect for transforming <br/>dull-looking skin before events</p>",
             "image": "shopify://shop_images/mi_pdp_icon_5.webp"
           }
         }
