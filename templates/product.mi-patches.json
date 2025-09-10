@@ -817,6 +817,7 @@
         "slider_pxNHrz",
         "slider_gwBpt3"
       ],
+      "disabled": true,
       "name": "t:sections.video-review-slider.name",
       "settings": {
         "heading": "See why everyone's switching to filtered water",

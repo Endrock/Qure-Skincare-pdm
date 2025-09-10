@@ -1,12 +1,12 @@
 /*
  * ------------------------------------------------------------
-  * IMPORTANT: The contents of this file are auto-generated.
-   *
-    * This file may be updated by the Shopify admin theme editor
-     * or related systems. Please exercise caution as any changes
-      * made to this file may be overwritten.
-       * ------------------------------------------------------------
-        */
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "page_banner_zUyTB8": {
@@ -70,14 +70,13 @@
     },
     "collection_fXMjkJ": {
       "type": "collection",
-      "name": "t:sections.collection.name",
       "blocks": {
         "product_item_Ub9bKD": {
           "type": "product-item",
           "settings": {
             "image": "shopify://shop_images/pd-review.webp",
-            "client": "Ela",
             "text": "I’m shocked at the results after just one treatment! My skin looks so clear, glowy, and healthy.",
+            "client": "Ela",
             "text_mobile": "I’m shocked at the results after just one treatment!",
             "product": "micro-infusion-3-month-bundle-6x-beta-glucan-serum",
             "position": 1
@@ -96,6 +95,7 @@
         "product_item_Ub9bKD",
         "brand_item_Ub7bKD"
       ],
+      "name": "t:sections.collection.name",
       "settings": {}
     },
     "bundle_banner_zWkqBN": {
@@ -182,7 +182,7 @@
             "text": "<p>Then get a custom skincare plan, backed by science.</p>",
             "image_text": "<p>Only takes 60 seconds</p>",
             "button-label": "Take The Quiz",
-            "button-url": ""
+            "button-url": "https://qureskincare.com/pages/skin-consultation"
           }
         }
       },
