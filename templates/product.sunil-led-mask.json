@@ -906,6 +906,45 @@
         "image_compare_cross": "shopify://shop_images/rejuv_vs_2.webp"
       }
     },
+    "sticky_cta_AFkFxe": {
+      "type": "sticky-button",
+      "name": "t:sections.sticky-button.name",
+      "settings": {
+        "heading": "Q-Rejuvalight Pro LED Mask",
+        "text": "203 purchased in last 48 hours",
+        "button-label": "",
+        "button-url": ""
+      }
+    },
+    "text_header_3LDiTg": {
+      "type": "text-header",
+      "name": "t:sections.text-header.name",
+      "settings": {
+        "heading": "Our customer reviews"
+      }
+    },
+    "1707653061bd3707e6": {
+      "type": "apps",
+      "blocks": {
+        "stamped_product_reviews_ugc_main_widget_A4ebAn": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 2,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_product_reviews_ugc_main_widget_A4ebAn"
+      ],
+      "settings": {}
+    },
     "faq_46wWyJ": {
       "type": "faq",
       "blocks": {
@@ -999,45 +1038,6 @@
         "button_label": "Ask us",
         "button_url": "https://qureskincare.com/pages/contact-us"
       }
-    },
-    "sticky_cta_AFkFxe": {
-      "type": "sticky-button",
-      "name": "t:sections.sticky-button.name",
-      "settings": {
-        "heading": "Q-Rejuvalight Pro LED Mask",
-        "text": "203 purchased in last 48 hours",
-        "button-label": "",
-        "button-url": ""
-      }
-    },
-    "text_header_3LDiTg": {
-      "type": "text-header",
-      "name": "t:sections.text-header.name",
-      "settings": {
-        "heading": "Our customer reviews"
-      }
-    },
-    "1707653061bd3707e6": {
-      "type": "apps",
-      "blocks": {
-        "stamped_product_reviews_ugc_main_widget_A4ebAn": {
-          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "take_questions": 2,
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "stamped_product_reviews_ugc_main_widget_A4ebAn"
-      ],
-      "settings": {}
     }
   },
   "order": [
