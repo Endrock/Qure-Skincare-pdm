@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "page-loyalty-program",
+      "disabled": true,
       "settings": {}
     },
     "17333325327bc1f4c8": {
@@ -19,7 +20,7 @@
         "stamped_loyalty_referrals_page_summary_AKHFNP": {
           "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-summary/93b8fd18-14d4-464f-a49a-0093afb7e10a",
           "settings": {
-            "label_greeting_anonymous": "Hello there,",
+            "label_greeting_anonymous": "Loyalty Program",
             "label_greeting_customer": "Hello {0},",
             "label_greeting_description": "Get more from your skincare routine with Qure. Shop your favorite products and earn rewards like exclusive discounts and free products. The more you interact, the more you earn.\n\nIt’s time to drown out all the noise, forget all the hype and start listening to your skin.\n\nWith our Loyalty Qoins, you’ll keep earning rewards every time you shop with Qure.\n\nCreate an account and start collecting Qoins to help you on your way to confident, radiant skin.",
             "label_signup": "Create your account",
