@@ -29,13 +29,6 @@
             "label_history": "Rewards History"
           }
         },
-        "stamped_loyalty_referrals_page_spendings_BFy4qR": {
-          "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-spendings/93b8fd18-14d4-464f-a49a-0093afb7e10a",
-          "settings": {
-            "label_title": "What do I get?",
-            "label_description": ""
-          }
-        },
         "stamped_loyalty_referrals_page_how_it_works_6gNM6M": {
           "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-how-it-works/93b8fd18-14d4-464f-a49a-0093afb7e10a",
           "settings": {
@@ -46,6 +39,13 @@
             "label_step_description_two": "Earn points for shopping, following us on social media, birthdays, and product reviews.",
             "label_step_title_three": "REDEEM POINTS",
             "label_step_description_three": "Use your points to redeem exclusive discounts and free products."
+          }
+        },
+        "stamped_loyalty_referrals_page_spendings_BFy4qR": {
+          "type": "shopify://apps/stamped-loyalty-referrals/blocks/page-spendings/93b8fd18-14d4-464f-a49a-0093afb7e10a",
+          "settings": {
+            "label_title": "What do I get?",
+            "label_description": ""
           }
         },
         "stamped_loyalty_referrals_vip_tiers_4FwJ9K": {
@@ -84,8 +84,8 @@
       },
       "block_order": [
         "stamped_loyalty_referrals_page_summary_AKHFNP",
-        "stamped_loyalty_referrals_page_spendings_BFy4qR",
         "stamped_loyalty_referrals_page_how_it_works_6gNM6M",
+        "stamped_loyalty_referrals_page_spendings_BFy4qR",
         "stamped_loyalty_referrals_vip_tiers_4FwJ9K",
         "stamped_loyalty_referrals_page_earnings_c7HNiL",
         "stamped_loyalty_referrals_page_referral_n6N7Ky",
