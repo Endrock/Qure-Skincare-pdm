@@ -743,16 +743,16 @@
         "accordion_CMf9Pm": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Tripathi",
-            "text": "Double Board Certified Facial Plastic Surgeon",
+            "heading": "Topical Treatments",
+            "text": "Target acne and dehydration with clinical solutions.",
             "image": "shopify://shop_images/topical.webp"
           }
         },
         "accordion_zwV9FB": {
           "type": "accordion",
           "settings": {
-            "heading": "Dr. Stephens",
-            "text": "Board Certified Dermatologist",
+            "heading": "Filters",
+            "text": "Remove chlorine, bacteria, and metals at the source.",
             "image": "shopify://shop_images/filters.webp"
           }
         },
