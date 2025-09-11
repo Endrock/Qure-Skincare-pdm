@@ -1,10 +1,10 @@
 // Constants
 const CART_ACTIONS = {
-    ADD: '/cart/add.js',
-    CHANGE: '/cart/change.js',
-    UPDATE: '/cart/update.js',
-    CLEAR: '/cart/clear.js',
-    STATE: '/cart.js'
+    ADD: 'cart/add.js',
+    CHANGE: 'cart/change.js',
+    UPDATE: 'cart/update.js',
+    CLEAR: 'cart/clear.js',
+    STATE: 'cart.js'
 };
 
 const CART_EVENTS = {
