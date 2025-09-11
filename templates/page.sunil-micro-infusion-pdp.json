@@ -104,7 +104,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/corect_mi_dark.svg",
+            "image": "shopify://shop_images/serum_3b03c169-22c4-4994-9484-c7d48ece21d1.png",
             "preselected": false
           }
         },
@@ -170,7 +170,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/Untitled_design_1.svg",
+            "image": "shopify://shop_images/serum_1_82fe9c85-2f77-4465-b851-eafec27bea00.png",
             "preselected": true
           }
         },
@@ -831,7 +831,7 @@
           "type": "left_text_with_image",
           "settings": {
             "text": "<p>Brightens discoloration</p>",
-            "image": "shopify://shop_images/dark-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons.svg"
           }
         },
         "left_text_with_image_4ajB36": {
@@ -1168,7 +1168,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/corect_mi_dark.svg",
+            "image": "shopify://shop_images/serum_3b03c169-22c4-4994-9484-c7d48ece21d1.png",
             "preselected": false
           }
         },
@@ -1237,7 +1237,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/corect_mi_wr.svg",
+            "image": "shopify://shop_images/serum_1_82fe9c85-2f77-4465-b851-eafec27bea00.png",
             "preselected": true
           }
         },
@@ -1306,7 +1306,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Mixed",
-            "image": "shopify://shop_images/Corect_MIX.png",
+            "image": "shopify://shop_images/Frame_1073714838.png",
             "preselected": false
           }
         },
