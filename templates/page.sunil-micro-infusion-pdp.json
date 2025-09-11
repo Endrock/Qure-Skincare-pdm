@@ -104,7 +104,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/serum_1.webp",
+            "image": "shopify://shop_images/corect_mi_dark.svg",
             "preselected": false
           }
         },
@@ -115,7 +115,7 @@
             "product_variant_id": 0,
             "product_selling_plan": 0,
             "preselected": true,
-            "heading": "6 Month Supply <br> End Of Summer Sale",
+            "heading": "6 Month Supply  End Of Summer Sale",
             "subheading": "(12 Treatments)",
             "image": "shopify://shop_images/6m_dark_spot.png",
             "soldout": false,
@@ -170,7 +170,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/serum_2.webp",
+            "image": "shopify://shop_images/corect_mi_wr.svg",
             "preselected": true
           }
         },
@@ -236,7 +236,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Mixed",
-            "image": "shopify://shop_images/serum_3.webp",
+            "image": "shopify://shop_images/Corect_MIX.png",
             "preselected": false
           }
         },
@@ -831,42 +831,42 @@
           "type": "left_text_with_image",
           "settings": {
             "text": "<p>Brightens discoloration</p>",
-            "image": "shopify://shop_images/dark-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons.svg"
           }
         },
         "left_text_with_image_4ajB36": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Fades dark <br />spots</p>",
-            "image": "shopify://shop_images/dark-2.webp"
+            "text": "<p>Fades dark <br/>spots</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_1.svg"
           }
         },
         "left_text_with_image_6j8ph6": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Evens skin <br /> tone</p>",
-            "image": "shopify://shop_images/dark-3.webp"
+            "text": "<p>Evens skin <br/> tone</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_2.svg"
           }
         },
         "right_text_with_image_zLm9hV": {
           "type": "right_text_with_image",
           "settings": {
             "text": "<p>Softens lines & wrinkles</p>",
-            "image": "shopify://shop_images/wrinkle-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons_3.svg"
           }
         },
         "right_text_with_image_i9yAbQ": {
           "type": "right_text_with_image",
           "settings": {
-            "text": "<p>Soothes <br />redness</p>",
-            "image": "shopify://shop_images/wrinkle-2.webp"
+            "text": "<p>Soothes <br/>redness</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_4.svg"
           }
         },
         "right_text_with_image_FExJGY": {
           "type": "right_text_with_image",
           "settings": {
-            "text": "<p>Boosts <br /> hydration</p>",
-            "image": "shopify://shop_images/wrinkle-3.webp"
+            "text": "<p>Boosts <br/> hydration</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_5.svg"
           }
         },
         "left_accordion_Y64cWD": {
@@ -1151,13 +1151,13 @@
         "payment_type_3zQTmH": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-1.webp"
+            "image": "shopify://shop_images/logos_701eef24-0061-4d41-8688-ce69887aace9.svg"
           }
         },
         "payment_type_B6Pzbh": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-2.webp"
+            "image": "shopify://shop_images/Pay_Icons.svg"
           }
         },
         "type_hHPdgJ": {
@@ -1168,7 +1168,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/serum_1.webp",
+            "image": "shopify://shop_images/corect_mi_dark.svg",
             "preselected": false
           }
         },
@@ -1237,7 +1237,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/serum_2.webp",
+            "image": "shopify://shop_images/corect_mi_wr.svg",
             "preselected": true
           }
         },
@@ -1306,7 +1306,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Mixed",
-            "image": "shopify://shop_images/serum_3.webp",
+            "image": "shopify://shop_images/Frame_1073714838.png",
             "preselected": false
           }
         },
