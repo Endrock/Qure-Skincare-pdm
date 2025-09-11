@@ -214,7 +214,6 @@
         "button_label": "Check Availability",
         "button_url": "#buy_box",
         "image": "shopify://shop_images/mi_bundle_114c0d15-2786-47ec-943e-bbc9031791cc.webp",
-        "image_with-text": "shopify://shop_images/shipping_7fbc8877-f961-4fe2-8de4-0ccb6f994fc2.svg",
         "text_with_image": "<p>Free <em>World-Wide</em> Shipping over $100</p>"
       }
     },
@@ -240,13 +239,13 @@
         "payment_type_3zQTmH": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-1.webp"
+            "image": "shopify://shop_images/logos_701eef24-0061-4d41-8688-ce69887aace9.svg"
           }
         },
         "payment_type_B6Pzbh": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-2.webp"
+            "image": "shopify://shop_images/Pay_Icons.svg"
           }
         },
         "type_hHPdgJ": {
@@ -257,7 +256,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/serum_1.webp",
+            "image": "shopify://shop_images/corect_mi_dark.svg",
             "preselected": false
           }
         },
@@ -323,7 +322,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/serum_2.webp",
+            "image": "shopify://shop_images/corect_mi_wr.svg",
             "preselected": true
           }
         },
@@ -389,7 +388,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Mixed",
-            "image": "shopify://shop_images/serum_3.webp",
+            "image": "shopify://shop_images/Corect_MIX.png",
             "preselected": false
           }
         },

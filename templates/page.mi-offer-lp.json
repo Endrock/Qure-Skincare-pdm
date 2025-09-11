@@ -260,7 +260,7 @@
         "image_position": "right",
         "sub_text": "",
         "image": "shopify://shop_images/qure-micro-infusion.webp",
-        "button_label": "BUY NOW & SAVE UP TO 43%",
+        "button_label": "BUY NOW & SAVE UP TO 70%",
         "button_url": "#purchase-form",
         "wistia_url": ""
       }
@@ -373,6 +373,7 @@
       ],
       "name": "t:common.carousel",
       "settings": {
+        "background_color": "#f6f6f7",
         "display_mode": "both"
       }
     },
@@ -520,7 +521,7 @@
       "settings": {
         "background_color": "#f6f6f7",
         "heading": "5 reasons why everyone is using the Qure Micro-Infusion System",
-        "button_label": "BUY NOW & SAVE UP TO 43%",
+        "button_label": "BUY NOW & SAVE UP TO 70%",
         "button_url": "#purchase-form"
       }
     },
@@ -781,8 +782,9 @@
       "settings": {
         "background_color": "",
         "heading": "Results you’ll see with your own eyes",
+        "text": "",
         "text_mobile": "",
-        "button_label": "buy now SAVE UP TO 43%",
+        "button_label": "buy now SAVE UP TO 70%",
         "button_url": "#purchase-form"
       }
     },
@@ -899,7 +901,7 @@
         "heading": "See how quick and easy it is to use",
         "heading_mobile": "",
         "wistia_url": "8ymvdqzx92",
-        "button_label": "buy now & SAVE UP TO 43%",
+        "button_label": "buy now & SAVE UP TO 70%",
         "button_url": "#purchase-form"
       }
     },
@@ -919,42 +921,42 @@
           "type": "left_text_with_image",
           "settings": {
             "text": "<p>Brightens discoloration</p>",
-            "image": "shopify://shop_images/dark-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons.svg"
           }
         },
         "left_text_with_image_4ajB36": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Fades dark <br />spots</p>",
-            "image": "shopify://shop_images/dark-2.webp"
+            "text": "<p>Fades dark <br/>spots</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_1.svg"
           }
         },
         "left_text_with_image_6j8ph6": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Evens skin <br /> tone</p>",
-            "image": "shopify://shop_images/dark-3.webp"
+            "text": "<p>Evens skin <br/> tone</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_2.svg"
           }
         },
         "right_text_with_image_zLm9hV": {
           "type": "right_text_with_image",
           "settings": {
             "text": "<p>Softens lines & wrinkles</p>",
-            "image": "shopify://shop_images/wrinkle-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons_3.svg"
           }
         },
         "right_text_with_image_i9yAbQ": {
           "type": "right_text_with_image",
           "settings": {
-            "text": "<p>Soothes <br />redness</p>",
-            "image": "shopify://shop_images/wrinkle-2.webp"
+            "text": "<p>Soothes <br/>redness</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_4.svg"
           }
         },
         "right_text_with_image_FExJGY": {
           "type": "right_text_with_image",
           "settings": {
-            "text": "<p>Boosts <br /> hydration</p>",
-            "image": "shopify://shop_images/wrinkle-3.webp"
+            "text": "<p>Boosts <br/> hydration</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_5.svg"
           }
         },
         "left_accordion_Y64cWD": {
@@ -1032,7 +1034,7 @@
       "settings": {
         "heading": "Transform dull looking skin with Micro-Infusion Facial System",
         "text": "1,293 purchased in last 48 hours",
-        "button-label": "BUY NOW & SAVE UP TO 43%",
+        "button-label": "BUY NOW & SAVE UP TO 70%",
         "button-url": "#purchase-form"
       }
     },
@@ -1061,13 +1063,13 @@
         "payment_type_3zQTmH": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-1.webp"
+            "image": "shopify://shop_images/logos_701eef24-0061-4d41-8688-ce69887aace9.svg"
           }
         },
         "payment_type_B6Pzbh": {
           "type": "payment_type",
           "settings": {
-            "image": "shopify://shop_images/pmt-2.webp"
+            "image": "shopify://shop_images/Pay_Icons.svg"
           }
         },
         "type_hHPdgJ": {
@@ -1078,8 +1080,8 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/serum_1.webp",
-            "preselected": false
+            "image": "shopify://shop_images/corect_mi_dark.svg",
+            "preselected": true
           }
         },
         "product_DBd4ef": {
@@ -1144,18 +1146,18 @@
           "type": "product_type",
           "settings": {
             "heading": "Wrinkles",
-            "image": "shopify://shop_images/serum_2.webp",
-            "preselected": true
+            "image": "shopify://shop_images/corect_mi_wr.svg",
+            "preselected": false
           }
         },
         "product_nyJ9n7": {
           "type": "product",
           "settings": {
             "product": "micro-infusion-6-month-bundle-for-wrinkles",
-            "preselected": true,
-            "heading": "6 Month Supply <br> End Of Summer Sale",
+            "preselected": false,
+            "heading": "6 Month Supply  End Of Summer Sale",
             "subheading": "(12 Treatments)",
-            "soldout": false,
+            "soldout": true,
             "preorder": false,
             "total_treatments": 12,
             "left_items": 280,
@@ -1170,7 +1172,7 @@
           "type": "product",
           "settings": {
             "product": "micro-infusion-3-month-bundle-6x-beta-glucan-serum",
-            "preselected": false,
+            "preselected": true,
             "heading": "3 Month Supply",
             "subheading": "(6 Treatments)",
             "soldout": false,
@@ -1210,7 +1212,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Mixed",
-            "image": "shopify://shop_images/serum_3.webp",
+            "image": "shopify://shop_images/Corect_MIX.png",
             "preselected": false
           }
         },
@@ -1290,7 +1292,7 @@
         "product_RBCPe8"
       ],
       "settings": {
-        "style": "list",
+        "type": "box",
         "heading": "Choose your treatment",
         "text": "All orders are one-time purchases. No extra charges, and no hidden fees.",
         "image": "shopify://shop_images/tami-cropped.webp",
