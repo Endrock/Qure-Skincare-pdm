@@ -216,6 +216,7 @@
       "buy-button-label": "Buy Now",
       "reserved-button-label": "Reserve Now",
       "soldout-button-label": "Sold Out",
+      "discount-text": "OFF",
       "buy-button-bottom": {
         "heading_html": "OR pay 4 monthly payments of <span class='pay_today'>{{ product_price_divided }}</span> with",
         "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='https://qureskincare.com/pages/derm-reviews' class='text-black text-decoration-underline'>See More</a>.",
