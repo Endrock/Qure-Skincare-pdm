@@ -38,7 +38,7 @@
                         <div class="aft_price clr_orange">{{ product_sale_price }}</div>
 
                         {% if product_discount != blank %}
-                            <div class="discount_percentage">{{ product_discount }}%</div>
+                            <div class="discount_percentage">{{ 'product.settings.discount-text' | t }} {{ product_discount }}%</div>
                         {% endif %}
 
                     </div>
