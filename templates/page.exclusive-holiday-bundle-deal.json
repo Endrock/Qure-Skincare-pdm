@@ -735,16 +735,16 @@
         "accordion_XqVibT": {
           "type": "accordion",
           "settings": {
-            "doctor_name": "Dr. Maxfield",
-            "doctor_position": "Board Certified Dermatologist",
+            "doctor_name": "Micro-Infusion",
+            "doctor_position": "Smooth fine lines, hydrate, and firm skin.",
             "accordion_image": "shopify://shop_images/micro-infusion.webp"
           }
         },
         "accordion_CMf9Pm": {
           "type": "accordion",
           "settings": {
-            "doctor_name": "Dr. Tripathi",
-            "doctor_position": "Double Board Certified Facial Plastic Surgeon",
+            "doctor_name": "Topical Treatments",
+            "doctor_position": "Target acne and dehydration with clinical solutions.",
             "accordion_image": "shopify://shop_images/topical.webp"
           }
         },
