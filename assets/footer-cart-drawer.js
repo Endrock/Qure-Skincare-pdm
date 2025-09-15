@@ -16,13 +16,19 @@ document.addEventListener('cart.requestComplete', (event) => {
 });
 
 const reloadDrawer = (array) => {
+    const cart = array.detail.cart;
     const source = array.detail.source;
     const input = array.detail.input;
+    const gift = array.detail.gift;
 
     updateSection('footer-cart-drawer', 'cart-dynamic-content')
     .then(() => {
         if (source === 'addToCart') {
             showCart();
+
+            if (typeof gift === 'undefined') {
+                toogleGift(cart);
+            }
         }
 
         if(source == 'changeCart')
@@ -219,13 +225,21 @@ const addToCart = (input, insurance = undefined, gift = undefined) => {
     .then(response => response.json())
     .then((addedItem) => {
         return getCartState().then(cart => {
-            if (typeof gift === 'undefined') {
-                toogleGift(cart).then(() => {
-                    const event = new CustomEvent('cart.requestComplete', { detail: { source: 'addToCart'} });
-                    document.dispatchEvent(event);
-                });
+            const eventDetail = {
+                cart: cart,
+                source: 'addToCart'
+            };
+
+            if (typeof insurance !== 'undefined') {
+                eventDetail.insurance = insurance;
             }
 
+            if (typeof gift !== 'undefined') {
+                eventDetail.gift = gift;
+            }
+
+            const event = new CustomEvent('cart.requestComplete', { detail: eventDetail });
+            document.dispatchEvent(event);
             //console.log('The product was added to the cart:', addedItem);
             return cart;
         });

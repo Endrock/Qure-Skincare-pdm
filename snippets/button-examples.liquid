@@ -1,0 +1,86 @@
+{% comment %}
+  Button Examples Snippet
+  Usage: {% render 'button-examples' %}
+{% endcomment %}
+
+<div class="button-examples-container" style="padding: 20px; max-width: 800px; margin: 0 auto;">
+  <h2>Button Examples</h2>
+  
+  <!-- Primary Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Primary Buttons</h3>
+    <div class="btn-group">
+      <button class="btn-primary">Default Button</button>
+      <button class="btn-primary btn-large">Large Button</button>
+      <button class="btn-primary btn-small">Small Button</button>
+    </div>
+  </div>
+  
+  <!-- Secondary Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Secondary Buttons</h3>
+    <div class="btn-group">
+      <button class="btn-secondary">Default Button</button>
+      <button class="btn-secondary btn-large">Large Button</button>
+      <button class="btn-secondary btn-small">Small Button</button>
+    </div>
+  </div>
+  
+  <!-- Danger Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Danger Buttons</h3>
+    <div class="btn-group">
+      <button class="btn-danger">Default Button</button>
+      <button class="btn-danger btn-large">Large Button</button>
+      <button class="btn-danger btn-small">Small Button</button>
+    </div>
+  </div>
+  
+  <!-- Disabled Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Disabled Buttons</h3>
+    <div class="btn-group">
+      <button class="btn-primary" disabled>Disabled Primary</button>
+      <button class="btn-secondary" disabled>Disabled Secondary</button>
+      <button class="btn-danger" disabled>Disabled Danger</button>
+    </div>
+  </div>
+  
+  <!-- Link Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Link Buttons</h3>
+    <div class="btn-group">
+      <a href="#" class="btn-primary">Primary Link</a>
+      <a href="#" class="btn-secondary">Secondary Link</a>
+      <a href="#" class="btn-danger">Danger Link</a>
+    </div>
+  </div>
+  
+  <!-- Individual Buttons -->
+  <div class="button-section" style="margin-bottom: 30px;">
+    <h3>Individual Buttons</h3>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <button class="btn-primary">Add to Cart</button>
+      <button class="btn-secondary">Learn More</button>
+      <button class="btn-danger">Remove Item</button>
+    </div>
+  </div>
+</div>
+
+<style>
+.button-examples-container {
+  font-family: Arial, sans-serif;
+}
+
+.button-section h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.button-examples-container h2 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 30px;
+}
+</style>
