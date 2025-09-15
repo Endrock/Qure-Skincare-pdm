@@ -122,7 +122,7 @@
         "product_gbPf3J": {
           "type": "product",
           "settings": {
-            "product": "shower-filter",
+            "product": "faucet-filter",
             "product_variant_id": 45852978348271,
             "product_selling_plan": 6190465263,
             "preselected": true,
@@ -140,7 +140,7 @@
         "product_NEgEkN": {
           "type": "product",
           "settings": {
-            "product": "shower-filter",
+            "product": "faucet-filter",
             "product_variant_id": 45852978315503,
             "product_selling_plan": 6190465263,
             "preselected": false,
