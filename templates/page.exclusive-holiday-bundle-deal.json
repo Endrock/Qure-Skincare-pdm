@@ -288,6 +288,15 @@
             "reserved": false
           }
         },
+        "product_dkFRPe": {
+          "type": "product",
+          "settings": {
+            "product": "line-refine-bundle-pro-bf25",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
         "type_yDwWmt": {
           "type": "type",
           "settings": {}
@@ -338,6 +347,7 @@
         "product_nyJ9n7",
         "product_EKAAzA",
         "product_eiY89h",
+        "product_dkFRPe",
         "type_yDwWmt",
         "product_type_YrPQrV",
         "product_gbPf3J",
