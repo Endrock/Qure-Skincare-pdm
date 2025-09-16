@@ -14,7 +14,7 @@
     {% assign included_json = input.value | parse_json %}
 
     <div class="accordion-item qure__accordion-item">
-        <button class="accordion-button{% if index != 'first' %} collapsed{% endif %} qure__accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#{{ index }}" aria-expanded="false" aria-controls="{{ index }}">
+        <button class="accordion-button collapsed qure__accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#{{ index }}" aria-expanded="false" aria-controls="{{ index }}">
           {{ title }}
         </button>
         <div id="{{ index }}" class="accordion-collapse collapse qure__accordion-content" data-bs-parent="#tp-product-qure">
