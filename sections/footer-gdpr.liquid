@@ -146,6 +146,10 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    loadScriptOnce('footer-gdpr',  'https://qureskincaredns-main.com/assets/shopify/js/footer-gdpr.js');
+    is_country_us().then(function(is_us) {
+      if (!is_us) {
+        loadScriptOnce('footer-gdpr',  'https://qureskincaredns-main.com/assets/shopify/js/footer-gdpr.js');
+      }
+    });
   });
 </script>
