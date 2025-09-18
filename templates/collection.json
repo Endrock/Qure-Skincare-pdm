@@ -78,7 +78,7 @@
             "text": "I’m shocked at the results after just one treatment! My skin looks so clear, glowy, and healthy.",
             "client": "Ela",
             "text_mobile": "I’m shocked at the results after just one treatment!",
-            "product": "micro-infusion-3-month-bundle-6x-beta-glucan-serum",
+            "product": "q-rejuvalight-pro-facewear",
             "position": 1
           }
         },
@@ -86,7 +86,7 @@
           "type": "brand-item",
           "settings": {
             "image": "shopify://shop_images/mask_card.webp",
-            "button-url": "#",
+            "button-url": "https://qureskincare.com/products/q-rejuvalight-pro-facewear",
             "position": 6
           }
         }
