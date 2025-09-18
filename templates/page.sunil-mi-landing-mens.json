@@ -767,21 +767,21 @@
           "type": "left_text_with_image",
           "settings": {
             "text": "<p>Brightens discoloration</p>",
-            "image": "shopify://shop_images/dark-1.webp"
+            "image": "shopify://shop_images/Micro-Infusion_Icons.svg"
           }
         },
         "left_text_with_image_4ajB36": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Fades dark <br />spots</p>",
-            "image": "shopify://shop_images/dark-2.webp"
+            "text": "<p>Fades dark <br/>spots</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_1.svg"
           }
         },
         "left_text_with_image_6j8ph6": {
           "type": "left_text_with_image",
           "settings": {
-            "text": "<p>Evens skin <br /> tone</p>",
-            "image": "shopify://shop_images/dark-3.webp"
+            "text": "<p>Evens skin <br/> tone</p>",
+            "image": "shopify://shop_images/Micro-Infusion_Icons_2.svg"
           }
         },
         "right_text_with_image_zLm9hV": {
