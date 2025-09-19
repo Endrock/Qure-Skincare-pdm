@@ -250,16 +250,6 @@
             "reserved": false
           }
         },
-        "product_zgw9eb": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "bundle-test",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
         "type_aJwQ9q": {
           "type": "type",
           "settings": {}
@@ -353,7 +343,6 @@
         "product_DBd4ef",
         "product_7dL4ci",
         "product_Xf8A6C",
-        "product_zgw9eb",
         "type_aJwQ9q",
         "product_type_VLXcAn",
         "product_nyJ9n7",
