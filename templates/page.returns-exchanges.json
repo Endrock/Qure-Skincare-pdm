@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Pack and ship",
             "text": "<p>Securely pack item(s) in a box and ship them! We encourage you to use a trackable shipping service. Please allow up to 7-14 business days for your return to be processed.</p>",
-            "image": "shopify://shop_images/8.webp"
+            "image": "shopify://shop_images/2_2.png"
           }
         }
       },
@@ -213,7 +213,7 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": "https://querskin-brand.aronwebsolutions.com/page.contact.html"
+        "button_url": "https://qureskincare.com/pages/contact-us"
       }
     },
     "returns_exchanges_cta_cards_gXEULM": {
