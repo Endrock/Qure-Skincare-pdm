@@ -17,9 +17,9 @@
                         {% assign target = 'month_bundle' %}
                     {% endif %}
 
-                    {% if target == 'faucet-filter' and product_variants.size > 1 %}
+                    {% if bundle_product.variants.size > 1 %}
                         <div class="included_product variant_block">
-                            <img class="variantImage img-fluid" src="https://qureskincaredns-main.com/sections/global/purchase-form-bundle/images/faucet_white.webp" alt="variant">
+                            <img class="variantImage img-fluid" src="{{ bundle_product.featured_image | img_url: '240x' }}" alt="{{ bundle_product.title | escape }}">
                             
                             <div class="d-flex align-items-center gap-3">
                                 <p>{{ bundle_product.title }} <span class="d-block color-orange variantText"></span></p>
@@ -27,13 +27,18 @@
                                 <div class="product-variant">
                                     <label class="visually-hidden">{{ 'purchase-form-bundle.settings.select-color' | t }}</label>
                                     <select class="custom-dropdown color-select variant-select">
-                                        {% for variant in product_variants %}
-                                            {% for bundle_variant in bundle_product.variants %}
-                                                {% if bundle_variant.title == variant.title %}
-                                                    <option {% if variant.metafields.custom.bundle_not_available == true %}disabled{% endif %} value="{{ variant.title | escape }}" data-handle="{{ product_handle }}" data-image="{{ bundle_variant.featured_image | img_url: '250x' }}" data-variant-id="{{ variant.id }}" data-variant-text="{{ variant.metafields.custom.bundle_text }}">{{ variant.title }}</option>
+                                        {% for bundle_variant in bundle_product.variants %}
+                                            {% for variant in product_variants %}
+                                                {%- assign ext_variant = bundle_variant.title | append: ' / ' | append: bundle_variant.title -%}
+                                                {% if variant.title == bundle_variant.title %}
+                                                    <option {% if variant.metafields.custom.bundle_not_available == true %}disabled{% endif %} value="{{ bundle_variant.title | escape }}" data-handle="{{ product_handle }}" data-image="{{ bundle_variant.featured_image | img_url: '250x' }}" data-variant-id="{{ variant.id }}" data-variant-text="{{ variant.metafields.custom.bundle_text }}">{{ bundle_variant.title }}</option>
                                                 {% endif %}
+                                                {% comment %} aaaaqqqq {% endcomment %}
+                                                {% comment %} {% if variant.title == ext_variant %}
+                                                    <option {% if variant.metafields.custom.bundle_not_available == true %}disabled{% endif %} value="{{ bundle_variant.title | escape }}" data-handle="{{ product_handle }}" data-image="{{ bundle_variant.featured_image | img_url: '250x' }}" data-variant-id="{{ variant.id }}" data-variant-text="{{ variant.metafields.custom.bundle_text }}">{{ bundle_variant.title }}</option>
+                                                {% endif %} {% endcomment %}
                                             {% endfor %}
-                                        {% endfor %}
+                                        {% endfor %}  
                                     </select>
                                 </div>
                             </div>

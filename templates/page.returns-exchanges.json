@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Go to the returns portal",
             "text": "<p><a href=\"https://returns.qureskincare.com/?ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340#/\" title=\"https://returns.qureskincare.com/?ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340#/\">Click here to visit our returns & exchanges portal page.</a> Enter your order number and either your shipping code or email address.&lt;</p>",
-            "image": "shopify://shop_images/5_76390966-0425-43a4-b5ff-afcb6e5eedb3.webp"
+            "image": "shopify://shop_images/1_1_892353e6-f97a-4808-a986-a51211d67d44.png"
           }
         },
         "carousel_diyRPj": {
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Choose what’s next",
             "text": "<p>Pick whether it’s a return or exchange and answer a few questions. You’ll be asked to provide a photo of the item(s). </p>",
-            "image": "shopify://shop_images/6_736680d7-b6b0-4345-9071-c6c4efd7a158.webp"
+            "image": "shopify://shop_images/2_042e02c4-c22e-4779-8c24-5fe840789d9f.png"
           }
         },
         "carousel_x38Xbp": {
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Get an RMA Number",
             "text": "<p>If approved, you will be provided the return instructions and a Return Merchandise Authorization (RMA) number from our team via email. This is required for all successful returns.</p>",
-            "image": "shopify://shop_images/7_a095ed00-dfdc-44e6-9bef-4b722c0e0a15.webp"
+            "image": "shopify://shop_images/2_1_af9c3c62-8f70-45f4-a35a-23c6f3d0cfbc.png"
           }
         },
         "carousel_7kaUiC": {
@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Pack and ship",
             "text": "<p>Securely pack item(s) in a box and ship them! We encourage you to use a trackable shipping service. Please allow up to 7-14 business days for your return to be processed.</p>",
-            "image": "shopify://shop_images/8.webp"
+            "image": "shopify://shop_images/2_2.png"
           }
         }
       },
@@ -213,7 +213,7 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": "https://querskin-brand.aronwebsolutions.com/page.contact.html"
+        "button_url": "https://qureskincare.com/pages/contact-us"
       }
     },
     "returns_exchanges_cta_cards_gXEULM": {
