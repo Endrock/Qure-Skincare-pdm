@@ -23,7 +23,7 @@
         "exclusive-offer_iaSzaK": {
           "type": "exclusive-offer",
           "settings": {
-            "image_product1": "shopify://shop_images/ledBox.webp",
+            "image_product1": "shopify://shop_images/Img_16.png",
             "image_product2": "shopify://shop_images/ndBox.webp",
             "text": "<p>Buy the Q-Rejuvalight Pro and get the Neck & Décolletage LED Device for FREE (value $299)</p>"
           }
@@ -484,16 +484,16 @@
           "type": "left_block",
           "settings": {
             "heading": "Q-Rejuvalight Pro LED Mask",
-            "text": "<ul><li>Targets the face</li><li>5 clinically proven wavelengths</li><li>2 treatment modes<br/>(Pro-Aging and Anti-Breakout)</li><li>Reduces acne & breakouts</li><li>Smooths fine lines & wrinkles</li><li>Improves skin texture & tone</li><li>Boosts collagen</li></ul>",
+            "text": "<ul><li>Targets the face</li><li>5 clinically proven wavelengths</li><li>2 treatment modes <br/>(Skin Rejuvenation and Skin Clearing)</li><li>Reduces acne & breakouts</li><li>Smooths fine lines & wrinkles</li><li>Improves skin texture & tone</li><li>Boosts collagen</li></ul>",
             "price": "<p>$399</p>",
-            "image": "shopify://shop_images/q-rejuvalight-pro-led-mask_31131290-4152-44a5-82d2-f60370fa997c.webp"
+            "image": "shopify://shop_images/q-rejuvalight-pro-led-mask_80cf908b-75f7-4fa1-a3a1-d74d4fcb8641.webp"
           }
         },
         "right_block_zYVkKE": {
           "type": "right_block",
           "settings": {
             "heading": "Neck & Décolletage LED Device",
-            "text": "<ul><li>Targets the neck & chest</li><li>2 clinically proven wavelengths</li><li>1 treatment mode<br/>(Pro-Aging)</li><li>Firms skin & improves texture</li><li>Smooths fine lines & wrinkles</li><li>Fades dark spots</li><li>Improves sun damaged skin</li></ul>",
+            "text": "<ul><li>Targets the neck & chest</li><li>2 clinically proven wavelengths</li><li>1 treatment mode<br/>(Skin Rejuvenation)</li><li>Firms skin & improves texture</li><li>Smooths fine lines & wrinkles</li><li>Fades dark spots</li><li>Improves sun damaged skin</li></ul>",
             "price": "<p><em>$299</em></p><p>[span]FREE[/span]</p>",
             "badge_text": "Free",
             "image": "shopify://shop_images/neck-decolletage-led-device_5338f8eb-309c-4b98-acf8-a8ca44a727f7.webp"
@@ -619,7 +619,7 @@
           "type": "accordion",
           "settings": {
             "heading": "Treatment details",
-            "text": "<p><strong>USE: </strong>Use daily after cleansing, before topical skincare</p><p><strong>PRO-AGING TREATMENT: </strong>415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)</p><p><strong>ANTI-BREAKOUT TREATMENT: </strong>415nm (Blue), 630nm (Red)</p><p><strong>CUSTOMIZED TREATMENT: </strong>Choose treatment modes for each facial area via app</p><p><strong>Skin Type: </strong>Most suitable for Fitzpatrick Skin Types I-IV</p>"
+            "text": "<p><strong>USE: </strong>Use daily after cleansing, before topical skincare</p><p><strong>SKIN REJUVENATING TREATMENT: </strong>415nm (Blue), 605nm (Amber), 630nm (Red), 660nm (Deep Red), 880nm (Infrared)</p><p><strong>SKIN CLEARING TREATMENT: </strong>415nm (Blue), 630nm (Red)</p><p><strong>CUSTOMIZED TREATMENT: </strong>Choose treatment modes for each facial area via app</p><p><strong>Skin Type: </strong>Most suitable for Fitzpatrick Skin Types I-IV</p>"
           }
         }
       },
@@ -633,10 +633,10 @@
         "text": "<p>The Q-Rejuvalight Pro LED mask uses 5 light wavelengths and two modes for customizable skincare. Our FDA-cleared device targets your skin's needs.</p>",
         "image_aging": "shopify://shop_images/mask_aging.webp",
         "image_breakout": "shopify://shop_images/mask_breakout.webp",
-        "heading_aging_mode": "<p><strong>Pro-Aging Mode</strong></p>",
-        "text_aging_mode": "<p>On Pro-Aging Mode, red and infrared wavelengths work together to help support collagen production, which reduces the appearance of wrinkles and fine lines, as well as to improve skin elasticity and firmness.</p><p>Red light stimulates collagen and elastin production, which supports skin renewal. Deep red light penetrates deeper to help with the appearance of wrinkles, while infrared is designed to reach deeper layers for potential long-term benefits.</p>",
-        "heading_breakout_mode": "<p><strong>Anti-Breakout Mode</strong></p>",
-        "text_breakout_mode": "<p>Our Anti-Breakout Mode combines blue and red light wavelengths. Blue (415 nm) targets acne-causing bacteria on the skin's surface, and red (630 nm) helps calm inflammation and soothes irritated skin.</p><p>Together, these wavelengths help reduce breakouts, prevent future flare-ups, and support clearer, healthier-looking skin.</p>"
+        "heading_aging_mode": "<p><strong>Skin Rejuvenating</strong></p>",
+        "text_aging_mode": "<p>On Skin Rejuvenating, red and infrared wavelengths work together to help support collagen production, which reduces the appearance of wrinkles and fine lines, as well as to improve skin elasticity and firmness.</p><p>Red light stimulates collagen and elastin production, which supports skin renewal. Deep red light penetrates deeper to help with the appearance of wrinkles, while infrared is designed to reach deeper layers for potential long-term benefits.</p>",
+        "heading_breakout_mode": "<p><strong>Skin Clearing</strong></p>",
+        "text_breakout_mode": "<p>Our Skin Clearing combines blue and red light wavelengths. Blue (415 nm) targets acne-causing bacteria on the skin's surface, and red (630 nm) helps calm inflammation and soothes irritated skin.</p><p>Together, these wavelengths help reduce breakouts, prevent future flare-ups, and support clearer, healthier-looking skin.</p>"
       }
     },
     "banner_with_text_mw6Bby": {
@@ -660,7 +660,7 @@
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "heading": "Qure mobile app",
-        "text": "<p>[strong]The only FDA-cleared LED light therapy mask with an app.[/strong]</p><p>Your skin is unique, so your treatment should be too.</p><p>Choose between <strong>three treatment modes</strong>, “Anti-Breakout”, “Anti-Aging” or custom treatment zones. Select a treatment mode on five different facial areas to <strong>treat and target what your skin needs today. </strong></p><p>Never miss a treatment with Qure mobile app planner and phone reminders.</p>",
+        "text": "<p>[strong]The only FDA-cleared LED light therapy mask with an app.[/strong]</p><p>Your skin is unique, so your treatment should be too.</p><p>Choose between <strong>three treatment modes</strong>, “Skin Rejuvenating”, “Skin Clearing” or custom treatment zones. Select a treatment mode on five different facial areas to <strong>treat and target what your skin needs today. </strong></p><p>Never miss a treatment with Qure mobile app planner and phone reminders.</p>",
         "quote": "",
         "quote-mobile": "",
         "image_position": "left",
