@@ -83,7 +83,7 @@
     "index_banner_with_text_TNGNLJ": {
       "disabled": false,
       "type": "index-banner-with-text",
-      "name": "t:sections.page-banner.name",
+      "name": "t:sections.index-banner-with-text.name",
       "settings": {
         "heading": "Get clinic-level results from home – minus the ‘clinical’ costs.",
         "text": "<p>Join <strong>30,000+ customers</strong> feeling more confident.</p>",
@@ -98,7 +98,7 @@
     "index_banner_with_text_second_TNGNLJ": {
       "disabled": true,
       "type": "index-banner-with-text-second",
-      "name": "t:sections.page-banner.name",
+      "name": "t:sections.index-banner-with-text-second.name",
       "settings": {
         "heading": "Get clinic-level results from home – minus the ‘clinical’ costs.",
         "text": "<p>Get a <strong>FREE</strong> pink headband and cosmetic pouch <strong>with every purchase*</strong></p>",
