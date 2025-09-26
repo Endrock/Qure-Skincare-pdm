@@ -42,6 +42,18 @@
                                 }}
                             </div>
                         {% endif %}
+                        {% assign button_blocks = section.blocks | where: "type", "button" %}
+                        {% if button_blocks.size > 0 %}
+                            <div class="ctm-width mt-20 d-flex justify-content-center justify-content-md-center gap-3 row-cols-md-2 px-10">
+                                {% for block in section.blocks %}
+                                    {% if block.type == 'button' %}
+                                        {% if block.settings.button_url != blank and block.settings.image != blank %}
+                                            <a href="{{ block.settings.button_url }}"><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt | escape }}" class="w-100"></a>
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% endif %}
                         {% assign numbered_list_blocks = section.blocks | where: "type", "numbered_list" %}
                         {% if numbered_list_blocks.size > 0 %}
                             <div class="banner-text--steps mb-30">
@@ -348,6 +360,22 @@
                 "type": "text",
                 "id": "button_label",
                 "label": "t:common.button-label"
+            }
+        ]
+    },
+    {
+        "type": "button",
+        "name": "t:common.button",
+        "settings": [
+            {
+                "type": "url",
+                "id": "button_url",
+                "label": "t:common.button-url"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "t:common.image"
             }
         ]
     }
