@@ -157,6 +157,7 @@
         },
         "product_DEgEkN": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "faucet-filter",
             "product_variant_id": 46852913987823,
@@ -916,6 +917,7 @@
         },
         "variant_46xfGi": {
           "type": "variant",
+          "disabled": true,
           "settings": {
             "heading": "Silver",
             "image": "shopify://shop_images/silver_swatch.webp"
