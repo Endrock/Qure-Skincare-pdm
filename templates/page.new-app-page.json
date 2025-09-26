@@ -9,12 +9,169 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "page-new-app-page",
+    "page_banner_mmFDeL": {
+      "type": "page-banner",
+      "blocks": {
+        "button_7KAhgf": {
+          "type": "button",
+          "settings": {
+            "link_url": "https://play.google.com/store/apps/details?id=com.lighttreeventures.qure&ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340&pli=1",
+            "image": "shopify://shop_images/google-play.svg"
+          }
+        },
+        "button_qy9Yez": {
+          "type": "button",
+          "settings": {
+            "link_url": "https://apps.apple.com/us/app/qure-skincare/id1537832613?ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340",
+            "image": "shopify://shop_images/app-store.svg"
+          }
+        }
+      },
+      "block_order": [
+        "button_7KAhgf",
+        "button_qy9Yez"
+      ],
+      "name": "t:sections.page-banner.name",
+      "settings": {
+        "heading": "The only FDA-cleared LED light therapy mask with an app.",
+        "text": "",
+        "sub_text": "",
+        "button": "Shop All Best Sellers",
+        "button_url": "",
+        "button_mobile": "Shop Best Sellers",
+        "button_url_mobile": "",
+        "image": "shopify://shop_images/hero-app.webp",
+        "image_mobile": "shopify://shop_images/hero-app-mob.webp"
+      }
+    },
+    "new_app_page_app_slider_8BeakV": {
+      "type": "new-app-page-app-slider",
+      "blocks": {
+        "slider_iRQdH8": {
+          "type": "slider",
+          "settings": {
+            "image": "shopify://shop_images/1_eafa3b1c-e691-4cd6-97ad-5ebe62b17457.webp",
+            "heading": "Customize Your Treatments",
+            "text": "<p>Customize your LED treatments for a personalized program that’s unique to your skin’s profile. Choose between the Pro-Aging or Anti-Breakout treatment on 5 facial areas to treat your specific skin concerns.</p>"
+          }
+        },
+        "slider_qkdCJq": {
+          "type": "slider",
+          "settings": {
+            "image": "shopify://shop_images/2_a45783ed-6ef8-465a-adcc-1ca7e421ea4b.webp",
+            "heading": "Plan and Schedule Your Routine",
+            "text": "<p>The Qure planner shows your treatment history and scheduled treatments in a monthly calendar. View your total summary of completed challenges, monthly and yearly treatments.</p>"
+          }
+        },
+        "slider_B8hQt3": {
+          "type": "slider",
+          "settings": {
+            "image": "shopify://shop_images/3_8307cb17-9d0d-481b-a6e3-d71d113bc924.webp",
+            "heading": "Get Reminders",
+            "text": "<p>Schedule in your LED treatments on your own time. Get reminders straight to your phone so you never miss a treatment, consistency is key to seeing the best results!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slider_iRQdH8",
+        "slider_qkdCJq",
+        "slider_B8hQt3"
+      ],
+      "name": "t:sections.new-app-page-app-slider.name",
+      "settings": {
+        "heading": "An app for out-of-this world skincare",
+        "text": "Your skin's unique. So your treatment should be. Step into the world of personalized skincare with the Qure Skincare App. It gives you full control of your clinical-grade LED light therapy treatments. No more visits to beauty clinics, no more waiting rooms at the dermatologist."
+      }
+    },
+    "slider_featured_in_y9qbn3": {
+      "type": "slider-featured-in",
+      "blocks": {
+        "slider_tBMWbK": {
+          "type": "slider",
+          "settings": {
+            "heading": "“The professional grade is the perfect addition to any at-home skincare routine.”",
+            "image": "shopify://shop_images/vogue-black_35010b3a-45a5-48d0-81c0-31a164697560.svg"
+          }
+        },
+        "slider_NyDxTn": {
+          "type": "slider",
+          "settings": {
+            "heading": "\"Treatment time is only three minutes—among the fastest of all devices.\"",
+            "image": "shopify://shop_images/women-health_9fb39053-930a-4312-a5c1-a5d629cdecd2.svg"
+          }
+        },
+        "slider_MaRJMa": {
+          "type": "slider",
+          "settings": {
+            "heading": "“A multi-use LED mask with five different light setting options to plump, smooth, and rejuvenate all skin types.”",
+            "image": "shopify://shop_images/elle-black_d992fb5b-e675-4ea0-8fe9-27198001a628.svg"
+          }
+        },
+        "slider_RGQFFq": {
+          "type": "slider",
+          "settings": {
+            "heading": "“The combination of colors allows you to customize which lights are used, maximizing its benefits to help your skin... ”",
+            "image": "shopify://shop_images/cosmopolitan_81320831-ebc5-4a3d-af5d-d3489fa24e5c.svg"
+          }
+        },
+        "slider_xiBMje": {
+          "type": "slider",
+          "settings": {
+            "heading": "“Q-Rejuvalight Pro harnesses the power of lights from blue to infrared to address nearly every skincare concern you could imagine.”",
+            "image": "shopify://shop_images/gq_f5ab15ae-1608-435c-ae5a-00f10a826384.svg"
+          }
+        }
+      },
+      "block_order": [
+        "slider_tBMWbK",
+        "slider_NyDxTn",
+        "slider_MaRJMa",
+        "slider_RGQFFq",
+        "slider_xiBMje"
+      ],
+      "name": "t:sections.slider-featured-in.name",
       "settings": {}
+    },
+    "banner_with_text_QxtMFq": {
+      "type": "banner-with-text",
+      "blocks": {
+        "button_nxKFdW": {
+          "type": "button",
+          "settings": {
+            "button_url": "https://apps.apple.com/us/app/qure-skincare/id1537832613?ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340",
+            "image": "shopify://shop_images/app-store.svg"
+          }
+        },
+        "button_EyH68R": {
+          "type": "button",
+          "settings": {
+            "button_url": "https://play.google.com/store/apps/details?id=com.lighttreeventures.qure&ref=d6cb54b2-d73b-423e-8d66-3b5b3a661340&pli=1",
+            "image": "shopify://shop_images/google-play.svg"
+          }
+        }
+      },
+      "block_order": [
+        "button_nxKFdW",
+        "button_EyH68R"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "heading": "Personalized skincare awaits",
+        "text": "",
+        "quote": "",
+        "quote-mobile": "",
+        "image_position": "left",
+        "sub_text": "",
+        "button_label": "",
+        "button_url": "",
+        "wistia_url": "xdk9firq7i"
+      }
     }
   },
   "order": [
-    "main"
+    "page_banner_mmFDeL",
+    "new_app_page_app_slider_8BeakV",
+    "slider_featured_in_y9qbn3",
+    "banner_with_text_QxtMFq"
   ]
 }

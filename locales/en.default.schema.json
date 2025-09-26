@@ -310,6 +310,24 @@
         "money-back-guarantee": {
             "name": "Money back guarantee"
         },
+        "affiliate-page-scrolling-banner": {
+            "name": "Scrolling banner",
+            "settings": {
+                "creator-button-label": "Creator button label",
+                "creator-button-url": "Creator button URL",
+                "influencer-button-label": "Influencer button label",
+                "influencer-button-url": "Influencer button URL"
+            }
+        },
+        "affiliate-page-step-by-step": {
+            "name": "Step by step"
+        },
+        "affiliate-page-resons-to-join": {
+            "name": "Reasons to join"
+        },
+        "affiliate-page-apply-form": {
+            "name": "Apply form"
+        },
         "beauty-benefits": {
             "name": "Beauty benefits"
         },
@@ -321,6 +339,9 @@
         },
         "micro-infusion-serums": {
             "name": "Micro infusion serums"
+        },
+        "new-app-page-app-slider": {
+            "name": "App slider"
         },
         "safety-guide": {
             "name": "Safety guide"
