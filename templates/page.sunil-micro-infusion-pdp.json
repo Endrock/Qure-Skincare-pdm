@@ -184,7 +184,7 @@
             "heading": "5 Month Supply",
             "subheading": "(10 Treatments)",
             "image": "shopify://shop_images/Group_1000008583_1.png",
-            "soldout": true,
+            "soldout": false,
             "preorder": false,
             "preorder_text": "",
             "preorder_date_soldout": "",
