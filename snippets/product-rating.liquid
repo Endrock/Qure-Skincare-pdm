@@ -25,11 +25,12 @@
   </div>
 {% endif %}
 
-
-<script>
-  const product_rating = '{{ rating_value }}';      
-
-  document.addEventListener("DOMContentLoaded", function () {
-    loadScriptOnce('product-rating', 'https://qureskincaredns-main.com/assets/shopify/js/product-rating.js');
-  });
-</script>
+{% if rating_value != blank %}
+  <script>
+    const product_rating = '{{ rating_value }}';      
+  
+    document.addEventListener("DOMContentLoaded", function () {
+      loadScriptOnce('product-rating', 'https://qureskincaredns-main.com/assets/shopify/js/product-rating.js');
+    });
+  </script>
+{% endif %}
