@@ -171,8 +171,8 @@
       "type": "stock-alert",
       "name": "t:sections.stock-alert.name",
       "settings": {
-        "text": "<p>AUTUM GLOW SALE!</p>",
-        "text_mobile": "<p>AUTUM GLOW SALE!</p>",
+        "text": "<p>AUTUMN GLOW SALE!</p>",
+        "text_mobile": "<p>AUTUMN GLOW SALE!</p>",
         "style_color": "light_green"
       }
     },
