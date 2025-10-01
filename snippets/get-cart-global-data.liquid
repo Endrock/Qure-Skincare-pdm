@@ -67,6 +67,11 @@
 {% assign global_bar_shipping_title = settings.shipping_title %}
 {% assign global_bar_shipping_image = settings.shipping_image %}
 
+{% assign global_bar_freegift_limit = settings.cart_freegift_price_limit %}
+{% assign global_bar_freegift_handle = settings.cart_freegift_product %}
+{% assign global_bar_freegift_price = all_products[global_bar_freegift_handle].price | divided_by: 100 %}
+{% assign global_bar_freegift_variant_id = all_products[global_bar_freegift_handle].variants.first.id %}
+
 {% assign global_bar_gift1_limit = settings.cart_gift1_price_limit %}
 {% assign global_bar_gift1_handle = settings.cart_gift1_product %}
 {% assign global_bar_gift1_price = all_products[global_bar_gift1_handle].price | divided_by: 100 %}
