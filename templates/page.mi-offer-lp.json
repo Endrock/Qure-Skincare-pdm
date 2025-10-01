@@ -171,8 +171,8 @@
       "type": "stock-alert",
       "name": "t:sections.stock-alert.name",
       "settings": {
-        "text": "<p>ONLY FACIAL TREATMENTS YOUR SKIN NEEDS</p>",
-        "text_mobile": "<p>Available until stocks last!</p>",
+        "text": "<p>AUTUM GLOW SALE!</p>",
+        "text_mobile": "<p>AUTUM GLOW SALE!</p>",
         "style_color": "light_green"
       }
     },
