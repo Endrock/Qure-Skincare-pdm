@@ -236,7 +236,7 @@
       }
     },
     "exclusive-offer": {
-      "header_html": "<div class='eo-header'><span>End Of Summer</span><span>offer</span></div>",
+      "header_html": "<div class='eo-header'><span>Autumn Glow Sale</span><span>offer</span></div>",
       "guarantee-text": "1-Year Guarantee",
       "shipping-text": "Free Shipping over $100",
       "free": "FREE"
@@ -287,7 +287,7 @@
         "header": "Jump To"
       },
       "limited-offer": {
-        "header": "Summer Sale Offer",
+        "header": "AUTUMN GLOW SALE",
         "text_html": "<p class='qs-offer'>Get <span class='qs-badge'>{{ sum }} OFF</span> with code {{ code }}</p>",
         "days": "DAYS",
         "hours": "HOURS",
