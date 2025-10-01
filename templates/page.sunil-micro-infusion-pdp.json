@@ -1251,7 +1251,7 @@
             "image": "shopify://shop_images/MI_5_month_W_2.png",
             "soldout": false,
             "preorder": false,
-            "total_treatments": 0,
+            "total_treatments": 10,
             "left_items": 0,
             "preorder_text": "",
             "preorder_date_soldout": "",
