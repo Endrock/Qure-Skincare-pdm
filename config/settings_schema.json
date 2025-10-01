@@ -114,6 +114,11 @@
   {
     "name": "Cart drawer gifts",
     "settings": [
+
+      { "type": "header", "content": "Free Gift" },
+      { "type": "product", "id": "cart_freegift_product", "label": "Product" },
+      { "type": "range", "id": "cart_freegift_price_limit", "label": "Price limit", "min": 10, "max": 10, "step": 10, "unit": "$", "default": 10 },
+
       { "type": "header", "content": "Shipping" },
       { "type": "text", "id": "shipping_title", "label": "Title" },
       { "type": "image_picker", "id": "shipping_image", "label": "Image" },

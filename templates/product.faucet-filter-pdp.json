@@ -102,10 +102,10 @@
         "nextships_4xp7uM": {
           "type": "nextships",
           "settings": {
-            "date": "25 September",
-            "percent": 55,
-            "date_soldout": "28 July",
-            "date_reserved": "3 August"
+            "date": "15th October",
+            "percent": 52,
+            "date_soldout": "10th September",
+            "date_reserved": "1st October"
           }
         },
         "type_hHPdgJ": {
@@ -157,7 +157,6 @@
         },
         "product_DEgEkN": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "faucet-filter",
             "product_variant_id": 46852913987823,
@@ -167,7 +166,7 @@
             "subheading": "",
             "image": "shopify://shop_images/faucet_silver.webp",
             "soldout": false,
-            "preorder": false,
+            "preorder": true,
             "preorder_text": "",
             "preorder_date_soldout": "",
             "preorder_date_reserved": "",
@@ -917,7 +916,6 @@
         },
         "variant_46xfGi": {
           "type": "variant",
-          "disabled": true,
           "settings": {
             "heading": "Silver",
             "image": "shopify://shop_images/silver_swatch.webp"
