@@ -290,6 +290,7 @@
         },
         "product_dkFRPe": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "fade-firm-bundle-advanced-bf25-sku",
             "preselected": false,
