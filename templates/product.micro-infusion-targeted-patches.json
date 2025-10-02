@@ -825,7 +825,7 @@
       }
     },
     "product_mi_patches_image_accordion_GAU3GJ": {
-      "type": "product-mi-patches-image-accordion",
+      "type": "product-micro-infusion-targeted-patches-image-accordion",
       "blocks": {
         "accordion_iPmkaU": {
           "type": "accordion",
