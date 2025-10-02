@@ -185,6 +185,7 @@
         "items_X93EX6": {
           "type": "items",
           "settings": {
+
             "text": "Receive 2,370 Entries",
             "product": "micro-infusion-targeted-patches",
             "label_price": "",
@@ -194,6 +195,7 @@
         "items_GBcVLj": {
           "type": "items",
           "settings": {
+
             "text": "Receive 4,470 Entries",
             "product": "shower-filter",
             "label_price": "from",
@@ -203,6 +205,7 @@
         "items_MRgUDf": {
           "type": "items",
           "settings": {
+
             "text": "Receive 3,870 Entries",
             "product": "faucet-filter",
             "label_price": "from",
@@ -212,6 +215,7 @@
         "items_bMyP8k": {
           "type": "items",
           "settings": {
+
             "text": "Receive 870 Entries",
             "product": "dermal-mist",
             "label_price": "",
