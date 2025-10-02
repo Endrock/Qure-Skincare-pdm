@@ -107,73 +107,6 @@
         "image_exterior": "shopify://shop_images/interior_img2.webp"
       }
     },
-    "car_giveaway_product_cards_addzMK": {
-      "type": "car-giveaway-product-cards",
-      "blocks": {
-        "items_X93EX6": {
-          "type": "items",
-          "settings": {
-            "heading": "Micro-Infusion Targeted Patches",
-            "text": "Receive 2,370 Entries",
-            "image": "shopify://shop_images/mi-target-pat.webp",
-            "price": "$79",
-            "button_label": "Buy Now",
-            "button_url": "#",
-            "link_url": "#",
-            "quote": ""
-          }
-        },
-        "items_GBcVLj": {
-          "type": "items",
-          "settings": {
-            "heading": "Shower Filter",
-            "text": "Receive 4,470 Entries",
-            "image": "shopify://shop_images/shwr-fil.webp",
-            "price": "from $149",
-            "button_label": "Buy Now",
-            "button_url": "#",
-            "link_url": "#",
-            "quote": ""
-          }
-        },
-        "items_MRgUDf": {
-          "type": "items",
-          "settings": {
-            "heading": "Faucet Filter",
-            "text": "Receive 3,870 Entries",
-            "image": "shopify://shop_images/water-fil.webp",
-            "price": "from $129",
-            "button_label": "Buy Now",
-            "button_url": "#",
-            "link_url": "#",
-            "quote": ""
-          }
-        },
-        "items_bMyP8k": {
-          "type": "items",
-          "settings": {
-            "heading": "Dermal Mist",
-            "text": "Receive 870 Entries",
-            "image": "shopify://shop_images/derm-mist.webp",
-            "price": "$29",
-            "button_label": "Buy Now",
-            "button_url": "#",
-            "link_url": "#",
-            "quote": ""
-          }
-        }
-      },
-      "block_order": [
-        "items_X93EX6",
-        "items_GBcVLj",
-        "items_MRgUDf",
-        "items_bMyP8k"
-      ],
-      "name": "t:sections.car-giveaway-product-cards.name",
-      "settings": {
-        "heading": ""
-      }
-    },
     "car_giveaway_car_bundle_br3fna": {
       "type": "car-giveaway-car-bundle",
       "blocks": {
@@ -260,6 +193,73 @@
         "sub_text": "“I see every Qure purchase as a commitment to your skin health. As a thank you, one of those commitments will come with an extraordinary surprise.”",
         "sign": "– Kristina",
         "image": "shopify://shop_images/kristina_984ff854-12ab-469f-94ea-6a28c221402e.webp"
+      }
+    },
+    "car_giveaway_product_cards_addzMK": {
+      "type": "car-giveaway-product-cards",
+      "blocks": {
+        "items_X93EX6": {
+          "type": "items",
+          "settings": {
+            "heading": "Micro-Infusion Targeted Patches",
+            "text": "Receive 2,370 Entries",
+            "image": "shopify://shop_images/mi-target-pat.webp",
+            "price": "$79",
+            "button_label": "Buy Now",
+            "button_url": "#",
+            "link_url": "#",
+            "quote": ""
+          }
+        },
+        "items_GBcVLj": {
+          "type": "items",
+          "settings": {
+            "heading": "Shower Filter",
+            "text": "Receive 4,470 Entries",
+            "image": "shopify://shop_images/shwr-fil.webp",
+            "price": "from $149",
+            "button_label": "Buy Now",
+            "button_url": "#",
+            "link_url": "#",
+            "quote": ""
+          }
+        },
+        "items_MRgUDf": {
+          "type": "items",
+          "settings": {
+            "heading": "Faucet Filter",
+            "text": "Receive 3,870 Entries",
+            "image": "shopify://shop_images/water-fil.webp",
+            "price": "from $129",
+            "button_label": "Buy Now",
+            "button_url": "#",
+            "link_url": "#",
+            "quote": ""
+          }
+        },
+        "items_bMyP8k": {
+          "type": "items",
+          "settings": {
+            "heading": "Dermal Mist",
+            "text": "Receive 870 Entries",
+            "image": "shopify://shop_images/derm-mist.webp",
+            "price": "$29",
+            "button_label": "Buy Now",
+            "button_url": "#",
+            "link_url": "#",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "items_X93EX6",
+        "items_GBcVLj",
+        "items_MRgUDf",
+        "items_bMyP8k"
+      ],
+      "name": "t:sections.car-giveaway-product-cards.name",
+      "settings": {
+        "heading": ""
       }
     },
     "faq_fXt8wp": {
@@ -370,8 +370,8 @@
     "car_giveaway_countdown_timer_MJrqzk",
     "car_giveaway_product_cards_f7JeEF",
     "car_giveaway_interior_style_UkFGBy",
-    "car_giveaway_product_cards_addzMK",
     "car_giveaway_car_bundle_br3fna",
+    "car_giveaway_product_cards_addzMK",
     "faq_fXt8wp",
     "car_giveaway_countdown_timer_start_zFDDKf"
   ]
