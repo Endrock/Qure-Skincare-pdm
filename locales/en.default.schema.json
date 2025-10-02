@@ -357,8 +357,17 @@
                 },
                 "image-interior": {
                     "name": "Image interior"
+                },
+                "header-exterior": {
+                    "name": "Header exterior"
+                },
+                "text-exterior": {
+                    "name": "Text exterior"
+                },
+                "image-exterior": {
+                    "name": "Image exterior"
                 }
-            }
+            }    
         },
         "car-giveaway-car-bundle": {
             "name": "Car giveaway car bundle",

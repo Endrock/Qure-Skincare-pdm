@@ -10,7 +10,8 @@
                 {% if section.settings.image_interior != blank %}
                     <img src="{{ section.settings.image_interior | image_url }}" alt="{{ section.settings.image_interior.alt | escape }}" class="img-fluid w-100">
                 {% endif %}
-                <div class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
+                <div
+                    class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
                     <div class="text-center text-white">
                         <p class="interior">{{ 'sections.car-giveaway-interior-style.interior_text' | t }}</p>
                         {% if section.settings.heading_interior != blank %}
@@ -25,22 +26,19 @@
         </div>
         <div class="col-md-6 px-0">
             <div class="interior_img position-relative">
-                {% if section.settings.image != blank %}
-                    <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt | escape }}" class="img-fluid w-100">
+                {% if section.settings.image_exterior != blank %}
+                    <img src="{{ section.settings.image_exterior | image_url }}" alt="{{ section.settings.image_exterior.alt | escape }}" class="img-fluid w-100">
                 {% endif %}
                 <div
                     class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
-                    <div class="text-center text-white pt-100 pt-md-70">
-                        {% if section.settings.heading != blank %}
-                            <h3 class="classy text-white">{{ section.settings.heading }}</h3>
+                    <div class="text-center text-white">
+                        <p class="interior">{{ 'sections.car-giveaway-interior-style.exterior_text' | t }}</p>
+                        {% if section.settings.heading_exterior != blank %}
+                            <h3 class="classy text-white">{{ section.settings.heading_exterior }}</h3>
                         {% endif %}
-                        {% if section.settings.text != blank %}
-                            <p class="mb-15">{{ section.settings.text }}</p>
+                        {% if section.settings.text_exterior != blank %}
+                            {{ section.settings.text_exterior | replace: '<p>', '' | replace: '</p>', '' }}
                         {% endif %}
-                        {% if section.settings.button_url != blank and section.settings.button_label != blank %}
-                            
-                        {% endif %}
-                        <a href="{{ section.settings.button_url }}" class="btn btn--primary-white w-100">{{ section.settings.button_label }}</a>
                     </div>
                 </div>
             </div>
@@ -70,28 +68,18 @@
     },
     {
         "type": "text",
-        "id": "heading",
-        "label": "t:common.header"
+        "id": "heading_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.header-exterior"
     },
     {
-        "type": "text",
-        "id": "text",
-        "label": "t:common.text"
-    },
-    {
-        "type": "text",
-        "id": "button_label",
-        "label": "t:common.button-label"
-    },
-    {
-        "type": "url",
-        "id": "button_url",
-        "label": "t:common.button-url"
+        "type": "richtext",
+        "id": "text_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.text-exterior"
     },
     {
         "type": "image_picker",
-        "id": "image",
-        "label": "t:common.image"
+        "id": "image_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.image-exterior"
     }
   ]
 }

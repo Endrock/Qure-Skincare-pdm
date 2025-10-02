@@ -47,7 +47,8 @@
       "tick_image": "https://qureskincaredns-main.com/sections/isolated/top-products/images/tick.svg"
     },
     "car-giveaway-interior-style": {
-      "interior_text": "INTERIOR"
+      "interior_text": "INTERIOR",
+      "exterior_text": "EXTERIOR"
     },
     "contact-form": {
       "success_text": "Thanks for contacting us. We'll get back to you as soon as possible.",
