@@ -9,31 +9,35 @@
         {% if section.settings.heading != blank %}
             <p class="extra_entries">{{ section.settings.heading }}</p>
         {% endif %}
-        <div class="countdown" data-target="{{ section.settings.target_datetime }}">
+        <div class="countdown" data-deadline="">
             <div>
-                <div class="days">{{ 'sections.car-giveaway-countdown-timer.00' | t }}</div><span>{{ 'sections.car-giveaway-countdown-timer.days' | t }}</span>
+                <div class="days qs-value" data-key="days">00</div><span class="qs-label">{{ 'sections.car-giveaway-countdown-timer.days' | t }}</span>
             </div>
-            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt=""></div>
+            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt="line"></div>
             <div>
-                <div class="hours">{{ 'sections.car-giveaway-countdown-timer.00' | t }}</div><span>{{ 'sections.car-giveaway-countdown-timer.hours' | t }}</span>
+                <div class="hours qs-value" data-key="hours">00</div><span class="qs-label">{{ 'sections.car-giveaway-countdown-timer.hours' | t }}</span>
             </div>
-            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt=""></div>
+            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt="line"></div>
             <div>
-                <div class="minutes">{{ 'sections.car-giveaway-countdown-timer.00' | t }}</div><span>{{ 'sections.car-giveaway-countdown-timer.minutes' | t }}</span>
+                <div class="minutes qs-value" data-key="minutes">00</div><span class="qs-label">{{ 'sections.car-giveaway-countdown-timer.minutes' | t }}</span>
             </div>
-            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt=""></div>
+            <div><img src="{{ 'sections.car-giveaway-countdown-timer.white_line_image' | t }}" alt="line"></div>
             <div>
-                <div class="seconds">{{ 'sections.car-giveaway-countdown-timer.00' | t }}</div><span>{{ 'sections.car-giveaway-countdown-timer.seconds' | t }}</span>
+                <div class="seconds qs-value" data-key="seconds">00</div><span class="qs-label">{{ 'sections.car-giveaway-countdown-timer.seconds' | t }}</span>
             </div>
         </div>
     </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        loadScriptOnce('countdown-timer', 'https://qureskincaredns-main.com/sections/isolated/countdown-timer/countdown-timer.js');
-    });
-</script>
 
+{% if section.settings.days > 0 %}
+    <script>
+        let customDays = {{ section.settings.days }} - 1;
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadScriptOnce('car-giveaway-countdown-timer', 'https://qureskincaredns-main.com/assets/shopify/js/car-giveaway-countdown-timer.js');
+        });
+    </script>
+{% endif %}
 
 {% schema %}
 {
@@ -45,11 +49,15 @@
         "label": "t:common.header"
    },
    {
-        "type": "text",
-        "id": "target_datetime",
-        "label": "t:common.target-datetime",
-        "default": "2025-10-07T00:00:00"
-   }
+        "type": "range",
+        "id": "days",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "unit": "day",
+        "label": "t:common.days",
+        "default": 5
+    }
   ]
 }
 {% endschema %}

@@ -29,15 +29,13 @@
     },
     "car-giveaway-countdown-timer": {
       "white_line_image": "https://qureskincaredns-main.com/sections/isolated/countdown-timer/images/white_line.svg",
-      "00": "00",
       "days": "DAYS",
       "hours": "HOURS",
       "minutes": "MINUTES",
       "seconds": "SECONDS"
     },
-    "car-giveaway-countdown-timer-start": {
+    "car-giveaway-countdown-timer-sticky": {
       "white_line_image": "https://qureskincaredns-main.com/sections/isolated/countdown-timer/images/white_line_mob.svg",
-      "00": "00",
       "days": "D",
       "hours": "H",
       "minutes": "M",

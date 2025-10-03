@@ -26,7 +26,7 @@
       "name": "t:sections.car-giveaway-countdown-timer.name",
       "settings": {
         "heading": "30X extra entries ENDS IN:",
-        "target_datetime": "2025-10-07T00:00:00"
+        "days": 7
       }
     },
     "car_giveaway_product_cards_f7JeEF": {
@@ -39,8 +39,8 @@
             "text": "Receive 11,970 Entries",
             "image": "shopify://shop_images/q-rejuvalight-pro-led-mask_ad021a69-1ad1-4744-9917-9610bbc49237.webp",
             "price": "$399",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/q-rejuvalight-pro-facewear",
             "quote": "BEST CHANCE"
           }
         },
@@ -51,8 +51,8 @@
             "text": "Receive 8,970 Entries",
             "image": "shopify://shop_images/n_d_device_a26d9921-a777-45a3-9eee-b2702e70d76e.webp",
             "price": "$299",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/neck-decolletage-led",
             "quote": ""
           }
         },
@@ -63,8 +63,8 @@
             "text": "Receive 3,570 Entries",
             "image": "shopify://shop_images/mi_facial.webp",
             "price": "from $119",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/pages/microinfusion",
             "quote": ""
           }
         },
@@ -75,8 +75,8 @@
             "text": "Receive 1,975 Entries",
             "image": "shopify://shop_images/all_in_one_serum_prod.webp",
             "price": "from $79",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/face-serum",
             "quote": ""
           }
         }
@@ -202,8 +202,8 @@
             "text": "Receive 2,370 Entries",
             "image": "shopify://shop_images/mi-target-pat.webp",
             "price": "$79",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/micro-infusion-targeted-patches",
             "quote": ""
           }
         },
@@ -214,8 +214,8 @@
             "text": "Receive 4,470 Entries",
             "image": "shopify://shop_images/shwr-fil.webp",
             "price": "from $149",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/shower-filter",
             "quote": ""
           }
         },
@@ -226,8 +226,8 @@
             "text": "Receive 3,870 Entries",
             "image": "shopify://shop_images/water-fil.webp",
             "price": "from $129",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/faucet-filter",
             "quote": ""
           }
         },
@@ -238,7 +238,7 @@
             "text": "Receive 870 Entries",
             "image": "shopify://shop_images/derm-mist.webp",
             "price": "$29",
-            "button_label": "Buy Now",
+            "button_label": "Shop Now",
             "button_url": "#",
             "quote": ""
           }
@@ -352,11 +352,11 @@
       }
     },
     "car_giveaway_countdown_timer_start_zFDDKf": {
-      "type": "car-giveaway-countdown-timer-start",
-      "name": "t:sections.car-giveaway-countdown-timer-start.name",
+      "type": "car-giveaway-countdown-timer-sticky",
+      "name": "t:sections.car-giveaway-countdown-timer-sticky.name",
       "settings": {
         "heading": "30X entries!",
-        "target_datetime": "2025-10-07T00:00:00"
+        "days": 5
       }
     }
   },
