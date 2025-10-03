@@ -96,6 +96,7 @@
         "button-url-mobile": "Mobile button url",
         "link-url": "Link URL",
         "hash": "Hash",
+        "label-price": "Label price",
         "left": "Left",
         "right": "Right",
         "left-block": "Left block",
@@ -145,7 +146,8 @@
         "number-of-views": "Number of views",
         "nubmber-of-shared": "Number of shared",
         "contact": "Contact",
-        "topic": "Topic"
+        "topic": "Topic",
+        "target-datetime": "Target date/time (YYYY-MM-DDTHH:MM:SS)" 
     },
     "blocks": {
         "block-card": {
@@ -334,6 +336,49 @@
         "micro-infusion-pdp-detailed-guide": {
             "name": "Detailed guide"
         },
+        "car-giveaway-page-banner": {
+            "name": "Page banner"
+        },
+        "car-giveaway-countdown-timer": {
+            "name": "Countdown timer"
+        },
+        "car-giveaway-countdown-timer-sticky": {
+            "name": "Sticky countdown timer"
+        },
+        "car-giveaway-product-cards": {
+            "name": "Product cards"
+        },
+        "car-giveaway-interior-style": {
+            "name": "Interior style",
+            "settings": {
+                "header-interior": {
+                    "name": "Header interior"
+                },
+                "text-interior": {
+                    "name": "Text interior"
+                },
+                "image-interior": {
+                    "name": "Image interior"
+                },
+                "header-exterior": {
+                    "name": "Header exterior"
+                },
+                "text-exterior": {
+                    "name": "Text exterior"
+                },
+                "image-exterior": {
+                    "name": "Image exterior"
+                }
+            }    
+        },
+        "car-giveaway-car-bundle": {
+            "name": "Car bundle",
+            "settings": {
+                "sign": {
+                    "name": "Sign"
+                }
+            }
+        },
         "stock-alert": {
             "name": "Stock alert"
         },
@@ -479,7 +524,15 @@
             }
         },
         "faq": {
-            "name": "Faq"
+            "name": "Faq",
+            "settings": {
+                "terms-conditions": {
+                    "name": "Terms & conditions"
+                },
+                "promotional-terms-and-conditions": {
+                    "name": "Promotional terms & conditions"
+                }
+            }
         },
         "compare": {
             "name": "Compare",

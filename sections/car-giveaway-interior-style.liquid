@@ -1,0 +1,86 @@
+{% doc %}
+  Renders a inerior style section for car giveaway page.
+{% enddoc %}
+
+<link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/interior-classy/interior-classy.css">
+<div class="interior_classy">
+    <div class="row">
+        <div class="col-md-6 px-0">
+            <div class="interior_img position-relative">
+                {% if section.settings.image_interior != blank %}
+                    <img src="{{ section.settings.image_interior | image_url }}" alt="{{ section.settings.image_interior.alt | escape }}" class="img-fluid w-100">
+                {% endif %}
+                <div
+                    class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
+                    <div class="text-center text-white">
+                        <p class="interior">{{ 'sections.car-giveaway-interior-style.interior_text' | t }}</p>
+                        {% if section.settings.heading_interior != blank %}
+                            <h3 class="classy text-white">{{ section.settings.heading_interior }}</h3>
+                        {% endif %}
+                        {% if section.settings.text_interior != blank %}
+                            {{ section.settings.text_interior | replace: '<p>', '' | replace: '</p>', '' }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 px-0">
+            <div class="interior_img position-relative">
+                {% if section.settings.image_exterior != blank %}
+                    <img src="{{ section.settings.image_exterior | image_url }}" alt="{{ section.settings.image_exterior.alt | escape }}" class="img-fluid w-100">
+                {% endif %}
+                <div
+                    class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
+                    <div class="text-center text-white">
+                        <p class="interior">{{ 'sections.car-giveaway-interior-style.exterior_text' | t }}</p>
+                        {% if section.settings.heading_exterior != blank %}
+                            <h3 class="classy text-white">{{ section.settings.heading_exterior }}</h3>
+                        {% endif %}
+                        {% if section.settings.text_exterior != blank %}
+                            {{ section.settings.text_exterior | replace: '<p>', '' | replace: '</p>', '' }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "t:sections.car-giveaway-interior-style.name",
+  "settings": [
+    {
+        "type": "text",
+        "id": "heading_interior",
+        "label": "t:sections.car-giveaway-interior-style.settings.header-interior.name"
+    },
+    {
+        "type": "richtext",
+        "id": "text_interior",
+        "label": "t:sections.car-giveaway-interior-style.settings.text-interior.name"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_interior",
+        "label": "t:sections.car-giveaway-interior-style.settings.image-interior.name"
+    },
+    {
+        "type": "text",
+        "id": "heading_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.header-exterior.name"
+    },
+    {
+        "type": "richtext",
+        "id": "text_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.text-exterior.name"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_exterior",
+        "label": "t:sections.car-giveaway-interior-style.settings.image-exterior.name"
+    }
+  ]
+}
+{% endschema %}
