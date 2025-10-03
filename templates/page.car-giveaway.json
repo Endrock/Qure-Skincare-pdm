@@ -39,7 +39,7 @@
             "text": "Receive 11,970 Entries",
             "image": "shopify://shop_images/q-rejuvalight-pro-led-mask_ad021a69-1ad1-4744-9917-9610bbc49237.webp",
             "price": "$399",
-            "button_label": "Buy Now",
+            "button_label": "Shop Now",
             "button_url": "https://qureskincare.com/products/q-rejuvalight-pro-facewear",
             "quote": "BEST CHANCE"
           }
@@ -51,8 +51,8 @@
             "text": "Receive 8,970 Entries",
             "image": "shopify://shop_images/n_d_device_a26d9921-a777-45a3-9eee-b2702e70d76e.webp",
             "price": "$299",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/neck-decolletage-led",
             "quote": ""
           }
         },
@@ -63,8 +63,8 @@
             "text": "Receive 3,570 Entries",
             "image": "shopify://shop_images/mi_facial.webp",
             "price": "from $119",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/pages/microinfusion",
             "quote": ""
           }
         },
@@ -75,8 +75,8 @@
             "text": "Receive 1,975 Entries",
             "image": "shopify://shop_images/all_in_one_serum_prod.webp",
             "price": "from $79",
-            "button_label": "Buy Now",
-            "button_url": "#",
+            "button_label": "Shop Now",
+            "button_url": "https://qureskincare.com/products/face-serum",
             "quote": ""
           }
         }
