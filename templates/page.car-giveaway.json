@@ -215,7 +215,7 @@
             "image": "shopify://shop_images/shwr-fil.webp",
             "price": "from $149",
             "button_label": "Shop Now",
-            "button_url": "#",
+            "button_url": "https://qureskincare.com/products/shower-filter",
             "quote": ""
           }
         },
@@ -227,7 +227,7 @@
             "image": "shopify://shop_images/water-fil.webp",
             "price": "from $129",
             "button_label": "Shop Now",
-            "button_url": "#",
+            "button_url": "https://qureskincare.com/products/faucet-filter",
             "quote": ""
           }
         },
