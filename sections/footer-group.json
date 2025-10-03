@@ -13,7 +13,6 @@
   "sections": {
     "footer-perks": {
       "type": "footer-perks",
-      "disabled": true,
       "settings": {}
     },
     "footer-form": {
