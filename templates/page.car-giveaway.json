@@ -26,7 +26,7 @@
       "name": "t:sections.car-giveaway-countdown-timer.name",
       "settings": {
         "heading": "30X extra entries ENDS IN:",
-        "target_datetime": "2025-10-07T00:00:00"
+        "days": 5
       }
     },
     "car_giveaway_product_cards_f7JeEF": {
@@ -356,11 +356,11 @@
       }
     },
     "car_giveaway_countdown_timer_start_zFDDKf": {
-      "type": "car-giveaway-countdown-timer-start",
-      "name": "t:sections.car-giveaway-countdown-timer-start.name",
+      "type": "car-giveaway-countdown-timer-sticky",
+      "name": "t:sections.car-giveaway-countdown-timer-sticky.name",
       "settings": {
         "heading": "30X entries!",
-        "target_datetime": "2025-10-07T00:00:00"
+        "days": 5
       }
     }
   },

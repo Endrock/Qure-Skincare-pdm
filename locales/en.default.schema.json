@@ -337,19 +337,19 @@
             "name": "Detailed guide"
         },
         "car-giveaway-page-banner": {
-            "name": "Car giveaway page banner"
+            "name": "Page banner"
         },
         "car-giveaway-countdown-timer": {
-            "name": "Car giveaway countdown timer"
+            "name": "Countdown timer"
         },
-        "car-giveaway-countdown-timer-start": {
-            "name": "Car giveaway countdown timer start"
+        "car-giveaway-countdown-timer-sticky": {
+            "name": "Sticky countdown timer"
         },
         "car-giveaway-product-cards": {
-            "name": "Car giveaway product cards"
+            "name": "Product cards"
         },
         "car-giveaway-interior-style": {
-            "name": "Car giveaway interior style",
+            "name": "Interior style",
             "settings": {
                 "header-interior": {
                     "name": "Header interior"
@@ -372,7 +372,7 @@
             }    
         },
         "car-giveaway-car-bundle": {
-            "name": "Car giveaway car bundle",
+            "name": "Car bundle",
             "settings": {
                 "sign": {
                     "name": "Sign"
