@@ -381,9 +381,8 @@
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“Where I live, the <strong>water just absolutely wrecks my skin and hair.</strong> There’s good data to show that bad water quality - high calcium - can cause the surfactants in your cleanser to become more <strong>harsh and irritating.</strong></p><p>A water filter, like the one from Qure, can make a <strong>huge difference to remove impurities</strong> that can damage the hair and skin.”</p>",
         "image_text": "",
-        "image": "shopify://shop_images/doctor_shah_desk.webp",
-        "image_mobile": "shopify://shop_images/doctor_shah_mob.webp",
-        "video_url": "",
+        "video_cover_image": "shopify://shop_images/doctor_img_1.png",
+        "video_url": "https://www.youtube.com/watch?v=Tk39sbR8Nak&t=433s",
         "wistia_url": ""
       }
     },
@@ -746,7 +745,9 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": "https://qureskincare.com/pages/contact-us"
+        "button_url": "https://qureskincare.com/pages/contact-us",
+        "terms-conditions": false,
+        "promotional_terms_and_conditions": ""
       }
     },
     "sticky_cta_6UGJ8F": {
