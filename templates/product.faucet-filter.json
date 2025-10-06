@@ -376,11 +376,10 @@
       "name": "t:sections.trusted-recommended.name",
       "settings": {
         "heading": "Trusted and Recommended by Experts",
-        "text": "<p>“<strong>Harsh water can definitely damage your skin</strong> on daily basis and it impacts everything you are doing with your skincare\"</p>",
+        "text": "<p>“How do you <strong>reduce the things in your water that are causing issues</strong> with your skin?<br/>This Qure filter is incredible – i<strong>t’s the only filter I personally use</strong> to [reduce] chlorine and anything else that’s going to make your water harsh for your skin.”</p>",
         "image_text": "",
-        "image": "shopify://shop_images/doctor-maxfield.webp",
-        "image_mobile": "shopify://shop_images/doctor-maxfield.webp",
-        "video_url": "",
+        "video_cover_image": "shopify://shop_images/doctor_img_1.png",
+        "video_url": "https://www.youtube.com/watch?v=Tk39sbR8Nak&t=433s",
         "wistia_url": ""
       }
     },
@@ -550,6 +549,14 @@
             "youtube_url": "",
             "wistia_url": "9xpl4uthol"
           }
+        },
+        "slider_wWGYPb": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "",
+            "video_cover_image": "shopify://shop_images/Review.png",
+            "wistia_url": "https://www.tiktok.com/@theugcfiles/video/7442571889878289672?_r=1&_t=8rn3f5qRoiS"
+          }
         }
       },
       "block_order": [
@@ -559,7 +566,8 @@
         "slider_g3LGam",
         "slider_dcKaRT",
         "slider_ix3F8e",
-        "slider_8ymdeH"
+        "slider_8ymdeH",
+        "slider_wWGYPb"
       ],
       "name": "t:sections.video-review-slider.name",
       "settings": {
@@ -894,7 +902,9 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": "https://qureskincare.com/pages/contact-us"
+        "button_url": "https://qureskincare.com/pages/contact-us",
+        "terms-conditions": false,
+        "promotional_terms_and_conditions": ""
       }
     },
     "sticky_cta_9hzULB": {
