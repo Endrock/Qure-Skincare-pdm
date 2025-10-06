@@ -577,6 +577,9 @@
         "page-banner": {
             "name": "Page banner"
         },
+        "page-banner-richtext": {
+            "name": "Page banner with richtext"
+        },
         "index-banner-with-text": {
             "name": "Index banner"
         },

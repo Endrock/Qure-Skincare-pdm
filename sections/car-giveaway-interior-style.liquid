@@ -29,15 +29,17 @@
                 {% if section.settings.image_exterior != blank %}
                     <img src="{{ section.settings.image_exterior | image_url }}" alt="{{ section.settings.image_exterior.alt | escape }}" class="img-fluid w-100">
                 {% endif %}
-                <div
-                    class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
+                <div class="position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center">
                     <div class="text-center text-white">
-                        <p class="interior">{{ 'sections.car-giveaway-interior-style.exterior_text' | t }}</p>
+                        <img src="{{ 'sections.car-giveaway-interior-style.email_icon' | t }}" alt="{{ 'sections.car-giveaway-interior-style.email_icon.alt' | t | escape }}" class="email_icon">
                         {% if section.settings.heading_exterior != blank %}
                             <h3 class="classy text-white">{{ section.settings.heading_exterior }}</h3>
                         {% endif %}
                         {% if section.settings.text_exterior != blank %}
-                            {{ section.settings.text_exterior | replace: '<p>', '' | replace: '</p>', '' }}
+                            <p class="my-10">{{ section.settings.text_exterior }}</p>
+                        {% endif %}
+                        {% if section.settings.button_url != blank and section.settings.button_label != blank %}
+                            <a href="{{ section.settings.button_url }}" class="btn btn--primary bg-white text-black w-100 mt-20 border-0">{{ section.settings.button_label }}</a>
                         {% endif %}
                     </div>
                 </div>
@@ -72,7 +74,7 @@
         "label": "t:sections.car-giveaway-interior-style.settings.header-exterior.name"
     },
     {
-        "type": "richtext",
+        "type": "text",
         "id": "text_exterior",
         "label": "t:sections.car-giveaway-interior-style.settings.text-exterior.name"
     },
@@ -80,6 +82,16 @@
         "type": "image_picker",
         "id": "image_exterior",
         "label": "t:sections.car-giveaway-interior-style.settings.image-exterior.name"
+    },
+    {
+        "type": "text",
+        "id": "button_label",
+        "label": "t:common.button-label"
+    },
+    {
+        "type": "url",
+        "id": "button_url",
+        "label": "t:common.button-url"
     }
   ]
 }
