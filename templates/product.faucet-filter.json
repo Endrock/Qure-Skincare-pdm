@@ -93,9 +93,9 @@
         "subscription_6xp1uL": {
           "type": "subscription",
           "settings": {
-            "product": "faucet-filter-refill",
             "subscription_onetime_text": "Faucet + 1 Filter",
             "subscription_days_text": "Filter Refill",
+            "product": "faucet-filter-refill",
             "subscription_discount_percent": 50,
             "onetime_text": "Qure Faucet Filter"
           }
@@ -530,13 +530,6 @@
             "wistia_url": "tw9t09jts0"
           }
         },
-        "slider_bXU69G": {
-          "type": "slider",
-          "settings": {
-            "youtube_url": "",
-            "wistia_url": "o0wghi5h89"
-          }
-        },
         "slider_87MMUY": {
           "type": "slider",
           "settings": {
@@ -550,7 +543,6 @@
         "slider_wQzpUh",
         "slider_4r7WTK",
         "slider_PUfQn6",
-        "slider_bXU69G",
         "slider_87MMUY"
       ],
       "name": "t:sections.video-review-slider.name",
