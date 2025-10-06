@@ -508,13 +508,6 @@
             "wistia_url": "o0wghi5h89"
           }
         },
-        "slider_87MMUY": {
-          "type": "slider",
-          "settings": {
-            "youtube_url": "",
-            "wistia_url": "dfp3k20txu"
-          }
-        },
         "slider_PUfQn6": {
           "type": "slider",
           "settings": {
@@ -542,15 +535,22 @@
             "youtube_url": "",
             "wistia_url": "yvm1h7gbig"
           }
+        },
+        "slider_87MMUY": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "",
+            "wistia_url": "dfp3k20txu"
+          }
         }
       },
       "block_order": [
         "slider_bXU69G",
-        "slider_87MMUY",
         "slider_PUfQn6",
         "slider_4r7WTK",
         "slider_wQzpUh",
-        "slider_Ma6kje"
+        "slider_Ma6kje",
+        "slider_87MMUY"
       ],
       "name": "t:sections.video-review-slider.name",
       "settings": {
