@@ -1,0 +1,75 @@
+{% doc %}
+  Renders a page banner with richtext section 
+{% enddoc %}
+
+<link rel="stylesheet" href="https://qureskincaredns-main.com/sections/isolated/page-banner/page-banner.css" />
+<div class="page__banner position-relative">
+    <picture>
+        <source media="(min-width:1920px)"
+            srcset="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide.webp"
+            class="img-fluid" width="1440" height="557">
+        <source media="(min-width:1600px)"
+            srcset="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide.webp"
+            class="img-fluid" width="1440" height="557">
+        <source media="(min-width:1100px)"
+            srcset="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide.webp"
+            class="img-fluid" width="1440" height="557">
+        <source media="(min-width:720px)"
+            srcset="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide.webp"
+            class="img-fluid" width="1440" height="557">
+        <source media="(min-width:540px)"  srcset="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide-mob.webp" class="img-fluid" width="1440" height="557">
+        <img src="https://qureskincaredns-main.com/sections/isolated/page-banner/images/shower-filter-guide-mob.webp" width="225" height="281" alt="" class="img-fluid w-100">
+    </picture>
+    <div
+        class="page__banner-wrapper position-absolute d-flex align-items-end align-items-lg-center justify-content-end top-0 bottom-0 start-0 end-0 pb-20">
+        <div class="container">
+            <div class="d-flex justify-content-lg-end">
+                <div class="ctm-width ctm-color" style="--ctm-width:450px; --txt-color-mob:#fff;">
+                    <h1 class="page-banner-title">Shower Filter Guide</h1>
+                    <div class="fs-16 fw-600 pt-15 mb-1">IMPORTANT NOTICE:</div>
+                    <div class="fs-16">Please read the complete instruction manual carefully before installing and
+                        using your Qure Shower Filter.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.page-banner-richtext.name",
+  "settings": [
+    {
+        "type": "text",
+        "id": "heading",
+        "label": "t:common.header"
+    },
+    {
+        "type": "text",
+        "id": "sub_heading",
+        "label": "t:common.subheader"
+    },
+    {
+        "type": "text",
+        "id": "text",
+        "label": "t:common.text"
+    },
+    
+    {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:common.iamge"
+    },
+    {
+        "type": "image_picker",
+        "id": "imagfe_mobile",
+        "label": "t:common.image_mobile"
+    }
+  ],
+  "presets": [
+    {
+        "name": "t:sections.page-banner-richtext.name"
+    }
+  ]
+}
+{% endschema %}

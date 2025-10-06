@@ -99,9 +99,11 @@
         "heading_interior": "Minimalist & Classy",
         "text_interior": "<ul><li>Panoramic Glass Roof</li><li>Premium Leather Interior</li><li>Touchscreen with Apple CarPlay + Android Auto</li><li>Meridian Sound System</li><li>Heated Front Seats</li><li>360° Parking Camera + Driver Assist</li><li>Spacious Cargo Area with Fold-Flat Seats</li></ul>",
         "image_interior": "shopify://shop_images/interior_img1.webp",
-        "heading_exterior": "Certain To Turn Heads",
-        "text_exterior": "<ul><li>Hands-Free Power Liftgate</li><li>246 HP Turbocharged Engine</li><li>All-Wheel Drive Standard</li><li>7.1 Second 0-60 mph</li><li>Heated Windshield</li></ul>",
-        "image_exterior": "shopify://shop_images/interior_img2.webp"
+        "heading_exterior": "Enter for free",
+        "text_exterior": "Sign up to emails & SMS for a chance to win",
+        "image_exterior": "shopify://shop_images/interior_img2.webp",
+        "button_label": "Sign Up",
+        "button_url": "#"
       }
     },
     "car_giveaway_car_bundle_br3fna": {

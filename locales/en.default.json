@@ -46,7 +46,7 @@
     },
     "car-giveaway-interior-style": {
       "interior_text": "INTERIOR",
-      "exterior_text": "EXTERIOR"
+      "email_icon": "https://qureskincaredns-main.com/sections/isolated/interior-classy/images/email_icon.svg"
     },
     "contact-form": {
       "success_text": "Thanks for contacting us. We'll get back to you as soon as possible.",
