@@ -95,6 +95,7 @@
           "settings": {
             "subscription_onetime_text": "",
             "subscription_days_text": "Receive a new Filter Refill",
+            "product": "",
             "subscription_discount_percent": 30,
             "onetime_text": ""
           }
@@ -500,13 +501,6 @@
             "wistia_url": "tw9t09jts0"
           }
         },
-        "slider_kQmCrr": {
-          "type": "slider",
-          "settings": {
-            "youtube_url": "",
-            "wistia_url": "o0wghi5h89"
-          }
-        },
         "slider_ptd8yj": {
           "type": "slider",
           "settings": {
@@ -520,7 +514,6 @@
         "slider_zXgc97",
         "slider_KcaV8W",
         "slider_7fGzQB",
-        "slider_kQmCrr",
         "slider_ptd8yj"
       ],
       "name": "t:sections.video-review-slider.name",
