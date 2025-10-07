@@ -171,8 +171,8 @@
       "type": "stock-alert",
       "name": "t:sections.stock-alert.name",
       "settings": {
-        "text": "<p>AUTUMN GLOW SALE!</p>",
-        "text_mobile": "<p>AUTUMN GLOW SALE!</p>",
+        "text": "<p>PRIME DAY PROMO!</p>",
+        "text_mobile": "<p>PRIME DAY PROMO!</p>",
         "style_color": "light_green"
       }
     },
@@ -1480,7 +1480,9 @@
         "heading": "Have questions?",
         "text": "Don’t see your question?",
         "button_label": "Ask us",
-        "button_url": "#"
+        "button_url": "#",
+        "terms-conditions": false,
+        "promotional_terms_and_conditions": ""
       }
     }
   },
