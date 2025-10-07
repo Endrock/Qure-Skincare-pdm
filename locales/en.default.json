@@ -314,7 +314,7 @@
         "header": "Jump To"
       },
       "limited-offer": {
-        "header": "AUTUMN GLOW SALE",
+        "header": "PRIME DAY PROMO",
         "text_html": "<p class='qs-offer'>Get <span class='qs-badge'>{{ sum }} OFF</span> with code {{ code }}</p>",
         "days": "DAYS",
         "hours": "HOURS",
