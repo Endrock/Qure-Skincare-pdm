@@ -263,7 +263,7 @@
       }
     },
     "exclusive-offer": {
-      "header_html": "<div class='eo-header'><span>Prime Day </span><span>offer</span></div>",
+      "header_html": "<div class='eo-header'><span>Prime Day </span><span>Promo</span></div>",
       "guarantee-text": "1-Year Guarantee",
       "shipping-text": "Free Shipping over $100",
       "free": "FREE"
