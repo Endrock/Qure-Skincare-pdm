@@ -12,6 +12,12 @@
     "product_header_KpLxTq": {
       "type": "product-header",
       "blocks": {
+        "black_friday_discount_PYGjBx": {
+          "type": "black-friday-discount",
+          "settings": {
+            "discount_percent": 26
+          }
+        },
         "price_A11": {
           "type": "price",
           "settings": {}
@@ -80,6 +86,7 @@
         }
       },
       "block_order": [
+        "black_friday_discount_PYGjBx",
         "price_A11",
         "description_iPBNaS",
         "button_A9",
