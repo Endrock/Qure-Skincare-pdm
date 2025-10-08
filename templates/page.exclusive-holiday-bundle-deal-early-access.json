@@ -300,6 +300,15 @@
             "reserved": false
           }
         },
+        "product_NtbDxk": {
+          "type": "product",
+          "settings": {
+            "product": "line-refine-bundle-advanced-bf25-sku",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
         "product_nyJ9n7": {
           "type": "product",
           "disabled": true,
@@ -391,6 +400,7 @@
         "type_aJwQ9q",
         "product_type_VLXcAn",
         "product_9YcwnY",
+        "product_NtbDxk",
         "product_nyJ9n7",
         "product_EKAAzA",
         "product_eiY89h",
