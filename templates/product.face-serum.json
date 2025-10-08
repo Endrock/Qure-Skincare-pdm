@@ -35,6 +35,13 @@
             "days": 5
           }
         },
+        "black_friday_discount_A9": {
+          "type": "black-friday-discount",
+          "disabled": false,
+          "settings": {
+            "discount_percent": 26
+          }
+        },
         "nextships_KzHDC3": {
           "type": "nextships",
           "disabled": true,
@@ -75,6 +82,7 @@
         }
       },
       "block_order": [
+        "black_friday_discount_A9",
         "price_A11",
         "description_iPBNaS",
         "section_A0",
