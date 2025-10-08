@@ -309,6 +309,15 @@
             "reserved": false
           }
         },
+        "product_jRJTCy": {
+          "type": "product",
+          "settings": {
+            "product": "line-refine-bundle-essential-bf25-sku",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
         "product_nyJ9n7": {
           "type": "product",
           "disabled": true,
@@ -401,6 +410,7 @@
         "product_type_VLXcAn",
         "product_9YcwnY",
         "product_NtbDxk",
+        "product_jRJTCy",
         "product_nyJ9n7",
         "product_EKAAzA",
         "product_eiY89h",
