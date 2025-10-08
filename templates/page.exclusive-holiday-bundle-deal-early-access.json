@@ -359,8 +359,18 @@
             "preselected": false
           }
         },
+        "product_6TBNNL": {
+          "type": "product",
+          "settings": {
+            "product": "breakout-control-pro-bf25",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
         "product_gbPf3J": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "breakout-control-pro-1",
             "preselected": true,
@@ -370,6 +380,7 @@
         },
         "product_NEgEkN": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "breakout-control-advanced",
             "preselected": false,
@@ -379,6 +390,7 @@
         },
         "product_RBCPe8": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "breakout-control-essentials",
             "preselected": false,
@@ -416,6 +428,7 @@
         "product_eiY89h",
         "type_yDwWmt",
         "product_type_YrPQrV",
+        "product_6TBNNL",
         "product_gbPf3J",
         "product_NEgEkN",
         "product_RBCPe8",
