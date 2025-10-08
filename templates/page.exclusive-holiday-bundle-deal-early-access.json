@@ -377,6 +377,15 @@
             "reserved": false
           }
         },
+        "product_TkVDd8": {
+          "type": "product",
+          "settings": {
+            "product": "breakout-control-essentials-bf25-1",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
         "product_gbPf3J": {
           "type": "product",
           "disabled": true,
@@ -439,6 +448,7 @@
         "product_type_YrPQrV",
         "product_6TBNNL",
         "product_3JCGzy",
+        "product_TkVDd8",
         "product_gbPf3J",
         "product_NEgEkN",
         "product_RBCPe8",
