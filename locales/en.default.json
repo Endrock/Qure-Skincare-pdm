@@ -314,7 +314,7 @@
         "header": "Jump To"
       },
       "limited-offer": {
-        "header": "PRIME DAY PROMO",
+        "header": "Autumn Glow Sale",
         "text_html": "<p class='qs-offer'>Get <span class='qs-badge'>{{ sum }} OFF</span> with code {{ code }}</p>",
         "days": "DAYS",
         "hours": "HOURS",
@@ -527,7 +527,7 @@
   },
   "bundle-header": {
     "settings": {
-      "exclusive": "PRIME DAY PROMO",
+      "exclusive": "Autumn Glow Sale",
       "bundles": "Bundles",
       "easy-returns": "Easy 30-Day Returns",
       "shipping-text": "Free Worldwide Shipping",
