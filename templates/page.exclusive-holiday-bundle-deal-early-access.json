@@ -250,36 +250,6 @@
             "reserved": false
           }
         },
-        "product_DBd4ef": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "fade-firm-bundle-pro",
-            "preselected": true,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_7dL4ci": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "fade-firm-bundle-advance",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_Xf8A6C": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "fade-firm-bundle-essentials",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
         "type_aJwQ9q": {
           "type": "type",
           "settings": {}
@@ -313,36 +283,6 @@
           "type": "product",
           "settings": {
             "product": "line-refine-bundle-essential-bf25-sku",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_nyJ9n7": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "line-refine-bundle-pro",
-            "preselected": true,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_EKAAzA": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "line-refine-bundle-advanced-1",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_eiY89h": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "line-refine-bundle-essentials",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -385,46 +325,6 @@
             "soldout": false,
             "reserved": false
           }
-        },
-        "product_gbPf3J": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "breakout-control-pro-1",
-            "preselected": true,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_NEgEkN": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "breakout-control-advanced",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_RBCPe8": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "breakout-control-essentials",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
-        },
-        "product_e9YBCe": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "water-filter-family-bundle-bf25",
-            "preselected": false,
-            "soldout": false,
-            "reserved": false
-          }
         }
       },
       "block_order": [
@@ -433,26 +333,16 @@
         "product_cDgtRg",
         "product_PybAig",
         "product_iyCaR8",
-        "product_DBd4ef",
-        "product_7dL4ci",
-        "product_Xf8A6C",
         "type_aJwQ9q",
         "product_type_VLXcAn",
         "product_9YcwnY",
         "product_NtbDxk",
         "product_jRJTCy",
-        "product_nyJ9n7",
-        "product_EKAAzA",
-        "product_eiY89h",
         "type_yDwWmt",
         "product_type_YrPQrV",
         "product_6TBNNL",
         "product_3JCGzy",
-        "product_TkVDd8",
-        "product_gbPf3J",
-        "product_NEgEkN",
-        "product_RBCPe8",
-        "product_e9YBCe"
+        "product_TkVDd8"
       ],
       "settings": {
         "heading": "Choose Your Bundle",
