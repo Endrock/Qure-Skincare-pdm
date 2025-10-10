@@ -134,6 +134,7 @@
         },
         "slider_NbVEhm": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "“It complements the face mask and targets areas that age first. I think it is most important for your first LED treatment.”",
             "image": "shopify://shop_images/grazia-black.svg"
@@ -229,6 +230,7 @@
         },
         "slider_hhgf6i": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "From sun damage to this!",
             "text": "<p>“After years damage from the strong Aussie sun I wanted to try LED therapy to help rejuvenate and repair my skin. I’m so glad I did because after using it daily, I've witnessed this transformation!!! Skin is firmer, sunspots have faded and texture is so much smoother!”</p>",
@@ -268,6 +270,7 @@
         },
         "slider_mdLYBj": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "Great results so far!",
             "text": "<p>“After only 3 weeks of use I can see a visible change in the texture and color of my skin. I have a lot of sun damage in my chest so I imagine I will need to use my device consistently for a few months before I see a huge difference but I am already noticing improvement and am very happy with my purchase. I highly recommend!”</p>",
