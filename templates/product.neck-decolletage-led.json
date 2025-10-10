@@ -179,21 +179,21 @@
         "slider_nzJkbQ": {
           "type": "slider",
           "settings": {
-            "text": "<p>Fade pigmentation and <br/>dark spots</p>",
+            "text": "<p>Helps improve the look of uneven <br/>tone</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_1.svg"
           }
         },
         "slider_wPpPVU": {
           "type": "slider",
           "settings": {
-            "text": "<p>Lift and firm sagging<br/>skin</p>",
+            "text": "<p>Visibly refreshes and firms the<br/> appearance of skin</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_2.svg"
           }
         },
         "slider_XFzXwM": {
           "type": "slider",
           "settings": {
-            "text": "<p>Boost smoothness and repair sun-damaged skin</p>",
+            "text": "<p>Leaves skin looking smoother softer<br/> and more radiant</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_3.svg"
           }
         }
