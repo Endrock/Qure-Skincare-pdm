@@ -1107,7 +1107,7 @@
           "type": "compare",
           "settings": {
             "check_text": "<p>New needle heads provide sharp, straight needles for every treatment - designed for better efficacy</p>",
-            "cross_text": "<p>Needles become blunt after several uses & create unnecessary skin trauma which can lessen efficacy</p>",
+            "cross_text": "<p>Needles become blunt after several uses & may cause unnecessary irritation which can affect results</p>",
             "checkbox": false
           }
         },
@@ -1122,7 +1122,7 @@
         "compare_XyCyNE": {
           "type": "compare",
           "settings": {
-            "check_text": "<p>Delivers serum directly to skin to help increase absorption & results</p>",
+            "check_text": "<p>Applies serum onto the skin to enhance absorption and visible results</p>",
             "cross_text": "<p>Less effective absorption of serum as applied topically</p>",
             "checkbox": false
           }
