@@ -102,8 +102,8 @@
       "name": "t:sections.product-header.name",
       "settings": {
         "seo_heading": "RED LIGHT NECK & CHEST MASK",
-        "heading": "Combat signs of aging with Neck & Decolletage LED Therapy",
-        "description": "<ul><li>Clinically-proven results for anti-aging and skin rejuvenation where the first signs of aging appear.</li><li>Repairs sun-damaged skin, reduces the appearance of redness, and fine lines & wrinkles.</li><li>Evens skin tone and boosts firmness for radiant, younger-looking skin.</li></ul>",
+        "heading": "Visibly smooth and firm skin with the Neck & Décolletage LED System",
+        "description": "<ul><li>Visible cosmetic results supporting smoother- and firmer-looking skin where early signs of aging appear.</li><li>Helps improve the look of sun-exposed skin, visibly calms redness, and smooths the appearance of fine lines and wrinkles.</li><li>Evens skin tone and boosts firmness for radiant, younger-looking skin.</li></ul>",
         "reserved": false,
         "soldout": false
       }
@@ -134,6 +134,7 @@
         },
         "slider_NbVEhm": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "“It complements the face mask and targets areas that age first. I think it is most important for your first LED treatment.”",
             "image": "shopify://shop_images/grazia-black.svg"
@@ -178,21 +179,21 @@
         "slider_nzJkbQ": {
           "type": "slider",
           "settings": {
-            "text": "<p>Fade pigmentation and <br/>dark spots</p>",
+            "text": "<p>Helps improve the look of uneven <br/>tone</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_1.svg"
           }
         },
         "slider_wPpPVU": {
           "type": "slider",
           "settings": {
-            "text": "<p>Lift and firm sagging<br/>skin</p>",
+            "text": "<p>Visibly refreshes and firms the<br/> appearance of skin</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_2.svg"
           }
         },
         "slider_XFzXwM": {
           "type": "slider",
           "settings": {
-            "text": "<p>Boost smoothness and repair sun-damaged skin</p>",
+            "text": "<p>Leaves skin looking smoother softer<br/> and more radiant</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_3.svg"
           }
         }
@@ -229,6 +230,7 @@
         },
         "slider_hhgf6i": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "From sun damage to this!",
             "text": "<p>“After years damage from the strong Aussie sun I wanted to try LED therapy to help rejuvenate and repair my skin. I’m so glad I did because after using it daily, I've witnessed this transformation!!! Skin is firmer, sunspots have faded and texture is so much smoother!”</p>",
@@ -255,6 +257,7 @@
         },
         "slider_7343tm": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": ">Goodbye stubborn inflammation",
             "text": "<p>“After struggling with acne and the stubborn pigmentation it left behind, I'm thrilled with the results I've seen after using Qure LED chest device. My skin is clearer, and the pigmentation has significantly faded. The most important, I don’t have to cover my neck and chest with foundations and concealers anymore”</p>",
@@ -268,6 +271,7 @@
         },
         "slider_mdLYBj": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "Great results so far!",
             "text": "<p>“After only 3 weeks of use I can see a visible change in the texture and color of my skin. I have a lot of sun damage in my chest so I imagine I will need to use my device consistently for a few months before I see a huge difference but I am already noticing improvement and am very happy with my purchase. I highly recommend!”</p>",
@@ -481,10 +485,8 @@
       ],
       "name": "t:sections.product-info.name",
       "settings": {
-        "heading": "Science-backed results",
-        "text": "<p>The Neck & Décolletage LED Device uses red and near-infrared light to trigger a natural process in your skin called <em>photobiomodulation</em>.</p><p>These wavelengths are absorbed by your skin cells and help boost their energy, allowing them to work more efficiently. This increased activity <em>supports collagen and elastin production</em>, speeds up repair, calms inflammation, and <em>improves overall tone and texture</em>.</p><p>No heat, no damage—just light activating your skin’s natural ability to heal and renew.</p>",
-        "image": "shopify://shop_images/science_backed_res.webp",
-        "image_mobile": "shopify://shop_images/science_backed_res_mob.webp",
+        "heading": "",
+        "text": "",
         "button-label": "",
         "button-url": "",
         "image_position": "left"
