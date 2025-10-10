@@ -179,21 +179,21 @@
         "slider_nzJkbQ": {
           "type": "slider",
           "settings": {
-            "text": "<p>Fade pigmentation and <br/>dark spots</p>",
+            "text": "<p>Helps improve the look of uneven <br/>tone</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_1.svg"
           }
         },
         "slider_wPpPVU": {
           "type": "slider",
           "settings": {
-            "text": "<p>Lift and firm sagging<br/>skin</p>",
+            "text": "<p>Visibly refreshes and firms the<br/> appearance of skin</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_2.svg"
           }
         },
         "slider_XFzXwM": {
           "type": "slider",
           "settings": {
-            "text": "<p>Boost smoothness and repair sun-damaged skin</p>",
+            "text": "<p>Leaves skin looking smoother softer<br/> and more radiant</p>",
             "image": "shopify://shop_images/Neck_Dec_Icons_3.svg"
           }
         }
@@ -257,6 +257,7 @@
         },
         "slider_7343tm": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": ">Goodbye stubborn inflammation",
             "text": "<p>“After struggling with acne and the stubborn pigmentation it left behind, I'm thrilled with the results I've seen after using Qure LED chest device. My skin is clearer, and the pigmentation has significantly faded. The most important, I don’t have to cover my neck and chest with foundations and concealers anymore”</p>",
@@ -484,10 +485,8 @@
       ],
       "name": "t:sections.product-info.name",
       "settings": {
-        "heading": "Science-backed results",
-        "text": "<p>The Neck & Décolletage LED Device uses red and near-infrared light to trigger a natural process in your skin called <em>photobiomodulation</em>.</p><p>These wavelengths are absorbed by your skin cells and help boost their energy, allowing them to work more efficiently. This increased activity <em>supports collagen and elastin production</em>, speeds up repair, calms inflammation, and <em>improves overall tone and texture</em>.</p><p>No heat, no damage—just light activating your skin’s natural ability to heal and renew.</p>",
-        "image": "shopify://shop_images/science_backed_res.webp",
-        "image_mobile": "shopify://shop_images/science_backed_res_mob.webp",
+        "heading": "",
+        "text": "",
         "button-label": "",
         "button-url": "",
         "image_position": "left"
