@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           loop: false,
           spaceBetween: 12,
+          slidesPerView: 4,
           pagination: {
             el: ".testimonial-swiper-pagination",
             clickable: true,
@@ -123,13 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
           navigation: {
             nextEl: ".testimonial-swiper-button-next",
             prevEl: ".testimonial-swiper-button-prev",
-          },
-          breakpoints: {
-            1440: { slidesPerView: 4, centeredSlides: false },
-            1024: { slidesPerView: 3, centeredSlides: false },
-            480: { slidesPerView: 2.3, centeredSlides: true },
-            0: { slidesPerView: 1.2, centeredSlides: true },
-          },
+          }
         }
       );
     }

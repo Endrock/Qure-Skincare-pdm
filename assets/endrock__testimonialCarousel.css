@@ -131,7 +131,7 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      z-index: 10;
+      z-index: 1;
   }
 
 
@@ -209,7 +209,7 @@
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-}
+  }
 
   .modal-video-iframe #close-modal-video:hover {
       fill: #f74948 !important;
@@ -288,9 +288,14 @@
   }
 
   @media screen and (max-width: 992px) {
+      #testimonial-section-root {
+          width: 100%;
+      }
+
       #testimonial-carousel-desktop {
           display: none;
       }
+
 
       #testimonial-carousel-mobile {
           padding: 0 16px;
@@ -319,8 +324,8 @@
           -ms-border-radius: 100px;
           -o-border-radius: 100px;
 
-            scrollbar-width: none; 
-            -ms-overflow-style: none;  
+          scrollbar-width: none;
+          -ms-overflow-style: none;
 
       }
 
@@ -331,32 +336,32 @@
       }
 
       .testimonial-item .testimonial-video {
-        border: 2px solid #92BAEC;
-    }
+          border: 2px solid #92BAEC;
+      }
 
-    .modal-video-iframe{
-        padding: 0px;
-    }
-
-    .modal-video-iframe #close-modal-video{
-        top: 20px;
-        right: 20px;
-    }
-
-    
       .modal-video-iframe {
-        width: 100%;
-      max-width: 370px; 
-        box-sizing: border-box;
-        
-    }
+          padding: 0px;
+      }
 
-    .modal-video-iframe video{
-    max-height: 100%; 
-    max-width: 100%; 
-    aspect-ratio: 9 / 16;
-    object-fit: contain;
-    }
+      .modal-video-iframe #close-modal-video {
+          top: 20px;
+          right: 20px;
+      }
+
+
+      .modal-video-iframe {
+          width: 100%;
+          max-width: 370px;
+          box-sizing: border-box;
+
+      }
+
+      .modal-video-iframe video {
+          max-height: 100%;
+          max-width: 100%;
+          aspect-ratio: 9 / 16;
+          object-fit: contain;
+      }
 
       .mobile-list {
           display: flex;
@@ -364,6 +369,7 @@
           list-style: none;
           padding: 0;
           margin: 0;
+          width: 100%;
       }
 
       .mobile-list .testimonial-item {
@@ -382,14 +388,14 @@
 
   @media screen and (max-width: 450px) {
       .modal-video-iframe {
-        width: auto;
-      max-width: 370px; 
-        
-    }
+          width: auto;
+          max-width: 370px;
 
-    .modal-video-iframe video{
-    width: auto;
-    height: auto;
-    }
-    
+      }
+
+      .modal-video-iframe video {
+          width: auto;
+          height: auto;
+      }
+
   }
