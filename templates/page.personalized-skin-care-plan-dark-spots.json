@@ -46,7 +46,7 @@
         "items_8nmjC7": {
           "type": "items",
           "settings": {
-            "product": "micro-infusion-3-month-bundle",
+            "product": "micro-infusion-3-month-bundle-for-dark-spots",
             "text": "A quick at-home facial that stamps your skin with ultra-fine, clinical-grade needles to boost collagen and smooth fine lines.",
             "list": "<p>Smooths fine lines and softens wrinkles.</p><p>Improves tone and texture through gentle skin renewal and deep hydration</p><p>Clinically backed and easy to use at home</p>",
             "button_label": "Add to Bundle",
@@ -520,8 +520,8 @@
       }
     },
     "sticky_cta_hd4dLE": {
-      "disabled": true,
       "type": "sticky-cta",
+      "disabled": true,
       "name": "t:sections.static-sticky-cta.name",
       "settings": {}
     }
