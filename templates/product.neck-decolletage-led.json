@@ -230,10 +230,9 @@
         },
         "slider_hhgf6i": {
           "type": "slider",
-          "disabled": true,
           "settings": {
-            "heading": "From sun damage to this!",
-            "text": "<p>“After years damage from the strong Aussie sun I wanted to try LED therapy to help rejuvenate and repair my skin. I’m so glad I did because after using it daily, I've witnessed this transformation!!! Skin is firmer, sunspots have faded and texture is so much smoother!”</p>",
+            "heading": "Visible improvements!",
+            "text": "<p>“After years in the strong Aussie sun, I wanted to try LED therapy to refresh and rejuvenate my skin. I’m so glad I did — after using it daily, I’ve noticed real improvements! My skin looks firmer, smoother, and the appearance of sunspots has visibly reduced.”</p>",
             "compare_image": "shopify://shop_images/Sophia.webp",
             "country_image": "shopify://shop_images/australia_f.webp",
             "username": "<p>Sophia N.</p>",
