@@ -489,7 +489,7 @@
             "username": "<p>Claudia</p>",
             "product_url": "#",
             "product_heading": "Claudia uses...",
-            "product_text": "Neck & Décolletage LED Device",
+            "product_text": "Neck & Décolletage LED System",
             "product_image": "shopify://shop_images/neck-decolletage-led-device.webp"
           }
         },
@@ -509,6 +509,7 @@
         },
         "slider_RTBcJx": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "Completed qured my acne",
             "text": "<p>“This is the first time in TWO YEARS that I don’t have active acne on my face. I’ve been using my Qure for 1 month now and it has completely qured my acne. It’s gone AND it’s healing all my scars and pox marks. I was literally on the verge of suicide because of my horrible skin. This device SAVED MY LIFE!!!.”</p>",
@@ -531,7 +532,7 @@
             "username": "<p>Mary R. M.</p>",
             "product_url": "#",
             "product_heading": "Mary uses...",
-            "product_text": "Neck & Décolletage LED Device",
+            "product_text": "Neck & Décolletage LED System",
             "product_image": "shopify://shop_images/neck-decolletage-led-device.webp"
           }
         }
@@ -605,6 +606,7 @@
       "type": "trusted-recommended",
       "name": "t:sections.trusted-recommended.name",
       "settings": {
+        "background_color": "#ffffff",
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“This treatment is an at-home option for those who want to <strong>avoid the hassle or cost of going to the office”.</strong></p>",
         "image_text": "",
