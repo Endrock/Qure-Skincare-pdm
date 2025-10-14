@@ -240,8 +240,8 @@
         "slider_98GwR4": {
           "type": "slider",
           "settings": {
-            "heading": "Great results so far!",
-            "text": "<p>“After only 3 weeks of use I can see a visible change in the texture and color of my skin. I have a lot of sun damage in my chest so I imagine I will need to use my device consistently for a few months before I see a huge difference but I am already noticing improvement and am very happy with my purchase. I highly recommend!”</p>",
+            "heading": "Visible improvement so far!",
+            "text": "<p>“After only 3 weeks of use, I’ve noticed visible improvements in the texture and tone of my skin. I had uneven tone from sun exposure, so I plan to keep using it consistently for best results. I’m already seeing a difference and couldn’t be happier!”</p>",
             "compare_image": "shopify://shop_images/Brooke.webp",
             "country_image": "shopify://shop_images/england_f.webp",
             "username": "<p>Brooke B.</p>",
@@ -337,6 +337,7 @@
         },
         "slider_y7yihh": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "Saw a difference within 3 days",
             "text": "<p>“Incredible! The item is so well made, I had cystic acne on my jaw that went away within a week of use and my skin felt very soft. I have gotten 3 other people to purchase this product and will continue to rave about it!”</p>",
