@@ -14,7 +14,7 @@
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "heading": "Your results are in.",
-        "text": "<p><strong>Let’s transform your dark spots!</strong></p><p>We put together a straightforward, no-nonsense program just for you and your skin. It’s aimed to help reveal a brighter, more even complexion to build back your confidence.</p>",
+        "text": "<p><strong>Let’s fade the look of dark spots!</strong></p><p>We’ve created a straightforward, no-nonsense program designed to help visibly brighten and even out your complexion — so your skin looks clearer, smoother, and more radiant with consistency.</p>",
         "quote": "",
         "quote-mobile": "",
         "image_position": "right",
@@ -33,7 +33,7 @@
           "settings": {
             "product": "q-rejuvalight-pro-facewear",
             "text": "A hands-free LED light therapy mask that uses clinically proven wavelengths to target multiple skin concerns.",
-            "list": "<p>FDA-cleared device that treats acne, fine lines, wrinkles and dark spots.</p><p>Customizable treatment on 5 facial areas for your specific skin concerns.</p><p>Quick 3 minute, wireless daily treatments with convenient hands-free operation.</p>",
+            "list": "<p>FDA-cleared device designed to treat wrinkles and mild-to-moderate inflammatory acne.</p><p>Customizable treatment on 5 facial areas for your specific skin concerns..</p><p>Quick 3 minute, wireless daily treatments with convenient hands-free operation..</p>",
             "button_label": "Add to Bundle",
             "review_heading": "<p><strong>“I noticed results straight away!</strong></p>",
             "review_text": "<p>Now I can’t go a day without the Q-Rejuvalight Mask.”</p>",
@@ -329,6 +329,7 @@
       "type": "trusted-recommended",
       "name": "t:sections.trusted-recommended.name",
       "settings": {
+        "background_color": "#ffffff",
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“Of all the LED masks we’ve tried, this is <strong>the best on the market right now...</strong> It didn’t lose in any category...</p><p>There’s real science behind LED therapy, and <strong>Qure makes it easy</strong> to be consistent—which is what really drives results.”</p>",
         "image_text": "",
