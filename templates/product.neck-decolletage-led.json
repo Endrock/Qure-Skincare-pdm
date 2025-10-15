@@ -134,6 +134,7 @@
         },
         "slider_NbVEhm": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "heading": "“It complements the face mask and targets areas that age first. I think it is most important for your first LED treatment.”",
             "image": "shopify://shop_images/grazia-black.svg"
@@ -330,7 +331,7 @@
         "slider_9PfgjX": {
           "type": "slider",
           "settings": {
-            "heading": "<p>“Using a product like this consistently may help improve the look of discoloration and sun-exposed skin over time.”</p>",
+            "heading": "<p>“Using this product consistently can help visibly improve uneven tone and discoloration over time.”</p>",
             "text": "<p>Dr. Prem Tripathi</p>",
             "sub_text": "<p>Board-Certified Dermatologist</p>",
             "url": "xoh5ew7v31",
