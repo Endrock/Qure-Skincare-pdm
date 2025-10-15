@@ -13,6 +13,12 @@ Este snippet genera solo los items LI (el contenido del video), sin clases Swipe
         </div>
     </div>
 
-    <video controlsList="nofullscreen" src="{{block.settings.testimonial_video.sources[1].url}}"></video>
+    <video
+        controlsList="nofullscreen"
+        preload="metadata"
+        {% if block.settings.poster_image != blank %}
+        poster="{{ block.settings.poster_image | img_url: '800x' }}"
+        {% endif %}
+        src="{{ block.settings.testimonial_video.sources[1].url }}"
+    ></video>
 </div>
-</li>

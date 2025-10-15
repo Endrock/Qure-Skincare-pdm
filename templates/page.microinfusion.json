@@ -15,43 +15,50 @@
         "testimonial_qr33Xh": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-charinecheungg.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-charinecheungg.mp4",
+            "poster_image": "shopify://shop_images/poster-img7.png"
           }
         },
         "testimonial_N7RGgc": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-wendyskin.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-wendyskin.mp4",
+            "poster_image": "shopify://shop_images/poster-img.png"
           }
         },
         "testimonial_Rthe6c": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-careclarkbsn.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-careclarkbsn.mp4",
+            "poster_image": "shopify://shop_images/poster-img2.png"
           }
         },
         "testimonial_AQzQxe": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-glowwithava.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-glowwithava.mp4",
+            "poster_image": "shopify://shop_images/poster-img6.png"
           }
         },
         "testimonial_YFLjzQ": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-fleurdeforce.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-fleurdeforce.mp4",
+            "poster_image": "shopify://shop_images/poster-img5.png"
           }
         },
         "testimonial_wxDBYB": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-sophieanneperry.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-sophieanneperry.mp4",
+            "poster_image": "shopify://shop_images/poster-img4.png"
           }
         },
         "testimonial_df64JD": {
           "type": "testimonial",
           "settings": {
-            "testimonial_video": "shopify://files/videos/testimonial-gothamista.mp4"
+            "testimonial_video": "shopify://files/videos/testimonial-gothamista.mp4",
+            "poster_image": "shopify://shop_images/poster-img3.png"
           }
         }
       },
