@@ -246,8 +246,8 @@
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "heading": "Introducing the Qure Micro-Infusion System",
-        "text": "<ul><li>Works beneath the surface where topicals can't reach to target <strong>stubborn dark spots</strong> and uneven tone</li><li>Wake up with <strong>radiant, more even-toned</strong> skin</li><li>Minimal to no downtime, and <strong>virtually painless</strong></li><li>Easy to use <strong>5-minute</strong> treatment</li></ul>",
-        "quote": "<p>“<strong>Even my esthetician is hooked!</strong>And I can now visit beauty clinics less often.”</p>",
+        "text": "<ul><li>Helps improve the look of <strong>stubborn dark spots</strong> and uneven tone where topicals may not reach</li><li>Wake up with <strong>radiant, more even-toned </strong>skin</li><li>Minimal to no downtime, and virtually painless</li><li>Easy to use <strong>5-minute</strong> treatment</li></ul>",
+        "quote": "<p>“<strong>Even my esthetician is hooked! </strong>And I can now visit beauty clinics less often.”</p>",
         "quote-mobile": "",
         "image_position": "right",
         "sub_text": "",
@@ -282,8 +282,8 @@
           "type": "content",
           "settings": {
             "heading": "Fade Hyperpigmentation and Dark Spots",
-            "text": "<p>Qure’s Micro-Infusion can help reduce the appearance of dark spots and uneven tone by combining gentle microneedling with targeted brightening serum delivery.</p>",
-            "list": "<p>Helps target stubborn pigmentation where topicals can’t reach</p><p>Supports skin renewal for a more even-looking complexion</p><p>Creates visible improvement in tone and clarity over time</p>",
+            "text": "<p>Qure’s Micro-Infusion can help visibly reduce the look of dark spots and uneven tone by combining gentle micro-infusion technology with targeted brightening serum delivery.</p>",
+            "list": "<p>Helps improve the look of stubborn pigmentation where topicals may not reach</p><p>Supports skin renewal for a more even-looking complexion</p><p>Creates visible improvement in skin tone and clarity over time</p>",
             "username": "Kyla R.",
             "image": "shopify://shop_images/kyla.webp",
             "country_image": "shopify://shop_images/america_f.webp"
@@ -293,8 +293,8 @@
           "type": "content",
           "settings": {
             "heading": "Improve Tone and Texture",
-            "text": "<p>Uneven tone can make skin look older and less healthy. Micro-Infusion helps minimize the look of blotchiness by delivering concentrated ingredients where they’re needed most.</p>",
-            "list": "<p>Helps minimize the look of pores for a smoother, clearer complexion</p><p>Softens the appearance of redness and patchiness</p><p>Targets rough texture and uneven tone</p>",
+            "text": "<p>Uneven tone can make skin appear dull and tired-looking. Qure’s Micro-Infusion helps minimize the look of blotchinessby delivering concentrated ingredients right where they’re most effective.</p>",
+            "list": "<p>Helps minimize the look of pores for a smoother, clearer-looking complexion</p><p>Softens the appearance of redness and uneven patches</p><p>Helps refine rough texture and uneven tone</p>",
             "username": "Jess M.",
             "image": "shopify://shop_images/jess.webp",
             "country_image": "shopify://shop_images/america_f.webp"
@@ -304,8 +304,8 @@
           "type": "content",
           "settings": {
             "heading": "Boost Glow and Revive Dull Skin",
-            "text": "<p>Refresh tired-looking skin by infusing hydrating, brightening ingredients deep into the skin for a fresh, radiant finish that lasts.</p>",
-            "list": "<p>Brightens the look of tired skin for a healthier appearance</p><p>Boosts hydration to help skin look plump and refreshed</p><p>Leaves skin looking refreshed and full of life</p>",
+            "text": "<p>Restore skin’s glow by infusing hydrating and brightening ingredients for a fresh, radiant-looking finish that lasts.</p>",
+            "list": "<p>Brightens dull-looking skin for a healthy, radiant complexion</p><p>Leaves skin looking smoother, refreshed, and revitalized</p><p>Enhances serum absorption for more visible results</p>",
             "username": "Monika J.",
             "image": "shopify://shop_images/monika.webp",
             "country_image": "shopify://shop_images/australia_f.webp"
