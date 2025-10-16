@@ -1,6 +1,8 @@
 const handleClickVideo = (video) => {
   const handlelCloseModal = () => {
     document.body.style.overflow = "auto";
+    document.documentElement.classList.remove("no-scroll");
+    document.body.classList.remove("no-scroll");
     modalVideo.querySelector("video").pause();
     modalVideo.style.animation = "hideVideo 0.3s ease-in-out forwards";
     blurModal.style.animation = "hideModal 0.3s ease-in-out forwards";
@@ -11,7 +13,8 @@ const handleClickVideo = (video) => {
     }, 300);
   };
 
-  document.body.style.overflow = "hidden";
+  document.documentElement.classList.add("no-scroll");
+  document.body.classList.add("no-scroll");
   let blurModal = document.querySelector(".container-blur-modal");
   blurModal.style.animation = "showModal 0.3s ease-in-out forwards";
   let modalVideo = document.querySelector(".modal-video-iframe");
@@ -69,11 +72,7 @@ const initializeVideoHandlers = (containerSelector) => {
 
   playBtns.forEach((btn, index) => {
     btn.addEventListener("click", () => {
-      if (window.innerWidth <= 992) {
-        handleClickVideo(videos[index]);
-      } else {
-        handleClickVideo(videos[index]);
-      }
+      handleClickVideo(videos[index]);
     });
   });
 };
