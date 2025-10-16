@@ -77,8 +77,8 @@
       "name": "t:sections.page-header.name",
       "settings": {
         "rating": "<p><strong>4.8</strong>/5 Rated by Customers</p>",
-        "heading": "Regenerate your skin and watch acne scars fade away",
-        "description": "<ul><li>Stimulates skin regeneration to smooth acne scars, works beneath the surface where topicals can't reach</li><li>Easy 5-minute treatment that triggers your skin's natural healing response for visibly smother, even-toned skin.</li><li>Watch as skin texture improves and scars become less visible, with typical results after just 3 sessions every 2 weeks</li></ul>",
+        "heading": "Refresh your skin and visibly smooth the look of acne scars",
+        "description": "<ul><li>Helps refine skin texture for smoother-looking skin and visibly softer scars</li><li>Easy 5-minute treatment that supports skin renewal for a more even-toned complexion</li><li>With consistent use, skin looks smoother and marks appear less visible — with most users noticing visible improvement after a few sessions</li></ul>",
         "button-label": "Get Smoother, Glowing Skin",
         "button-url": "#purchase-form"
       }
@@ -513,6 +513,7 @@
       "type": "trusted-recommended",
       "name": "t:sections.trusted-recommended.name",
       "settings": {
+        "background_color": "#ffffff",
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“This treatment is an at-home option for those who want to <strong>avoid the hassle or cost of going to the office”.</strong></p>",
         "image_text": "",
@@ -1314,7 +1315,9 @@
         "heading": "Have questions?",
         "text": "",
         "button_label": "Ask us",
-        "button_url": ""
+        "button_url": "",
+        "terms-conditions": false,
+        "promotional_terms_and_conditions": ""
       }
     },
     "sticky_cta_y0T5PD": {
