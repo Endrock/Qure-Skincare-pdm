@@ -580,7 +580,7 @@
         "slider_FC8BrX": {
           "type": "slider",
           "settings": {
-            "heading": "<p>\"One of the best ways to treat hyperpigmentation at home.\"</p>",
+            "heading": "<p>“One of the best ways to help improve the look of hyperpigmentation at home.”</p>",
             "text": "<p>Dr. Wallace Nozile</p>",
             "sub_text": "<p>Board-Certified Dermatologist</p>",
             "url": "ypvcdsgwkx",
@@ -591,7 +591,7 @@
         "slider_rWeyGn": {
           "type": "slider",
           "settings": {
-            "heading": "<p>\"With Micro-Infusion, you get to see the results almost instantly.\"</p>",
+            "heading": "<p>“With Micro-Infusion, you may notice visible results quickly after your first treatment.”</p>",
             "text": "<p>Dr. Davin Lim</p>",
             "sub_text": "<p>Board-Certified Dermatologist</p>",
             "url": "3bud7no0j9",
@@ -783,7 +783,7 @@
           "type": "compare",
           "settings": {
             "check_text": "<p>New needle heads provide sharp, straight needles for every treatment - designed for better efficacy</p>",
-            "cross_text": "<p>Needles become blunt after several uses & create unnecessary skin trauma which can lessen efficacy</p>",
+            "cross_text": "<p>Needles become blunt after several uses & may cause unnecessary irritation which can affect results</p>",
             "checkbox": false
           }
         },
@@ -798,7 +798,7 @@
         "compare_XyCyNE": {
           "type": "compare",
           "settings": {
-            "check_text": "<p>Delivers serum directly to skin to help increase absorption & results</p>",
+            "check_text": "<p>Applies serum onto the skin to enhance absorption and visible results</p>",
             "cross_text": "<p>Less effective absorption of serum as applied topically</p>",
             "checkbox": false
           }
@@ -814,7 +814,7 @@
       ],
       "name": "t:sections.compare.name",
       "settings": {
-        "heading": "Typically more effective and safer than other at-home needling devices",
+        "heading": "Typically a more hygienic option than re-usable at-home rollers when used as directed",
         "text": "<p>Unlike at-home needle roller devices, Micro-Infusion requires little to no downtime, is virtually painless, and minimizes risk of infection and irritation.</p>",
         "image_compare_check": "shopify://shop_images/mist_img_3.webp",
         "image_compare_cross": "shopify://shop_images/mist_img_4.webp"
