@@ -300,7 +300,7 @@
           "type": "content",
           "settings": {
             "heading": "Minimize Fine Lines and Wrinkles",
-            "text": "<p>Smooth, plump, and firm your skin from within. Qure’s Micro-Infusion boosts collagen, restores hydration, and strengthens the skin barrier — all in one step.</p>",
+            "text": "<p>Smooth, plump, and refresh your skin’s appearance from within. Qure’s Micro-Infusion helps improve the look of collagen-depleted skin, restores hydration, and supports the skin’s natural barrier — all in one step.</p>",
             "list": "<p>Deeply hydrates to leave skin dewy and plump</p><p>Visibly softens fine lines for a smoother, more youthful look</p><p>Strengthens the skin barrier to support long-lasting firmness</p>",
             "username": "Tami T.",
             "image": "shopify://shop_images/tami.webp",
@@ -453,13 +453,13 @@
         "numbered_list_n6pbga": {
           "type": "numbered_list",
           "settings": {
-            "text": "First, it uses tiny 24K gold needles (thinner than a hair) to gently press into your skin. This helps improve firmness and smooth out fine lines."
+            "text": "First, it uses tiny 24K gold-plated, EO-sterilized needles (thinner than a hair) to gently press against your skin. This helps visibly smooth and refine the look of fine lines."
           }
         },
         "numbered_list_nGHdDi": {
           "type": "numbered_list",
           "settings": {
-            "text": "Next, it delivers serum through the tiny channels created, so your skin absorbs the ingredients more deeply."
+            "text": "Next, it delivers serum through the tiny surface channels created, helping your skin better absorb the ingredients."
           }
         }
       },
@@ -539,6 +539,7 @@
       "type": "trusted-recommended",
       "name": "t:sections.trusted-recommended.name",
       "settings": {
+        "background_color": "#ffffff",
         "heading": "Trusted and Recommended by Experts",
         "text": "<p>“This treatment is an at-home option for those who want to <strong>avoid the hassle or cost of going to the office”.</strong></p>",
         "image_text": "",
