@@ -58,7 +58,7 @@
         </div>
     </div>
     {% if block.settings.text != blank %}
-        <div class="text-center mt-10">{{ block.settings.text |  replace: '<p>', '' |  replace: '</p>', '' }}</div>
+        <div class="text-center mt-10">{{ block.settings.text |  replace: '<p>', '' |  replace: '</p>', '' | replace: '$299', product_sale_price }}</div>
     {% endif %}
 </div>
 
