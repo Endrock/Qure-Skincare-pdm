@@ -612,9 +612,9 @@
         "slider_V4d9wU": {
           "type": "slider",
           "settings": {
-            "heading": "",
-            "text": "",
-            "sub_text": "",
+            "heading": "<p>“You can personalize the treatment for each part of your face. Genius!”</p>",
+            "text": "<p>Susie Spring</p>",
+            "sub_text": "<p>Harvard-Certified Skin Expert</p>",
             "url": "65rmmodyl1",
             "checkbox": false,
             "image": "shopify://shop_images/Image_21_94fc9bc6-5816-421e-97e1-542ef78978ac.png"
