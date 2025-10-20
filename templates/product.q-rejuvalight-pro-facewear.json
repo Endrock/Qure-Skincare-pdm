@@ -11,6 +11,7 @@
   "sections": {
     "announcement_bar_jkkyg7": {
       "type": "announcement-bar",
+      "disabled": true,
       "name": "t:sections.announcement-bar.name",
       "settings": {
         "heading": "FREE Worldwide Shipping Above $100",
@@ -40,6 +41,16 @@
         "button_A9": {
           "type": "button",
           "settings": {}
+        },
+        "exclusive-offer_iaSzaD": {
+          "type": "exclusive-offer",
+          "settings": {
+            "product": "q-rejuvalight-pro-facewear-3",
+            "image_product1": "shopify://shop_images/Img_16.png",
+            "product2": "neck-decolletage-led",
+            "image_product2": "shopify://shop_images/ndBox.webp",
+            "text": "<p>Buy the Q-Rejuvalight Pro and get the Neck & Décolletage LED System for FREE (value $299)</p>"
+          }
         },
         "limited_offer_A8": {
           "type": "limited-offer",
@@ -108,6 +119,7 @@
         "price_A11",
         "description_A10",
         "button_A9",
+        "exclusive-offer_iaSzaD",
         "limited_offer_A8",
         "nextships_A7",
         "jumpto_A1",
@@ -596,6 +608,17 @@
             "checkbox": true,
             "image": "shopify://shop_images/trusted_rejuv_6.webp"
           }
+        },
+        "slider_V4d9wU": {
+          "type": "slider",
+          "settings": {
+            "heading": "",
+            "text": "",
+            "sub_text": "",
+            "url": "65rmmodyl1",
+            "checkbox": false,
+            "image": "shopify://shop_images/Image_21_94fc9bc6-5816-421e-97e1-542ef78978ac.png"
+          }
         }
       },
       "block_order": [
@@ -604,7 +627,8 @@
         "slider_VwcHpm",
         "slider_9gjKWw",
         "slider_gPNnzc",
-        "slider_dgCbHR"
+        "slider_dgCbHR",
+        "slider_V4d9wU"
       ],
       "name": "t:sections.video-slider.name",
       "settings": {}
@@ -722,6 +746,14 @@
             "youtube_url": "",
             "wistia_url": "5vgchvxn6l"
           }
+        },
+        "slider_ANweJW": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "youtube_url": "",
+            "wistia_url": "65rmmodyl1"
+          }
         }
       },
       "block_order": [
@@ -735,7 +767,8 @@
         "slider_WEYAWp",
         "slider_CgGbjj",
         "slider_Rinfeh",
-        "slider_NNNQeY"
+        "slider_NNNQeY",
+        "slider_ANweJW"
       ],
       "name": "t:sections.video-review-slider.name",
       "settings": {
