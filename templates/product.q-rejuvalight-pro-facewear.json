@@ -644,6 +644,16 @@
             "checkbox": false,
             "image": "shopify://shop_images/Image_21_94fc9bc6-5816-421e-97e1-542ef78978ac.png"
           }
+        },
+        "slider_dximBk": {
+          "type": "slider",
+          "settings": {
+            "heading": "<p>“This is a 3-minute ritual I complete every night without fail.”</p>",
+            "text": "<p>Dr. Kurren Gill</p>",
+            "sub_text": "<p>Medical Doctor</p>",
+            "url": "https://www.instagram.com/p/DNqCKbNO0Yw/",
+            "checkbox": false
+          }
         }
       },
       "block_order": [
@@ -655,7 +665,8 @@
         "slider_Dck8UD",
         "slider_gPNnzc",
         "slider_dgCbHR",
-        "slider_V4d9wU"
+        "slider_V4d9wU",
+        "slider_dximBk"
       ],
       "name": "t:sections.video-slider.name",
       "settings": {}
