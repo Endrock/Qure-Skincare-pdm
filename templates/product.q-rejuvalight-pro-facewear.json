@@ -737,6 +737,14 @@
             "wistia_url": "vhytqwlre4"
           }
         },
+        "slider_trU8ya": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "",
+            "video_cover_image": "shopify://shop_images/Review_5.png",
+            "wistia_url": "bpfdun1ngw"
+          }
+        },
         "slider_BTaRFq": {
           "type": "slider",
           "settings": {
@@ -753,12 +761,20 @@
             "wistia_url": ""
           }
         },
-        "slider_trU8ya": {
+        "slider_64URjn": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "https://youtu.be/nIBJ6SchgPs?si=oL87lpsJ0yJ-shu5&t=117",
+            "video_cover_image": "shopify://shop_images/Review_6.png",
+            "wistia_url": ""
+          }
+        },
+        "slider_QGTAmt": {
           "type": "slider",
           "settings": {
             "youtube_url": "",
-            "video_cover_image": "shopify://shop_images/Review_5.png",
-            "wistia_url": "bpfdun1ngw"
+            "video_cover_image": "shopify://shop_images/Review_7.png",
+            "wistia_url": "qqe1onrw3s"
           }
         },
         "slider_AH9pKk": {
@@ -861,9 +877,11 @@
       "block_order": [
         "slider_Rpw9fQ",
         "slider_Byzyg7",
+        "slider_trU8ya",
         "slider_BTaRFq",
         "slider_Eni939",
-        "slider_trU8ya",
+        "slider_64URjn",
+        "slider_QGTAmt",
         "slider_AH9pKk",
         "slider_NiNYGW",
         "slider_bbphF3",
