@@ -735,14 +735,7 @@
             "wistia_url": "5vgchvxn6l"
           }
         },
-        "slider_FcHNzm": {
-          "type": "slider",
-          "settings": {
-            "youtube_url": "",
-            "wistia_url": "https://qureskincare.wistia.com/medias/65rmmodyl1"
-          }
-        },
-        "slider_dbPajp": {
+        "slider_ANweJW": {
           "type": "slider",
           "settings": {
             "youtube_url": "",
@@ -762,8 +755,7 @@
         "slider_CgGbjj",
         "slider_Rinfeh",
         "slider_NNNQeY",
-        "slider_FcHNzm",
-        "slider_dbPajp"
+        "slider_ANweJW"
       ],
       "name": "t:sections.video-review-slider.name",
       "settings": {
