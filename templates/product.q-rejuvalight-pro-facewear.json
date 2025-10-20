@@ -652,7 +652,19 @@
             "text": "<p>Dr. Kurren Gill</p>",
             "sub_text": "<p>Medical Doctor</p>",
             "url": "https://www.instagram.com/p/DNqCKbNO0Yw/",
-            "checkbox": false
+            "checkbox": false,
+            "image": "shopify://shop_images/Image_24.png"
+          }
+        },
+        "slider_9nkTGH": {
+          "type": "slider",
+          "settings": {
+            "heading": "<p>“As a Resident Doctor, I don’t have much time to get to the clinic... this is my solution.”</p>",
+            "text": "<p>Dr. Nayiri Khatch</p>",
+            "sub_text": "<p>Medical Doctor</p>",
+            "url": "https://www.tiktok.com/@dr.khatch/video/7433119716295707947",
+            "checkbox": false,
+            "image": "shopify://shop_images/Image_25.png"
           }
         }
       },
@@ -666,7 +678,8 @@
         "slider_gPNnzc",
         "slider_dgCbHR",
         "slider_V4d9wU",
-        "slider_dximBk"
+        "slider_dximBk",
+        "slider_9nkTGH"
       ],
       "name": "t:sections.video-slider.name",
       "settings": {}
