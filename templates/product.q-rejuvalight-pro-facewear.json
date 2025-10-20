@@ -753,8 +753,17 @@
             "wistia_url": ""
           }
         },
+        "slider_trU8ya": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "",
+            "video_cover_image": "shopify://shop_images/Review_5.png",
+            "wistia_url": "bpfdun1ngw"
+          }
+        },
         "slider_AH9pKk": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "oofgzce5um"
@@ -762,6 +771,7 @@
         },
         "slider_NiNYGW": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "gw1rne236n"
@@ -769,6 +779,7 @@
         },
         "slider_bbphF3": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "vkd8so2clv"
@@ -776,6 +787,7 @@
         },
         "slider_j4Jpe7": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "ltv3wi7ayy"
@@ -783,6 +795,7 @@
         },
         "slider_FxaxVF": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "3dk53o20xw"
@@ -790,6 +803,7 @@
         },
         "slider_r8WNhq": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "i688q7ywip"
@@ -797,6 +811,7 @@
         },
         "slider_zwUJCV": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "nmgtj7w4at"
@@ -804,6 +819,7 @@
         },
         "slider_WEYAWp": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "5kh8ymubw0"
@@ -811,6 +827,7 @@
         },
         "slider_CgGbjj": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "wl5y3puch1"
@@ -818,6 +835,7 @@
         },
         "slider_Rinfeh": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "v955rlnldn"
@@ -825,6 +843,7 @@
         },
         "slider_NNNQeY": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "youtube_url": "",
             "wistia_url": "5vgchvxn6l"
@@ -844,6 +863,7 @@
         "slider_Byzyg7",
         "slider_BTaRFq",
         "slider_Eni939",
+        "slider_trU8ya",
         "slider_AH9pKk",
         "slider_NiNYGW",
         "slider_bbphF3",
