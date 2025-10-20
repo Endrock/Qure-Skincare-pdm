@@ -729,6 +729,14 @@
             "wistia_url": "lats3h0xd8"
           }
         },
+        "slider_Byzyg7": {
+          "type": "slider",
+          "settings": {
+            "youtube_url": "",
+            "video_cover_image": "shopify://shop_images/Review_4.png",
+            "wistia_url": "vhytqwlre4"
+          }
+        },
         "slider_BTaRFq": {
           "type": "slider",
           "settings": {
@@ -833,6 +841,7 @@
       },
       "block_order": [
         "slider_Rpw9fQ",
+        "slider_Byzyg7",
         "slider_BTaRFq",
         "slider_Eni939",
         "slider_AH9pKk",
