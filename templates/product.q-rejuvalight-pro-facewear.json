@@ -735,11 +735,11 @@
             "wistia_url": "5vgchvxn6l"
           }
         },
-        "slider_V4LqYw": {
+        "slider_FcHNzm": {
           "type": "slider",
           "settings": {
             "youtube_url": "",
-            "wistia_url": "5rmmodyl1"
+            "wistia_url": "https://qureskincare.wistia.com/medias/65rmmodyl1"
           }
         }
       },
@@ -755,7 +755,7 @@
         "slider_CgGbjj",
         "slider_Rinfeh",
         "slider_NNNQeY",
-        "slider_V4LqYw"
+        "slider_FcHNzm"
       ],
       "name": "t:sections.video-review-slider.name",
       "settings": {
