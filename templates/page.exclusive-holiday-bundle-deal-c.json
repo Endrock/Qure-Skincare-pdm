@@ -191,7 +191,7 @@
             "country_image": "shopify://shop_images/america_f.webp",
             "username": "<p>Ana L.</p>",
             "product_url": "#",
-            "product_heading": "Ellie uses",
+            "product_heading": "Ana uses",
             "product_text": "Micro infusion facial systems",
             "product_image": "shopify://shop_images/micro-infusion-facial-system_f0e75ccc-2fd2-48d6-aea7-fe662896adaa.webp"
           }
@@ -413,7 +413,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "fade-firm-bundle-advanced-bf25",
+            "product": "fade-firm-bundle-advanced-bf25-sku",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -542,6 +542,51 @@
       "name": "t:sections.slider-featured-in.name",
       "settings": {}
     },
+    "carousel_BHi3nq": {
+      "type": "carousel",
+      "blocks": {
+        "items_Jjd3LP": {
+          "type": "items",
+          "settings": {
+            "heading": "Proven Results,<br> Backed By Science",
+            "image": "shopify://shop_images/proven-result_aa0bded8-61de-481c-a572-de3ee2ebd568.svg"
+          }
+        },
+        "items_KgwGX6": {
+          "type": "items",
+          "settings": {
+            "heading": "Dermatologist<br> Approved",
+            "image": "shopify://shop_images/sheild_0b8742b5-c607-4820-834a-1c5a5fb1eabf.svg"
+          }
+        },
+        "items_LaLBeG": {
+          "type": "items",
+          "settings": {
+            "heading": "Treat Multiple<br> Skin Concerns",
+            "image": "shopify://shop_images/spark.svg"
+          }
+        },
+        "items_AcfKTd": {
+          "type": "items",
+          "settings": {
+            "heading": "Save Time<br> and Money",
+            "image": "shopify://shop_images/drops.svg"
+          }
+        }
+      },
+      "block_order": [
+        "items_Jjd3LP",
+        "items_KgwGX6",
+        "items_LaLBeG",
+        "items_AcfKTd"
+      ],
+      "disabled": true,
+      "name": "t:common.carousel",
+      "settings": {
+        "background_color": "#ffffff",
+        "display_mode": "static"
+      }
+    },
     "trusted_recommended_Hp8pkA": {
       "type": "trusted-recommended",
       "name": "t:sections.trusted-recommended.name",
@@ -646,7 +691,7 @@
             "text": "<p>Then get a custom skincare plan, backed by science.</p>",
             "image_text": "<p>Only takes 60 seconds</p>",
             "button-label": "Take The Quiz",
-            "button-url": ""
+            "button-url": "https://qureskincare.com/pages/skin-consultation"
           }
         }
       },
@@ -658,51 +703,6 @@
         "heading": "Need help finding your new routine?",
         "text": "<p>You don’t have time for products that don’t work. We’ll prescribe you a personalized routine with clinically proven products and tips - just for your skin.</p>",
         "sub_text": "Here’s your personalized skincare routine…"
-      }
-    },
-    "carousel_BHi3nq": {
-      "type": "carousel",
-      "blocks": {
-        "items_Jjd3LP": {
-          "type": "items",
-          "settings": {
-            "heading": "Proven Results,<br> Backed By Science",
-            "image": "shopify://shop_images/proven-result_aa0bded8-61de-481c-a572-de3ee2ebd568.svg"
-          }
-        },
-        "items_KgwGX6": {
-          "type": "items",
-          "settings": {
-            "heading": "Dermatologist<br> Approved",
-            "image": "shopify://shop_images/sheild_0b8742b5-c607-4820-834a-1c5a5fb1eabf.svg"
-          }
-        },
-        "items_LaLBeG": {
-          "type": "items",
-          "settings": {
-            "heading": "Treat Multiple<br> Skin Concerns",
-            "image": "shopify://shop_images/spark.svg"
-          }
-        },
-        "items_AcfKTd": {
-          "type": "items",
-          "settings": {
-            "heading": "Save Time<br> and Money",
-            "image": "shopify://shop_images/drops.svg"
-          }
-        }
-      },
-      "block_order": [
-        "items_Jjd3LP",
-        "items_KgwGX6",
-        "items_LaLBeG",
-        "items_AcfKTd"
-      ],
-      "disabled": true,
-      "name": "t:common.carousel",
-      "settings": {
-        "background_color": "#ffffff",
-        "display_mode": "static"
       }
     },
     "compare_9f4PmB": {
@@ -969,10 +969,10 @@
     "trusted_reviews_9WdXCj",
     "purchase_form_bundle_Lj9cVS",
     "slider_featured_in_RUfV4m",
+    "carousel_BHi3nq",
     "trusted_recommended_Hp8pkA",
     "video_slider_HtrKKA",
     "quiz_V6p9AW",
-    "carousel_BHi3nq",
     "compare_9f4PmB",
     "page_exclusive_holiday_bundle_trusted_reviews_img_kCfC33",
     "page_banner_eaDxdy",
