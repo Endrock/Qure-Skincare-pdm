@@ -178,7 +178,7 @@
           "type": "accordion",
           "settings": {
             "heading": "What should I do if I received the wrong item?",
-            "text": "<p>If you received a product different from the one that you ordered, please contact us at support@qureskincare.com and we’ll be sure to make this right!</p>",
+            "text": "<p>If you received a product different from the one that you ordered, please <a href=\"https://qureskincare.customerdesk.io/#rp-customer-widget-home\" title=\"https://qureskincare.customerdesk.io/#rp-customer-widget-home\">Help Center</a>  and we’ll be sure to make this right!</p>",
             "link_url": "",
             "link_text": ""
           }
