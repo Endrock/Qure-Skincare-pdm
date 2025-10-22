@@ -15,8 +15,62 @@
       "type": "endrock_gamificationHeader",
       "settings": {}
     },
+    "endrock-rotating-announcement": {
+      "type": "endrock__rotating-announcement",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "heading": "Autumn Glow Sale 67% OFF Micro-Infusion",
+            "button-label": "Shop Now",
+            "button-url": "https://qureskincare.com/pages/microinfusion"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "heading": "<strong>Free Shipping</strong> on Orders Over $100",
+            "button-label": "",
+            "button-url": "",
+            "icon": "shopify://shop_images/icon-cart.png"
+          }
+        },
+        "announcement-3": {
+          "type": "announcement",
+          "settings": {
+            "heading": "<strong>Clinically Proven,</strong> Visible Results",
+            "button-label": "",
+            "button-url": "",
+            "icon": "shopify://shop_images/icon-shield.png"
+          }
+        },
+        "exclude-page-1": {
+          "type": "exclude-page",
+          "settings": {
+            "exclude-page": "exclusive-holiday-bundle-deal-new"
+          }
+        },
+        "exclude-page-2": {
+          "type": "exclude-page",
+          "settings": {
+            "exclude-page": "qure-microinfusion-offer"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement-2",
+        "announcement-3",
+        "exclude-page-1",
+        "exclude-page-2"
+      ],
+      "settings": {
+        "delay": 3000
+      }
+    },
     "footer-form": {
       "type": "announcement-bar",
+      "disabled": true,
       "settings": {
         "heading": "Autumn Glow Sale 67% OFF Micro-Infusion",
         "button-label": "Shop Now",
@@ -31,6 +85,7 @@
   },
   "order": [
     "endrock-gamification-header",
+    "endrock-rotating-announcement",
     "footer-form",
     "header"
   ]
