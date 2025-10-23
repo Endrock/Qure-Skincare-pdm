@@ -209,7 +209,7 @@
         "type": "range",
         "id": "event_start_time_hour",
         "label": "Timer Start Time - Hour (24h format)",
-        "default": 16,
+        "default": 0,
         "min": 0,
         "max": 23,
         "step": 1,
@@ -219,7 +219,7 @@
         "type": "range",
         "id": "event_start_time_minute",
         "label": "Timer Start Time - Minute",
-        "default": 12,
+        "default": 0,
         "min": 0,
         "max": 59,
         "step": 1,
@@ -231,7 +231,7 @@
         "id": "event_end_date",
         "label": "Timer End Date",
         "placeholder": "2025-11-05",
-        "default": "2025-10-23",
+        "default": "2025-11-03",
         "info": "The date when the timer ends. Format: YYYY-MM-DD"
       },
       {
