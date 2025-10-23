@@ -9,9 +9,70 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "product-micro-infusion-limited-edition-bundle-1",
-      "settings": {}
+    "product_header_CpLxTq": {
+      "type": "product-header",
+      "blocks": {
+        "price_A11": {
+          "type": "price",
+          "settings": {
+            "show_discount": true
+          }
+        },
+        "money-back": {
+          "type": "money-back",
+          "settings": {}
+        },
+        "reviews-videos": {
+          "type": "reviews-videos",
+          "settings": {}
+        },
+        "description_iPBNaS": {
+          "type": "description",
+          "settings": {}
+        },
+        "button_A9": {
+          "type": "button",
+          "settings": {}
+        },
+        "limited_offer_A8": {
+          "type": "limited-offer",
+          "disabled": true,
+          "settings": {
+            "sum": "$100",
+            "code": "QURE100",
+            "days": 5
+          }
+        },
+        "nextships_BtDkBp": {
+          "type": "nextships",
+          "disabled": true,
+          "settings": {
+            "date": "25 September",
+            "percent": 55,
+            "date_soldout": "28 July",
+            "date_reserved": "3 August"
+          }
+        }
+      },
+      "block_order": [
+        "description_iPBNaS",
+        "price_A11",
+        "button_A9",
+        "money-back",
+        "reviews-videos",
+        "limited_offer_A8",
+        "nextships_BtDkBp"
+      ],
+      "name": "t:sections.product-header.name",
+      "settings": {
+        "seo_heading": "",
+        "heading": "Micro-Infusion Glowcase",
+        "rating": false,
+        "limited": true,
+        "description": "<p>Late nights. Long flights. Endless events. Meet your glow-to: Micro-Infusion Limited Edition. The cosmetic mirror case makes it easy to take your favorite treatments anywhere, keeping yourskin hydrated wherever you are.</p>",
+        "reserved": false,
+        "soldout": false
+      }
     },
     "slider_featured_in_GrJ4Na": {
       "type": "slider-featured-in",
@@ -633,19 +694,20 @@
         "promotional_terms_and_conditions": ""
       }
     },
-    "micro_infusion_lim_ed_bundle_sticky_button_wnVTTV": {
-      "type": "micro-infusion-lim-ed-bundle-sticky-button",
-      "name": "t:sections.micro-infusion-lim-ed-bundle-sticky-button.name",
+    "sticky_cta_AFkFxe": {
+      "type": "sticky-button",
+      "name": "t:sections.sticky-button.name",
       "settings": {
-        "heading": "<p>Micro-Infusion Glowcase <em>Limited Edition</em></p>",
+        "heading": "Micro-Infusion Glowcase",
         "text": "<p><strong>Grab it while stocks last:</strong>Under 100 cases remaining</p>",
-        "button-label": "BUY NOW & SAVE 68%",
-        "button-url": "#buy_box"
+        "limited": true,
+        "button-label": "",
+        "button-url": ""
       }
     }
   },
   "order": [
-    "main",
+    "product_header_CpLxTq",
     "slider_featured_in_GrJ4Na",
     "micro_infusion_lim_ed_bundle_inside_kit_VNrLBK",
     "banner_with_text_Jet7fb",
@@ -655,6 +717,6 @@
     "how_to_use_FEKfw9",
     "micro_infusion_lim_ed_bundle_page_banner_fdpNTq",
     "faq_kPzeHm",
-    "micro_infusion_lim_ed_bundle_sticky_button_wnVTTV"
+    "sticky_cta_AFkFxe"
   ]
 }
