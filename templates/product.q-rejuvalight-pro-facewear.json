@@ -91,7 +91,7 @@
           "type": "jumpto",
           "settings": {
             "button-label": "Reviews",
-            "button-url": "#Trusted-reviews"
+            "button-url": "#trusted-reviews"
           }
         },
         "jumpto_A4": {
