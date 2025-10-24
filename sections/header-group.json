@@ -51,6 +51,12 @@
           "settings": {
             "exclude-page": "qure-microinfusion-offer"
           }
+        },
+        "exclude_page_9EKRtX": {
+          "type": "exclude-page",
+          "settings": {
+            "exclude-page": "car-giveaway"
+          }
         }
       },
       "block_order": [
@@ -58,7 +64,8 @@
         "announcement-2",
         "announcement-3",
         "exclude-page-1",
-        "exclude-page-2"
+        "exclude-page-2",
+        "exclude_page_9EKRtX"
       ],
       "settings": {
         "delay": 3000
