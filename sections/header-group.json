@@ -73,7 +73,6 @@
     },
     "footer-form": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "heading": "ONLY AVAILABLE TO US CUSTOMERS",
         "button-label": "",
