@@ -212,19 +212,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-}
-
-.gamification_threshold__item:first-child:not(.gamification_threshold__item--completed) .gamification_threshold__label {
-    background: linear-gradient(90deg, #D9D9D9 0%, #8B8C8E 23.56%, #8B8C8E 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.gamification_threshold__item:not(:first-child) .gamification_threshold__label {
     color: #8B8C8E;
 }
-
 
 /* Completed State */
 .gamification_threshold__items--active {
@@ -260,11 +249,17 @@
     }
 
     .gamification-content {
-        padding: 12px 14px 10px 14px;
+        padding: 12px 0 10px 0;
         margin-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    .timer-countdown{
+        padding: 12px 16px;
     }
 
     #cart-dynamic-content .offcanvas-header {
         padding-bottom: 0px;
+        padding-top: 16px;
     }
 }
