@@ -13,7 +13,7 @@
       "type": "announcement-bar",
       "name": "t:sections.announcement-bar.name",
       "settings": {
-        "heading": "Prime Day Promo 67% OFF Micro-Infusion",
+        "heading": "Autumn Glow Sale 67% OFF Micro-Infusion",
         "button-label": "SHOP NOW",
         "button-url": "https://qureskincare.com/pages/qure-microinfusion-offer",
         "show": false
@@ -910,6 +910,7 @@
       "name": "t:sections.how-to-use.name",
       "settings": {
         "heading": "See how quick and easy it is to use",
+        "text": "",
         "heading_mobile": "",
         "wistia_url": "8ymvdqzx92",
         "button_label": "buy now & SAVE UP TO 67%",
@@ -1031,6 +1032,7 @@
       ],
       "name": "t:sections.serum-selection.name",
       "settings": {
+        "use_and_symbol": false,
         "heading": "Science-Backed Micro-Infusion Serums",
         "text": "Choose the exact serum to use in your Micro-Infusion treatment, or get both and mix them together to experience a complete set of benefits that addresses your specific skin concerns.",
         "left_image": "shopify://shop_images/Rectangle_389_2.png",
@@ -1045,6 +1047,7 @@
       "settings": {
         "heading": "Autumn Glow Sale",
         "text": "1,293 purchased in last 48 hours",
+        "limited": false,
         "button-label": "BUY NOW & SAVE UP TO 67%",
         "button-url": "#purchase-form"
       }
