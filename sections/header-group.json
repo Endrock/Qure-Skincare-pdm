@@ -73,6 +73,7 @@
     },
     "footer-form": {
       "type": "announcement-bar",
+      "disabled": true,
       "settings": {
         "heading": "ghhjj",
         "button-label": "Shop Now",
