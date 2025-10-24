@@ -1058,6 +1058,7 @@
       ],
       "name": "t:sections.serum-selection.name",
       "settings": {
+        "use_and_symbol": false,
         "heading": "Science-Backed Micro-Infusion Serums",
         "text": "Choose the exact serum to use in your Micro-Infusion treatment, or get both and mix them together to experience a complete set of benefits that addresses your specific skin concerns.",
         "left_image": "shopify://shop_images/Rectangle_389.png",
@@ -1175,6 +1176,7 @@
       "name": "t:sections.how-to-use.name",
       "settings": {
         "heading": "See how quick and easy it is to use",
+        "text": "",
         "heading_mobile": "",
         "wistia_url": "8ymvdqzx92",
         "button_label": "",
@@ -1294,7 +1296,7 @@
           "type": "product_type",
           "settings": {
             "heading": "Dark Spots",
-            "image": "shopify://shop_images/dark.png",
+            "image": "shopify://shop_images/dark_spots_304171ae-afc8-4b24-85de-bf0692544637.png",
             "preselected": true
           }
         },
@@ -1662,6 +1664,7 @@
       "settings": {
         "heading": "Autumn Glow Sale",
         "text": "1,893 purchased in last 48 hours",
+        "limited": false,
         "button-label": "Choose Your Supply",
         "button-url": "#purchase-form"
       }
