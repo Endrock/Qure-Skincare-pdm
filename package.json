@@ -11,9 +11,9 @@
   "comments": {
     "start": "npm run start",
     "check": "npm run check",
-    "push": "npm run push --name=[branch-name] --message=[optional]",
+    "sync": "npm run sync",
     "open": "npm run open --name=[branch-name]",
-    "close": "npm run close --name=[branch-name]",
-    "sync": "npm run sync"
+    "push": "npm run push --name=[branch-name] --message=[optional]",
+    "close": "npm run close --name=[branch-name]"
   }
 }
