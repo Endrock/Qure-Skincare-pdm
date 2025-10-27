@@ -192,6 +192,12 @@
                 "doctor-position": "Doctor position"
             }
         },
+        "bf-bundle-banner": {
+            "name": "Black Friday bundle banner"
+        },
+        "bf-banner-with-text": {
+            "name": "Black Friday banner with text"
+        },
         "cta-cards": {
             "name": "CTA cards"
         },
