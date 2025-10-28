@@ -2,9 +2,10 @@
   Renders limited offer for black friday
 
   @example
-  {% render 'product-bundle-limited-offer-black-friday' %}
+  {% render 'product-page-limited-offer-black-friday' %}
 {% enddoc %}
 
+<link rel="stylesheet" href="{{ 'product-page-limited-offer-black-friday.css' | asset_url }}">
 <a href="{{ 'black-friday.limited-offer.link' | t }}" class="bf-limited-time-banner">
     <div class="bf-limited-time-banner__image">
        <img src="https://qureskincaredns-main.com/sections/isolated/product-bundle/images/black-friday-limited-time-bundle.webp" alt="black-friday-limited-time-bundle">

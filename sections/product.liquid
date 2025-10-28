@@ -2,8 +2,15 @@
   Renders a product section
 {% enddoc %}
 
-{% assign black_friday_turn_on = true %}
-{% assign black_friday_discount_percent = 26 %}
+{% assign black_friday_turn_on = settings.black_friday_turn_on %}
+
+{% if black_friday_turn_on == true %}
+    {% assign black_friday_discount_percent = settings.black_friday_discount_percent %}
+{% endif %}
+
+{% if product.metafields.custom.bf_exclude == true %}
+    {%- assign black_friday_discount_percent = 0 -%}
+{% endif %}
 
 {% include 'get-product-data' %}
 
@@ -23,8 +30,8 @@
                         {{ product_description }}
                     </div>
 
-                    {% if black_friday_turn_on == true and black_friday_discount_percent > 0 %}
-                        {% render 'product-bundle-black-friday-price', product_sale_price: product_sale_price, product_before_price: product_before_price, product_discount: product_discount, product_black_friday_price: product_black_friday_price, black_friday_discount: black_friday_discount %}
+                    {% if black_friday_discount_percent > 0 %}
+                        {% render 'product-page-black-friday-price', product_sale_price: product_sale_price, product_before_price: product_before_price, product_discount: product_discount, product_black_friday_price: product_black_friday_price, black_friday_discount: black_friday_discount %}
                     {% else %}
                         {% render 'product-bundle-price', product_sale_price: product_sale_price, product_before_price: product_before_price, product_discount: product_discount %}
                     {% endif %}
@@ -36,11 +43,10 @@
                     {% endif %}
 
                     {% if black_friday_turn_on == true %}
-                        {% render 'product-bundle-limited-offer-black-friday' %}
+                        {% render 'product-page-limited-offer-black-friday' %}
                     {% else %}
                         {% render 'product-saveup' %}
                     {% endif %}
-
                 </div>
             </div>
             <div class="col-lg-6 custom__block">
