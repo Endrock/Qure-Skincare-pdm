@@ -282,7 +282,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "fade-firm-bundle-essential-bf25-sku",
+            "product": "fade-firm-bundle-essential-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
