@@ -408,7 +408,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "breakout-control-advanced-bf25-sku",
+            "product": "breakout-control-advanced-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
