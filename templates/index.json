@@ -192,7 +192,7 @@
       }
     },
     "bf_bundle_bunner_mini_VD9qRR": {
-      "type": "bf-bundle-bunner-mini",
+      "type": "bf-bundle-banner-mini",
       "blocks": {
         "image_rATyPJ": {
           "type": "image",
@@ -222,7 +222,7 @@
         "image_wCgyfh"
       ],
       "disabled": true,
-      "name": "t:sections.bf-bundle-bunner-mini.name",
+      "name": "t:sections.bf-bundle-banner-mini.name",
       "settings": {
         "heading": "<h3>Save Up to 57%</h3>",
         "text": "<p>Your Favorite Products, Perfectly Bundled</p>",

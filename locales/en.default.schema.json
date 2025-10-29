@@ -33,6 +33,7 @@
         "limited-offer": "Limited offer",
         "black-friday-discount": "Black friday discount",
         "black-friday-info": "Black friday information",
+        "bf-link": "Black friday link",
         "code": "Code",
         "sum": "Sum",
         "payment": "Payment",
@@ -204,7 +205,7 @@
         "bf-bundle-banner": {
             "name": "Black Friday bundle banner"
         },
-        "bf-bundle-bunner-mini": {
+        "bf-bundle-banner-mini": {
             "name": "Black Friday bundle banner mini"
         },
         "bf-banner-with-text": {
