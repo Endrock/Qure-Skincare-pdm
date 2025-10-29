@@ -242,7 +242,7 @@
         "product_iyCaR8": {
           "type": "product",
           "settings": {
-            "product": "fade-firm-bundle-essential-bf25-sku",
+            "product": "fade-firm-bundle-essential-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -271,7 +271,7 @@
         "product_NtbDxk": {
           "type": "product",
           "settings": {
-            "product": "line-refine-bundle-advanced-bf25-sku",
+            "product": "line-refine-bundle-advanced-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -280,7 +280,7 @@
         "product_jRJTCy": {
           "type": "product",
           "settings": {
-            "product": "line-refine-bundle-essential-bf25-sku",
+            "product": "line-refine-bundle-essential-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -309,7 +309,7 @@
         "product_3JCGzy": {
           "type": "product",
           "settings": {
-            "product": "breakout-control-advanced-bf25-sku",
+            "product": "breakout-control-advanced-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -318,7 +318,16 @@
         "product_TkVDd8": {
           "type": "product",
           "settings": {
-            "product": "breakout-control-essentials-bf25-1",
+            "product": "breakout-control-essentials-bf25",
+            "preselected": false,
+            "soldout": false,
+            "reserved": false
+          }
+        },
+        "product_wiYyUk": {
+          "type": "product",
+          "settings": {
+            "product": "water-filter-family-bundle-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
@@ -340,7 +349,8 @@
         "product_type_YrPQrV",
         "product_6TBNNL",
         "product_3JCGzy",
-        "product_TkVDd8"
+        "product_TkVDd8",
+        "product_wiYyUk"
       ],
       "settings": {
         "heading": "Choose Your Bundle",
@@ -365,6 +375,7 @@
       "block_order": [
         "take_quiz_n7qDWC"
       ],
+      "disabled": true,
       "name": "t:sections.index-quiz.name",
       "settings": {
         "heading": "Need help finding your new routine?",

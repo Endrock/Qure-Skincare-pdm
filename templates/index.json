@@ -135,8 +135,7 @@
         "text": "<p>Your Favorite Products, Perfectly Bundled</p>",
         "bg_color": "black",
         "button_label": "Shop Bundles Now",
-        "button_url": "#",
-        "sub_text": ""
+        "button_url": "https://qureskincare.com/pages/exclusive-holiday-bundle-deal-new#"
       }
     },
     "bf_bundle_banner_dTGjF7": {
@@ -151,7 +150,7 @@
             "image": "shopify://shop_images/bundle-1.webp",
             "image_mobile": "shopify://shop_images/bundle-1-mob.webp",
             "button_label": "Get Yours Now",
-            "button_url": "#",
+            "button_url": "https://qureskincare.com/products/micro-infusion-limited-edition-bundle-1#",
             "sub_text": "<p><strong>Limited availability:</strong> Under 100 cases remaining</p>"
           }
         },
@@ -164,7 +163,7 @@
             "image": "shopify://shop_images/bundle-2.webp",
             "image_mobile": "shopify://shop_images/bundle-2-mob.webp",
             "button_label": "Shop To Enter",
-            "button_url": "#",
+            "button_url": "https://qureskincare.com/pages/car-giveaway",
             "sub_text": ""
           }
         }
