@@ -340,7 +340,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "product": "line-refine-bundle-advanced-bf25-sku",
+            "product": "line-refine-bundle-advanced-bf25",
             "preselected": false,
             "soldout": false,
             "reserved": false
