@@ -50,7 +50,7 @@
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         const data = await res.json();
-        console.log("✅ Removed old free gift", data);
+        console.log("✅ Removed old free gift");
 
         const event = new CustomEvent("cart.requestComplete", {
           detail: { source: "removeOldGift" },
