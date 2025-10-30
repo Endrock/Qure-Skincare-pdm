@@ -22,6 +22,12 @@
     "expert-advisory-product": {
       "button_label": "Shop Now"
     },
+    "bf-banner-with-text": {
+      "bf_sale_image": "https://qureskincaredns-main.com/alex/sections/global/banner-with-text/images/black-friday-sale.webp"
+    },
+    "bf-clickable-banner-with-text": {
+      "bf_sale_image": "https://qureskincaredns-main.com/alex/sections/global/banner-with-text/images/black-friday-sale.webp"
+    },
     "car-giveaway-page-banner": {
       "cta_text": "Join Us In Celebrating the ",
       "qure_logo": "https://qureskincaredns-main.com/sections/isolated/page-banner/images/qure_logo.svg",
@@ -278,6 +284,23 @@
       "free": "FREE"
     }
   },
+  "black-friday": {
+    "settings": {
+      "header": "Black Friday"
+    },
+    "menu": {
+      "header": "Black Friday Bundles",
+      "link": "/pages/exclusive-holiday-bundle-deal-new"
+    },
+    "limited-offer": {
+      "header": "UP TO 57% OFF",
+      "text": "Save with Black Friday bundle deals",
+      "link": "/pages/exclusive-holiday-bundle-deal-new"
+    },
+    "cart": {
+      "savings": "BLACK FRIDAY SAVINGS"
+    }
+  },
   "product": {
     "settings": {
       "buy-button-label": "Buy Now ",
@@ -341,7 +364,7 @@
         "save": "SAVE"
       },
       "money-back": {
-        "image": "moneyback_90.svg",
+        "image": "moneyback_90.webp",
         "header": "90-Day Money Back Guarantee",
         "text": "You deserve results you can see. Try Micro-Infusion for 90 days, and if you’re not satisfied, simply get in touch with our team for a full refund!"
       },
@@ -558,7 +581,8 @@
       "bundles": "Bundles",
       "easy-returns": "Easy 30-Day Returns",
       "shipping-text": "Free Worldwide Shipping",
-      "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='https://qureskincare.com/pages/derm-reviews' class='text-black text-decoration-underline'>See More</a>."
+      "recommended_html": "<strong>50+ Board Certified Dermatologists</strong> recommend Qure to their patients. <a href='https://qureskincare.com/pages/derm-reviews' class='text-black text-decoration-underline'>See More</a>.",
+      "bf_badge_image": "https://qureskincaredns-main.com/sections/isolated/micro-infusion-pdp/images/black-friday-silver-badge.webp"
     }
   },
   "header": {
