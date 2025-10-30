@@ -190,57 +190,6 @@
         "text_with_progress_order": 2
       }
     },
-    "banner_with_text_phJT4F": {
-      "type": "banner-with-text",
-      "blocks": {
-        "text_with_progress_UrifNc": {
-          "type": "text_with_progress",
-          "settings": {
-            "text": "<p>agreed their skin looked better after Micro-Infusion</p>",
-            "percent_value": "90%"
-          }
-        },
-        "text_with_progress_DWw9qf": {
-          "type": "text_with_progress",
-          "settings": {
-            "text": "<p>reported skin appeared more hydrated and glowy</p>",
-            "percent_value": "93%"
-          }
-        },
-        "text_with_progress_fzrXwz": {
-          "type": "text_with_progress",
-          "settings": {
-            "text": "<p>Agreed their fine lines looked smoother</p>",
-            "percent_value": "70%"
-          }
-        },
-        "text_with_progress_3wQ6gt": {
-          "type": "text_with_progress",
-          "settings": {
-            "text": "<p>prefer this treatment over clinic-based treatments</p>",
-            "percent_value": "87%"
-          }
-        }
-      },
-      "block_order": [
-        "text_with_progress_UrifNc",
-        "text_with_progress_DWw9qf",
-        "text_with_progress_fzrXwz",
-        "text_with_progress_3wQ6gt"
-      ],
-      "name": "t:sections.banner-with-text.name",
-      "settings": {
-        "heading": "Qure’s Micro-Infusion goes where your skin cream can’t…",
-        "text": "<p>Its tiny, almost painless, microneedles penetrate beyond the skin’s surface increasing serum absorption and delivering powerful active ingredients exactly where they’re needed!</p>",
-        "quote": "",
-        "quote-mobile": "",
-        "image_position": "left",
-        "sub_text": "",
-        "button_label": "",
-        "button_url": "",
-        "wistia_url": "a1pykz2tp0"
-      }
-    },
     "stock_alert_egmbcj": {
       "type": "stock-alert",
       "name": "t:sections.stock-alert.name",
@@ -1569,7 +1518,6 @@
     "page_header_SXJyMD",
     "slider_featured_in_lVZt5L",
     "endrock_bannerWithText3yX9",
-    "banner_with_text_phJT4F",
     "stock_alert_egmbcj",
     "banner_with_text_xzUU6n",
     "beauty_benefits_Pzxmim",
