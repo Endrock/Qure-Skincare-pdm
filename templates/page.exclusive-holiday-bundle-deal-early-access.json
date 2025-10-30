@@ -26,7 +26,6 @@
       "blocks": {
         "carousel_bjazym": {
           "type": "carousel",
-          "disabled": true,
           "settings": {
             "heading": "<h3>Your Holiday Glow Starts Here</h3>",
             "text": "<p>Our signature treatment in one carry-on approved set.</p>",
