@@ -203,7 +203,7 @@
     },
     "page-led-mask-offer-2-led-mask-form": {
       "settings": {
-        "limited": "Autumn Glow Sale",
+        "limited": "Black Friday Sale",
         "header": "Q-Rejuvalight Pro LED Mask",
         "subheader": "+ FREE Neck & Décolletage LED System",
         "warranty": "Lifetime Warranty",
@@ -277,7 +277,7 @@
       }
     },
     "exclusive-offer": {
-      "header_html": "<div class='eo-header'><span>Autumn Glow </span><span>Sale</span></div>",
+      "header_html": "<div class='eo-header'><span>Black Friday </span><span>Sale</span></div>",
       "guarantee-text": "1-Year Guarantee",
       "button-label": "BUY NOW AND SAVE",
       "shipping-text": "Free Shipping over $100",
@@ -349,7 +349,7 @@
         "header": "Jump To"
       },
       "limited-offer": {
-        "header": "Autumn Glow Sale",
+        "header": "Black Friday Sale",
         "text_html": "<p class='qs-offer'>Get <span class='qs-badge'>{{ sum }} OFF</span> with code {{ code }}</p>",
         "days": "DAYS",
         "hours": "HOURS",
