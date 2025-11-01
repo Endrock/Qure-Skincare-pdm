@@ -74,7 +74,7 @@
         "soldout": false
       },
       "custom_css": [
-        ".benefits-list {display:none !important;} @media (max-width: 600px) { .review_videos { margin-bottom: -65px !important; } }"
+        ".benefits-list {display:none !important;} .bf-limited-time-banner {display:none !important;} @media (max-width: 600px) { .review_videos { margin-bottom: -65px !important; } }"
       ]
     },
     "slider_featured_in_GrJ4Na": {
