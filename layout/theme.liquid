@@ -33,9 +33,9 @@
     <title>{{ seo_title }}</title>
 
     {%- if page_description -%}
-			<meta name="description" content="{{ page_description | escape }}">
-		{%- else -%}
-			<meta name="description" content="{{ seo_title | escape }}">
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- else -%}
+      <meta name="description" content="{{ seo_title | escape }}">
     {%- endif -%}
 
     {% render 'social-meta-tags' %}

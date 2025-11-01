@@ -1,0 +1,13 @@
+{% doc %}
+  Render theme content
+
+  @example
+  {% render 'render-theme', html: '' %}
+{% enddoc %}
+
+
+{% unless html contains '"name":"MAIN\/production"' %}
+    {{ html | replace: 'https://qureskincaredns.com/', 'https://qureskincare.dev/' }}
+{% endunless %}
+
+{{ html }} 
