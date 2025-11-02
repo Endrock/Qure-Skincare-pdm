@@ -5,9 +5,8 @@
   {% render 'render-theme', html: '' %}
 {% enddoc %}
 
+{% if html contains 'dev=true' %}
+  {{ html | replace: 'https://qureskincaredns.com/', 'https://qureskincare.dev/' }}  
+{% endif %}
 
-{% unless html contains '"name":"MAIN\/production"' %}
-    {{ html | replace: 'https://qureskincaredns.com/', 'https://qureskincare.dev/' }}
-{% endunless %}
-
-{{ html }} 
+{{ html }}
