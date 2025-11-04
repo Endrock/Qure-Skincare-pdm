@@ -21,7 +21,7 @@
          </div>
          <div class="col-lg-6 custom__block">
             {% render 'product-page-slider', product: blank, page: page, class: 'tp-product-gallery d-none d-lg-block', element_id: section.id %}
-            {% render 'product-page-cross-sell', product: blank, page: page %}
+            {% include 'product-page-cross-sell', product: blank, page: page %}
             {% render 'product-page-benefits-list', target: 'mobile' %}
             {% render 'product-page-collapsed', product: blank, page: page, class: 'mt-15 tp-product-accordion' %}
             {% render 'product-page-jumpto', section: section %}

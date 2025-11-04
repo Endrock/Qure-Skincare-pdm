@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6 custom__block">
                 {% render 'product-page-slider', product: product, page: blank, class: 'tp-product-gallery d-none d-lg-block', element_id: section.id %}
-                {% render 'product-page-cross-sell', product: product %}
+                {% include 'product-page-cross-sell', product: product %}
                 {% render 'product-page-benefits-list', target: 'mobile' %}
                 {% render 'product-page-collapsed', product: product, page: blank, class: 'mt-15 tp-product-accordion' %}
                 {% render 'product-page-jumpto', section: section %}
