@@ -42,7 +42,6 @@
         },
         "nextships_BtDkBp": {
           "type": "nextships",
-          "disabled": true,
           "settings": {
             "date": "25 September",
             "percent": 55,
