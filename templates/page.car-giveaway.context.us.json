@@ -12,5 +12,18 @@
   "context": {
     "market": "us"
   },
-  "sections": {}
+  "sections": {
+    "car_giveaway_countdown_timer_MJrqzk": {
+      "settings": {
+        "from": "2025-10-31"
+      },
+      "blocks": {}
+    },
+    "car_giveaway_countdown_timer_start_zFDDKf": {
+      "settings": {
+        "from": "2025-10-31"
+      },
+      "blocks": {}
+    }
+  }
 }
