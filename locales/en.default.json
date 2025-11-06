@@ -203,7 +203,7 @@
         "shipping": "Free Shipping over $100",
         "science": "Backed by Science",
         "discount_text": "OFF",
-        "more_details_html": "<strong class='fw-600'>Skip pause/modify or cancel anytime.</strong> <br> <a href='' class='text-black text-decoration-underline'> See more details</a>."
+        "more_details_html": "<strong class='fw-600'>Skip pause/modify or cancel anytime.</strong> <br> <a href='/pages/subscriptions' class='text-black text-decoration-underline'> See more details</a>."
       }
     },
     "page-led-mask-offer-2-led-mask-form": {
